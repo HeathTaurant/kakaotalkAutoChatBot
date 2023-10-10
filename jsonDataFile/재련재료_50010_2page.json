@@ -1,0 +1,117 @@
+{
+  "PageNo": 2,
+  "PageSize": 10,
+  "TotalCount": 28,
+  "Items": [
+    {
+      "Id": 66130131,
+      "Name": "명예의 파편 주머니(소)",
+      "Grade": "고급",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_8_225.png",
+      "BundleCount": 1,
+      "TradeRemainCount": null,
+      "YDayAvgPrice": 99.5,
+      "RecentPrice": 98,
+      "CurrentMinPrice": 98
+    },
+    {
+      "Id": 66130111,
+      "Name": "조화의 파편 주머니(소)",
+      "Grade": "고급",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_8_231.png",
+      "BundleCount": 1,
+      "TradeRemainCount": null,
+      "YDayAvgPrice": 98.6,
+      "RecentPrice": 99,
+      "CurrentMinPrice": 99
+    },
+    {
+      "Id": 66130121,
+      "Name": "조화의 파편 주머니(소)",
+      "Grade": "고급",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_8_231.png",
+      "BundleCount": 1,
+      "TradeRemainCount": null,
+      "YDayAvgPrice": 342,
+      "RecentPrice": 335,
+      "CurrentMinPrice": 335
+    },
+    {
+      "Id": 66110204,
+      "Name": "조화의 돌파석",
+      "Grade": "희귀",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_10_25.png",
+      "BundleCount": 1,
+      "TradeRemainCount": null,
+      "YDayAvgPrice": 2.4,
+      "RecentPrice": 2,
+      "CurrentMinPrice": 2
+    },
+    {
+      "Id": 66110221,
+      "Name": "명예의 돌파석",
+      "Grade": "희귀",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_7_155.png",
+      "BundleCount": 1,
+      "TradeRemainCount": null,
+      "YDayAvgPrice": 3.4,
+      "RecentPrice": 3,
+      "CurrentMinPrice": 3
+    },
+    {
+      "Id": 66110214,
+      "Name": "생명의 돌파석",
+      "Grade": "희귀",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_10_24.png",
+      "BundleCount": 1,
+      "TradeRemainCount": null,
+      "YDayAvgPrice": 3.3,
+      "RecentPrice": 5,
+      "CurrentMinPrice": 5
+    },
+    {
+      "Id": 66110222,
+      "Name": "위대한 명예의 돌파석",
+      "Grade": "희귀",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_7_156.png",
+      "BundleCount": 1,
+      "TradeRemainCount": null,
+      "YDayAvgPrice": 6.2,
+      "RecentPrice": 5,
+      "CurrentMinPrice": 5
+    },
+    {
+      "Id": 6861008,
+      "Name": "오레하 융화 재료",
+      "Grade": "희귀",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_9_71.png",
+      "BundleCount": 1,
+      "TradeRemainCount": null,
+      "YDayAvgPrice": 12.7,
+      "RecentPrice": 12,
+      "CurrentMinPrice": 12
+    },
+    {
+      "Id": 66110223,
+      "Name": "경이로운 명예의 돌파석",
+      "Grade": "희귀",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_7_157.png",
+      "BundleCount": 1,
+      "TradeRemainCount": null,
+      "YDayAvgPrice": 14.7,
+      "RecentPrice": 14,
+      "CurrentMinPrice": 15
+    },
+    {
+      "Id": 66110224,
+      "Name": "찬란한 명예의 돌파석",
+      "Grade": "희귀",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_11_17.png",
+      "BundleCount": 1,
+      "TradeRemainCount": null,
+      "YDayAvgPrice": 28.8,
+      "RecentPrice": 27,
+      "CurrentMinPrice": 27
+    }
+  ]
+}

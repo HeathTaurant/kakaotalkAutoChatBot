@@ -1,0 +1,37 @@
+{
+  "name": "@mokoko/sdk",
+  "version": "0.0.6",
+  "description": "Unofficial SDK of Lostark Open API",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "author": {
+    "email": "typ0@naver.com",
+    "name": "icepeng"
+  },
+  "repository": {
+    "name": "mokoko",
+    "url": "https://github.com/icepeng/mokoko",
+    "directory": "packages/sdk"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build-fast": "tsup src/index.ts --format esm,cjs",
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --watch --dts"
+  },
+  "devDependencies": {
+    "tsup": "^6.5.0",
+    "typescript": "4.9.3"
+  },
+  "dependencies": {
+    "@shopify/semaphore": "^3.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

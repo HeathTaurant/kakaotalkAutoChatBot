@@ -1,0 +1,95 @@
+{
+  "PageNo": 3,
+  "PageSize": 10,
+  "TotalCount": 28,
+  "Items": [
+    {
+      "Id": 66130112,
+      "Name": "조화의 파편 주머니(중)",
+      "Grade": "희귀",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_8_232.png",
+      "BundleCount": 1,
+      "TradeRemainCount": null,
+      "YDayAvgPrice": 193.3,
+      "RecentPrice": 192,
+      "CurrentMinPrice": 192
+    },
+    {
+      "Id": 66130132,
+      "Name": "명예의 파편 주머니(중)",
+      "Grade": "희귀",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_8_226.png",
+      "BundleCount": 1,
+      "TradeRemainCount": null,
+      "YDayAvgPrice": 200.2,
+      "RecentPrice": 200,
+      "CurrentMinPrice": 200
+    },
+    {
+      "Id": 66130122,
+      "Name": "조화의 파편 주머니(중)",
+      "Grade": "희귀",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_8_232.png",
+      "BundleCount": 1,
+      "TradeRemainCount": null,
+      "YDayAvgPrice": 737.3,
+      "RecentPrice": 720,
+      "CurrentMinPrice": 719
+    },
+    {
+      "Id": 6861009,
+      "Name": "상급 오레하 융화 재료",
+      "Grade": "영웅",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_8_109.png",
+      "BundleCount": 1,
+      "TradeRemainCount": null,
+      "YDayAvgPrice": 25.6,
+      "RecentPrice": 25,
+      "CurrentMinPrice": 25
+    },
+    {
+      "Id": 6861011,
+      "Name": "최상급 오레하 융화 재료",
+      "Grade": "영웅",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_11_29.png",
+      "BundleCount": 1,
+      "TradeRemainCount": null,
+      "YDayAvgPrice": 58.2,
+      "RecentPrice": 58,
+      "CurrentMinPrice": 58
+    },
+    {
+      "Id": 66130113,
+      "Name": "조화의 파편 주머니(대)",
+      "Grade": "영웅",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_8_233.png",
+      "BundleCount": 1,
+      "TradeRemainCount": null,
+      "YDayAvgPrice": 293.3,
+      "RecentPrice": 290,
+      "CurrentMinPrice": 285
+    },
+    {
+      "Id": 66130133,
+      "Name": "명예의 파편 주머니(대)",
+      "Grade": "영웅",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_8_227.png",
+      "BundleCount": 1,
+      "TradeRemainCount": null,
+      "YDayAvgPrice": 311.9,
+      "RecentPrice": 312,
+      "CurrentMinPrice": 311
+    },
+    {
+      "Id": 66130123,
+      "Name": "조화의 파편 주머니(대)",
+      "Grade": "영웅",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_8_233.png",
+      "BundleCount": 1,
+      "TradeRemainCount": null,
+      "YDayAvgPrice": 1134.3,
+      "RecentPrice": 293,
+      "CurrentMinPrice": 1095
+    }
+  ]
+}

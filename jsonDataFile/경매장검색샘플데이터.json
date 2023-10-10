@@ -1,0 +1,62 @@
+{
+    "PageNo": 1,
+    "PageSize": 10,
+    "TotalCount": 5,
+    "Items": [
+        {
+            "Id": 66102001,
+            "Name": "파괴석 조각",
+            "Grade": "일반",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_8_250.png",
+            "BundleCount": 10,
+            "TradeRemainCount": null,
+            "YDayAvgPrice": 2.1,
+            "RecentPrice": 2,
+            "CurrentMinPrice": 1
+        },
+        {
+            "Id": 66102003,
+            "Name": "파괴석 결정",
+            "Grade": "일반",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_6_105.png",
+            "BundleCount": 10,
+            "TradeRemainCount": null,
+            "YDayAvgPrice": 2.5,
+            "RecentPrice": 2,
+            "CurrentMinPrice": 2
+        },
+        {
+            "Id": 66102004,
+            "Name": "파괴강석",
+            "Grade": "일반",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_10_58.png",
+            "BundleCount": 10,
+            "TradeRemainCount": null,
+            "YDayAvgPrice": 2.3,
+            "RecentPrice": 2,
+            "CurrentMinPrice": 2
+        },
+        {
+            "Id": 66102002,
+            "Name": "파괴석",
+            "Grade": "일반",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_7_15.png",
+            "BundleCount": 10,
+            "TradeRemainCount": null,
+            "YDayAvgPrice": 3.2,
+            "RecentPrice": 4,
+            "CurrentMinPrice": 3
+        },
+        {
+            "Id": 66102005,
+            "Name": "정제된 파괴강석",
+            "Grade": "일반",
+            "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_11_15.png",
+            "BundleCount": 10,
+            "TradeRemainCount": null,
+            "YDayAvgPrice": 12.6,
+            "RecentPrice": 11,
+            "CurrentMinPrice": 12
+        }
+    ]
+}

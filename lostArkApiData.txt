@@ -1,0 +1,224 @@
+curl -X 'GET' \
+  'https://developer-lostark.game.onstove.com/armories/characters/%EC%95%A0%EA%B8%B0%EA%B3%B0%EC%9D%80%EC%95%A0%EA%B5%90%EC%9F%81%EC%9D%B4/equipment' \
+  -H 'accept: application/json' \
+  -H 'authorization: bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IktYMk40TkRDSTJ5NTA5NWpjTWk5TllqY2lyZyIsImtpZCI6IktYMk40TkRDSTJ5NTA5NWpjTWk5TllqY2lyZyJ9.eyJpc3MiOiJodHRwczovL2x1ZHkuZ2FtZS5vbnN0b3ZlLmNvbSIsImF1ZCI6Imh0dHBzOi8vbHVkeS5nYW1lLm9uc3RvdmUuY29tL3Jlc291cmNlcyIsImNsaWVudF9pZCI6IjEwMDAwMDAwMDAxNzk1MDEifQ.RlC6BWCOSeH2Zi4g_gOw_6TF4f-kITl6nHOyOrG0U8pSypkPvaWi3danG6IPd2C7qLNBErLteG8ujaLMQFaQ5L5_8iDlUoaZqIBGRSWAJ-A7-WD3p7Jx6pQ19VpxBKEXE8iHrKLISHUL5hz2QPCsw4kM6k7NC5-Gscm5UYcrH-po801BdZYZVQ5pset2AWjr5LPy81KmvWLhJm2vI0B40U3389WZFrNwcgrNtA-vLvfTBdY8QW1BxONxjFOA-bHNPm_VUpkXSS0ko3abasTyxnVfyXnl0A93U-ZDdcOXjnUszrizrgcPbsP3D2EZl76AwmPrL175BRjJ_SQeie-ylA'
+
+
+
+   access-control-allow-credentials: true 
+ access-control-allow-origin:  
+ content-length: 89907 
+ content-type: application/json; charset=utf-8 
+ date: Mon,25 Sep 2023 02:25:01 GMT 
+ x-ratelimit-limit: 100 
+ x-ratelimit-remaining: 99 
+ x-ratelimit-reset: 1695608761 
+
+ Code	Description
+200	
+OK
+
+Example Value
+Model
+[
+  {
+    "Type": "string",
+    "Name": "string",
+    "Icon": "string",
+    "Grade": "string",
+    "Tooltip": "string"
+  }
+]
+400	
+Bad Request
+
+401	
+Unauthorized
+
+403	
+Forbidden
+
+404	
+Not Found
+
+415	
+Unsupported Media Type
+
+429	
+Rate Limit Exceeded
+
+500	
+Internal Server Error
+
+502	
+Bad Gateway
+
+503	
+Service Unavailable
+
+504	
+Gateway Timeout
+
+
+
+
+
+마수군단장 슬레이어 처송
+
+오의 강화 배틀마스터
+원한3 예둔3 돌대3 질증3 아드3 오의1
+
+템/전/원  		1622/60/249
+서버/길드  		실리안/여흥
+전투특성  		 특:1156 신:1237
+엘릭서  			달인 [40]
+스킬포인트  		420/420
+pvp		  		17급
+공격력/체력		63488 / 197549
+
+세상을 구하는 빛 6세트 (30각성합계)
+
+섬마:30 미술품:38 거심:13 별:7  잎:36
+모험물:9 징표: 8 모코코:117 오르골:0
+
+
+ArmoryProfile {
+  ExpeditionLevel : 원정대
+  PvpGradeName : pvp
+  Title : 칭호
+  UsingSkillPoint : 사용 스킬 포인트
+  TotalSkillPoint : 전체 스킬 포인트
+  ServerName : 서버명
+  CharacterName: 캐릭터 이름
+  CharacterLevel: 캐릭터 레벨
+  CharacterClassName: 캐릭터 직업
+  ItemAvgLevel: 장비평균레벨
+  ItemMaxLevel: 장비 최고 레벨
+  ----------------------------------
+  GuildName : 길드명
+  GuildMemberGrade : 길드 등급(본인)
+  TownLevel : 영지 레벨
+  TownName : 영지 이름
+  ----------------------------------
+  Stats {
+    Type : 치명 특화 제압 신속 인내 숙련 공격력 최대 생명력
+    Value : 수치
+  }
+}
+
+ArmoryEquipment {
+
+}
+
+
+ArmoryEngraving {
+  Effects {
+    Name : 각인 이름 (전문의 Lv. 3)  //ability = 직각일 확률 높음
+  }
+}
+
+ArmoryCard {
+  Effects {
+    Items {
+      Name : 카드 효과 (남겨진 바람의 절벽 6세트 (30각성합계))
+    }
+  }
+}
+적용되는 기능이 마지막에 있음
+배열 마지막 번호
+
+
+Collectibles
+수호석 조각 [[itemdic:embed:66102101]]
+
+파괴석 조각 [[itemdic:embed:66102001]]
+파괴석 결정 [[itemdic:embed:66102003]]
+파괴강석 [[itemdic:embed:66102004]]
+정제된 파괴강석 [[itemdic:embed:66102005]]
+
+태양의 은총 [[itemdic:embed:66111121]]
+태양의 축복 [[itemdic:embed:66111122]]
+태양의 가호 [[itemdic:embed:66111123]]
+
+위대한 명예의 돌파석 [[itemdic:embed:66110222]]
+경이로운 명예의 돌파석 [[itemdic:embed:66110223]]
+찬란한 명예의 돌파석 [[itemdic:embed:66110224]]
+
+오레하 융화 재료 [[itemdic:embed:6861008]]
+상급 오레하 융화재료 [[itemdic:embed:6861009]]
+최상급 오레하 융화재료 [[itemdic:embed:6861011]]
+
+빛나는 지혜의 엘릭서 [[itemdic:embed:66160300]]
+마력석 조각 [[itemdic:embed:66172060]]
+
+
+
+
+
+5레벨 홍염의 보석 [[itemdic:embed:65022050]]
+4레벨 홍염의 보석 [[itemdic:embed:65022040]]
+
+5레벨 멸화의 보석 [[itemdic:embed:65021050]]
+
+
+
+52500131	
+icon
+Honor Shard Pouch	1
+66130033	
+icon
+Honor Shard Pouch (L)	1
+66130133	
+icon
+Honor Shard Pouch (L)	1
+77203000	
+icon
+Honor Shard Pouch (L)	50
+70960109	
+icon
+Honor Shard Pouch (L) Chest	1
+66130032	
+icon
+Honor Shard Pouch (M)	1
+66130132	
+icon
+Honor Shard Pouch (M)	1
+70960108	
+icon
+Honor Shard Pouch (M) Chest	1
+40611002	
+icon
+Honor Shard Pouch (S)	50
+66130031	
+icon
+Honor Shard Pouch (S)	1
+66130131	
+icon
+Honor Shard Pouch (S)	1
+61200032	
+icon
+Honor Shard Pouch Chest
+
+{
+    "Sort": "GRADE",
+    "CategoryCode": 50000,
+    "CharacterClass": "",
+    "ItemTier": null,
+    "ItemGrade": "",
+    "ItemName": "파괴",
+    "PageNo": 0,
+    "SortCondition": "ASC"
+  }
+
+
+      // {"CategoryCode" : 20000}
+    function samplePostJson(url, selectCategoryCode) {
+        const apiUrl = lostarkApiUrl + url;
+        let xmlHttpRequest = new XMLHttpRequest();
+        xmlHttpRequest.open("POST", apiUrl, true);
+        xmlHttpRequest.setRequestHeader('accept', 'application/json');
+        xmlHttpRequest.setRequestHeader('authorization', myApiKey);
+        xmlHttpRequest.setRequestHeader('content-Type', 'application/json');
+        xmlHttpRequest.onreadystatechange = () => { };
+        xmlHttpRequest.send(JSON.stringify(selectCategoryCode));
+    }

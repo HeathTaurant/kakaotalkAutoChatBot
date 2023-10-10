@@ -1,0 +1,80 @@
+[
+  {
+    "Name": "찬란한 명예의 돌파석",
+    "TradeRemainCount": null,
+    "BundleCount": 1,
+    "Stats": [
+      {
+        "Date": "2023-10-04",
+        "AvgPrice": 27,
+        "TradeCount": 383450
+      },
+      {
+        "Date": "2023-10-03",
+        "AvgPrice": 28.4,
+        "TradeCount": 2098879
+      },
+      {
+        "Date": "2023-10-02",
+        "AvgPrice": 30.3,
+        "TradeCount": 2028668
+      },
+      {
+        "Date": "2023-10-01",
+        "AvgPrice": 32.5,
+        "TradeCount": 2584699
+      },
+      {
+        "Date": "2023-09-30",
+        "AvgPrice": 32.2,
+        "TradeCount": 2068169
+      },
+      {
+        "Date": "2023-09-29",
+        "AvgPrice": 33.9,
+        "TradeCount": 1953335
+      },
+      {
+        "Date": "2023-09-28",
+        "AvgPrice": 35.4,
+        "TradeCount": 2459905
+      },
+      {
+        "Date": "2023-09-27",
+        "AvgPrice": 36.4,
+        "TradeCount": 2460667
+      },
+      {
+        "Date": "2023-09-26",
+        "AvgPrice": 36.7,
+        "TradeCount": 1956991
+      },
+      {
+        "Date": "2023-09-25",
+        "AvgPrice": 37.3,
+        "TradeCount": 1870874
+      },
+      {
+        "Date": "2023-09-24",
+        "AvgPrice": 37.5,
+        "TradeCount": 2216554
+      },
+      {
+        "Date": "2023-09-23",
+        "AvgPrice": 39.4,
+        "TradeCount": 2188189
+      },
+      {
+        "Date": "2023-09-22",
+        "AvgPrice": 42.4,
+        "TradeCount": 1893806
+      },
+      {
+        "Date": "2023-09-21",
+        "AvgPrice": 44.9,
+        "TradeCount": 2099753
+      }
+    ],
+    "ToolTip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"<P ALIGN='CENTER'><FONT COLOR='#00B0FA'>찬란한 명예의 돌파석</FONT></P>\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"ItemTitle\",\r\n    \"value\": {\r\n      \"bEquip\": 0,\r\n      \"leftStr0\": \"<FONT SIZE='12'><FONT COLOR='#00B0FA'>희귀 장비 재련 재료</FONT></FONT>\",\r\n      \"leftStr2\": \"<FONT SIZE='14'>아이템 티어 3</FONT>\",\r\n      \"qualityValue\": -1,\r\n      \"rightStr0\": \"\",\r\n      \"slotData\": {\r\n        \"advBookIcon\": 0,\r\n        \"battleItemTypeIcon\": 0,\r\n        \"cardIcon\": false,\r\n        \"friendship\": 0,\r\n        \"iconGrade\": 2,\r\n        \"iconPath\": \"efui_iconatlas/use/use_11_17.png\",\r\n        \"imagePath\": \"\",\r\n        \"islandIcon\": 0,\r\n        \"rtString\": \"\",\r\n        \"seal\": false,\r\n        \"temporary\": 0,\r\n        \"town\": 0,\r\n        \"trash\": 0\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'><FONT COLOR='#FF0000'></FONT></FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|거래가능\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#E2C87A'><FONT SIZE='12'>찬란한 명예의 기운을 품고 있는 돌파석.<br>재련에 사용되는 장비를 더욱 강화시킬 수 있다.</FONT></FONT>\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'><FONT COLOR='#C24B46'>분해불가</FONT></FONT>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<Font color='#5FD3F1'>[가디언 토벌] </font>\"\r\n  }\r\n}"
+  }
+]

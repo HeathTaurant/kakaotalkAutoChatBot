@@ -1,0 +1,13 @@
+:host {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+
+.button-add {
+  min-width: 280px;
+}

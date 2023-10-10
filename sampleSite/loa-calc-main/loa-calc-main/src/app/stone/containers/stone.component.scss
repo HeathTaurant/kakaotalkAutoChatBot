@@ -1,0 +1,47 @@
+.goals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.button-add {
+  width: 512px;
+}
+
+.layout {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+
+.percent-cell {
+  width: 120px;
+  text-align: center;
+}
+
+.layout-card {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.about {
+  width: 100%;
+  max-width: 800px;
+}
+
+.container {
+  margin: 20px;
+}
+
+.stone-table-wrapper {
+  overflow-x: auto;
+}
+
+.stone-table {
+  min-width: 780px;
+}

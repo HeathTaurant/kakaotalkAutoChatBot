@@ -1,0 +1,112 @@
+<div class="container">
+  <div class="flex-center">
+    <h1 class="mat-h1">재련 최적화</h1>
+    <button
+      class="heading-button"
+      (click)="onCautionLaunch()"
+      mat-stroked-button
+    >
+      주의사항
+    </button>
+  </div>
+  <div class="layout">
+    <mat-tab-group class="mat-elevation-z1 tab-group-card">
+      <mat-tab label="가격 정보">
+        <div class="p-16">
+          <app-refining-price [priceForm]="priceForm"></app-refining-price>
+        </div>
+      </mat-tab>
+      <mat-tab label="귀속 재료 정보">
+        <div class="p-16">
+          <app-refining-binded [bindedForm]="bindedForm"></app-refining-binded>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+    <mat-card>
+      <mat-card-subtitle> 장비 정보 </mat-card-subtitle>
+      <mat-card-content>
+        <app-refining-item [itemForm]="itemForm"></app-refining-item>
+      </mat-card-content>
+    </mat-card>
+    <mat-card *ngIf="materials.length > 0" class="materials">
+      <mat-card-subtitle>필수 재료</mat-card-subtitle>
+      <mat-card-content>
+        <div class="material-info" *ngFor="let material of materials">
+          <img [attr.src]="'assets/' + material.name + '.png'" />
+          <span>
+            x {{ material.amount | number : ".0-0" }} =
+            {{ material.price | number : ".2-2" }}골드</span
+          >
+        </div>
+        <div>합계 : {{ materialPrice | number : ".2-2" }}골드</div>
+        <mat-checkbox [(ngModel)]="reduceBindedMaterials"
+          >귀속 필수 재료를 0골드로 계산</mat-checkbox
+        >
+      </mat-card-content>
+      <mat-card-subtitle>추가 재료</mat-card-subtitle>
+      <mat-card-content>
+        <div class="material-info" *ngFor="let breath of breathes">
+          <img [attr.src]="'assets/' + breath.name + '.png'" />
+          <span>
+            + {{ breath.prob | percent : ".2-2" }} x 0 ~
+            {{ breath.amount | number : ".0-0" }}<br />개당
+            {{ breath.price | number : ".2-2" }}골드</span
+          >
+        </div>
+        <div>
+          <mat-checkbox [(ngModel)]="reduceBindedBooks"
+            >귀속 책을 0골드로 계산</mat-checkbox
+          >
+        </div>
+        <div>
+          <mat-checkbox [(ngModel)]="reduceBindedBreathes"
+            >귀속 숨결을 0골드로 계산</mat-checkbox
+          >
+        </div>
+        <div>
+          <button (click)="calculate()" mat-raised-button color="primary">
+            계산
+          </button>
+        </div>
+      </mat-card-content>
+    </mat-card>
+    <mat-tab-group
+      animationDuration="0ms"
+      class="mat-elevation-z1 tab-group-card refine-table"
+    >
+      <mat-tab label="최적 재련">
+        <div class="p-16">
+          <app-refine-table
+            [price]="optimalPrice"
+            [path]="optimalPath"
+            [materials]="materials"
+          ></app-refine-table>
+        </div>
+      </mat-tab>
+      <mat-tab label="노숨 재련">
+        <div class="p-16">
+          <app-refine-table
+            [price]="noBreathPrice"
+            [path]="noBreathPath"
+            [materials]="materials"
+          ></app-refine-table>
+        </div>
+      </mat-tab>
+      <mat-tab label="풀숨 재련">
+        <div class="p-16">
+          <app-refine-table
+            [price]="fullBreathPrice"
+            [path]="fullBreathPath"
+            [materials]="materials"
+          ></app-refine-table>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+  </div>
+</div>
+<ng-adsense
+  [className]="'banner-slot'"
+  [adSlot]="3498062236"
+  [fullWidthResponsive]="true"
+  [adFormat]="'horizontal'"
+></ng-adsense>
