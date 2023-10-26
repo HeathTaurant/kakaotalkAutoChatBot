@@ -64,7 +64,7 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
             replier.reply(e);
         }
     }
-    
+
     function callLostArkApiPost(url, selectCategoryCode, callback) {
         var HttpURLConnection = Packages.java.net.HttpURLConnection;
         var URL = Packages.java.net.URL;
@@ -216,6 +216,7 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
         });
     }
 
+
     function characterInfo(msgParam) {
         replier.reply("캐릭터 정보를 불러오는 중입니다. 잠시만 기다려주세요.");
         const user_name = msgParam;
@@ -235,6 +236,7 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
         });
     }
 
+
     function infoEquipment(msgParam) {
         const user_name = msgParam;
         const url = "armories/characters/" + user_name + "/equipment";
@@ -244,11 +246,12 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
             for (let i = 0; i < 6; i++) {
                 let equipmentTooltip = JSON.parse(parsedData[i]["Tooltip"]);
                 let itemQualityValue = equipmentTooltip["Element_001"]["value"]["qualityValue"];
-                let equipmentInfo = parsedData[i]["Type"] + " " +
-                    parsedData[i]["Grade"] + " " +
-                    parsedData[i]["Name"] + " : " +
-                    itemQualityValue;
+                let equipmentInfo = parsedData[i]["Name"];
+                let equipmentInfo2 = "[" + parsedData[i]["Type"] + "]"
+                    + " " + parsedData[i]["Grade"] + " " +
+                    + itemQualityValue;
                 equipmentData.push(equipmentInfo);
+                equipmentData.push(equipmentInfo2);
                 qualityValueAvg += itemQualityValue;
             }
 
@@ -259,6 +262,8 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
             replier.reply(separatedData);
         });
     }
+
+
 
     function mainItemPrice() {
         const url = "/markets/items";
@@ -323,9 +328,9 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
                         equipmentData.push(item.Name + " : " + item.CurrentMinPrice);
                         if (targetName === "명예의 파편 주머니(대)" || targetName === "찬란한 명예의 돌파석") {
                             equipmentData.push("");
+                        }
                     }
-                }
-            });
+                });
             } else {
                 replier.reply("Error: 명예 object is invalid or Items not found");
             }
@@ -384,11 +389,6 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
 
         const separatedData = equipmentData.join('\n');
         replier.reply(separatedData);
-
-
-
-
-
 
     }
 
