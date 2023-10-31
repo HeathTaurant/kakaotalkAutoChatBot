@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <button onclick="myFunction()">Try it</button>
+    <p id="demo"></p>
+
+</body>
+<script>
+    let sampleJsonData = null;
+    async function fetchData() {
+        try {
+            const response = await fetch('/jsonDataFile/재가공Json파일/상의_tooltip.json');
+            if (!response.ok) {
+                throw new Error('Network response was not ok ' + response.statusText);
+            }
+            sampleJsonData = await response.json();
+            console.log('Data loaded', sampleJsonData);
+
+            // 데이터 로딩이 완료되었으니, 다른 함수 호출
+            onDataLoaded();
+        } catch (error) {
+            console.error('There has been a problem with your fetch operation:', error);
+        }
+    }
+    fetchData();
+
+    function onDataLoaded() {
+        // 이제 globalJsonData를 사용할 수 있습니다.
+        console.log('Using global data', sampleJsonData);
+    }
+    // const jsonFileData =
+    //     fetch('/jsonDataFile/재가공Json파일/상의_tooltip.json')
+    //         .then(response => response.json())
+    //         .then(data => jsonFileData console.log(data))
+    //         .catch(error => console.error('Error:', error));
+
+    function myFunction() {
+        console.log("=====================================");
+        const 초월Data = sampleJsonData["Element_008"]["value"]["Element_000"]["topStr"]
+        console.log(초월Data);
+        const 엘릭서Data01 = sampleJsonData["Element_009"]["value"]["Element_000"]["contentStr"]["Element_000"]["contentStr"];
+        console.log(엘릭서Data01);
+        const 엘릭서Data02 = sampleJsonData["Element_009"]["value"]["Element_000"]["contentStr"]["Element_001"]["contentStr"];
+        console.log(엘릭서Data02);
+        console.log("=====================================");
+
+        
+        // const regex = /아이템 레벨 (\d+)/;
+        // const match = str.match(regex);
+
+        // if (match) {
+        //     document.getElementById("demo").innerHTML = 
+        // }
+
+    }
+
+
+
+
+</script>
+
+</html>

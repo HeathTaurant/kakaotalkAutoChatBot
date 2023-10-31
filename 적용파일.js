@@ -1,14 +1,9 @@
 const scriptName = "LostArkBot";
+
 function response(room, msg, sender, isGroupChat, replier, imageDB, packageName) {
     const roomName = room;
-
-    switch (roomName) {
-        case roomName = "Master":
-            break;
-        default:
-            return;
-    }
-
+    const chackGroupChat = isGroupChat;
+    const lostArkBotVersion = "V_0.23.10.31.14.00";
     const myApiKey = "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IktYMk40TkRDSTJ5NTA5NWpjTWk5TllqY2lyZyIsImtpZCI6IktYMk40TkRDSTJ5NTA5NWpjTWk5TllqY2lyZyJ9.eyJpc3MiOiJodHRwczovL2x1ZHkuZ2FtZS5vbnN0b3ZlLmNvbSIsImF1ZCI6Imh0dHBzOi8vbHVkeS5nYW1lLm9uc3RvdmUuY29tL3Jlc291cmNlcyIsImNsaWVudF9pZCI6IjEwMDAwMDAwMDAxNzk1MDEifQ.RlC6BWCOSeH2Zi4g_gOw_6TF4f-kITl6nHOyOrG0U8pSypkPvaWi3danG6IPd2C7qLNBErLteG8ujaLMQFaQ5L5_8iDlUoaZqIBGRSWAJ-A7-WD3p7Jx6pQ19VpxBKEXE8iHrKLISHUL5hz2QPCsw4kM6k7NC5-Gscm5UYcrH-po801BdZYZVQ5pset2AWjr5LPy81KmvWLhJm2vI0B40U3389WZFrNwcgrNtA-vLvfTBdY8QW1BxONxjFOA-bHNPm_VUpkXSS0ko3abasTyxnVfyXnl0A93U-ZDdcOXjnUszrizrgcPbsP3D2EZl76AwmPrL175BRjJ_SQeie-ylA";
 
     const msgInfo = msg;
@@ -18,28 +13,58 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
 
 
     switch (msgCmd) {
+        case msgCmd = "/명령어":
+            replier.reply("안녕하세요. 애곰봇입니다." + "\n"
+                + "버전 : " + lostArkBotVersion + "\n"
+                + "아래는 현재 사용 가능한 명령어 입니다." + "\n"
+                + "문의사항 및 건의, 버그 제보는 애기곰에게 문의해주세요." + "\n"
+                + "명령어 목록입니다." + "\n"
+                + "\n"
+                + "/부캐 캐릭터이름" + "\n"
+                + "/장비 캐릭터이름" + "\n"
+                + "/쌀값"
+                + "/ㅂㅂㄱ 금액(정수)" + "\n"
+                + "\n"
+                + "/정보 캐릭터이름 >> (수리중....)"
+            );
+            return;
         case msgCmd = "/테스트":
+            if (chackUserNames()) {
+                return;
+            }
             testFun(msgParam);
             break;
         case msgCmd = "/부캐":
+            if (chackUserNames()) {
+                return;
+            }
             siblingsCharacters(msgParam);
             break;
         case msgCmd = "/장비":
+            if (chackUserNames()) {
+                return;
+            }
             infoEquipment(msgParam);
             break;
         case msgCmd = "/정보":
-            characterInfo(msgParam);
-            break;
+            chackUserNames();
+            replier.reply("수리중입니다.....");
+            return;
         case msgCmd = "/쌀값":
             mainItemPrice();
             break;
+        case msgCmd = "/ㅂㅂㄱ":
+            goldDistribute();
+            return;
         default:
             return;
     }
 
     function chackUserNames() {
-        if (msgParam == null) {
-            return;
+        const user_name = msgParam;
+        if (user_name == null || user_name == "") {
+            replier.reply("캐릭터 이름을 입력해주세요.");
+            return true;
         }
     }
 
@@ -242,29 +267,85 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
         const url = "armories/characters/" + user_name + "/equipment";
         callLostArkApi(url, function (parsedData) {
             let qualityValueAvg = 0;
-            let equipmentData = [];
+            let itemLevelAvg = 0;
+            let replyMsg = "";
             for (let i = 0; i < 6; i++) {
                 let equipmentTooltip = JSON.parse(parsedData[i]["Tooltip"]);
                 let itemQualityValue = equipmentTooltip["Element_001"]["value"]["qualityValue"];
-                let equipmentInfo = parsedData[i]["Name"];
-                let equipmentInfo2 = "[" + parsedData[i]["Type"] + "]"
-                    + " " + parsedData[i]["Grade"] + " " +
-                    + itemQualityValue;
-                equipmentData.push(equipmentInfo);
-                equipmentData.push(equipmentInfo2);
-                qualityValueAvg += itemQualityValue;
-            }
+                let itemLevelLongData = equipmentTooltip["Element_001"]["value"]["leftStr2"];
+                const itemLovelMatchData = /아이템 레벨 (\d+)/;
+                let itemLevel = itemLevelLongData.match(itemLovelMatchData)[1];
+                let itemName = parsedData[i]["Name"];
+                let itemGrade = parsedData[i]["Grade"];
 
+                let itemInfo = "[" + itemGrade + "] "
+                    + "품질 " + itemQualityValue + " "
+                    + "[Lv." + itemLevel + "]"
+                    ;
+
+                replyMsg = replyMsg + "\n"
+                    + itemName + "\n"
+                    + itemInfo + "\n"
+                    ;
+
+                qualityValueAvg += itemQualityValue;
+                itemLevelAvg += parseInt(itemLevel);
+            }
             qualityValueAvg /= 6;
+            itemLevelAvg /= 6;
             qualityValueAvg = qualityValueAvg.toFixed(2);
-            equipmentData.push("품질 평균: " + qualityValueAvg);
-            const separatedData = equipmentData.join('\n');
-            replier.reply(separatedData);
+            itemLevelAvg = itemLevelAvg.toFixed(2);
+            
+            replyMsg = "장비 레벨(" + itemLevelAvg + ")" + "\n" 
+                + " 평균 품질(" + qualityValueAvg + ")" + "\n"
+                + replyMsg;
+
+            replier.reply(replyMsg);
         });
     }
 
+    function testFun(msgParam) {
+        const user_name = msgParam;
+        const url = "armories/characters/" + user_name + "/equipment";
+        callLostArkApi(url, function (parsedData) {
+            let qualityValueAvg = 0;
+            let itemLevelAvg = 0;
+            let equipmentData = [];
+            let replyMsg = "";
+            for (let i = 0; i < 6; i++) {
+                let equipmentTooltip = JSON.parse(parsedData[i]["Tooltip"]);
+                let itemQualityValue = equipmentTooltip["Element_001"]["value"]["qualityValue"];
+                let itemLevelLongData = equipmentTooltip["Element_001"]["value"]["leftStr2"];
+                const itemLovelMatchData = /아이템 레벨 (\d+)/;
+                let itemLevel = itemLevelLongData.match(itemLovelMatchData)[1];
+                let itemName = parsedData[i]["Name"];
+                let itemGrade = parsedData[i]["Grade"];
 
+                let itemInfo = "[" + itemGrade + "] "
+                    + "품질 " + itemQualityValue + " "
+                    + "[Lv." + itemLevel + "]"
+                    ;
 
+                replyMsg = replyMsg + "\n"
+                    + itemName + "\n"
+                    + itemInfo + "\n"
+                    ;
+
+                qualityValueAvg += itemQualityValue;
+                itemLevelAvg += parseInt(itemLevel);
+            }
+            qualityValueAvg /= 6;
+            itemLevelAvg /= 6;
+            qualityValueAvg = qualityValueAvg.toFixed(2);
+            itemLevelAvg = itemLevelAvg.toFixed(2);
+
+            replyMsg = "장비 레벨(" + itemLevelAvg + ")" + "\n" 
+                + " 평균 품질(" + qualityValueAvg + ")" + "\n"
+                + replyMsg;
+
+            replier.reply(replyMsg);
+        });
+    }
     function mainItemPrice() {
         const url = "/markets/items";
 
@@ -294,10 +375,12 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
             "PageNo": 0
         };
 
-
-
         let equipmentData = [];
         let 파괴;
+        let 명예;
+        let 오레하;
+        let 엘릭서;
+        let 마력석;
 
         callLostArkApiPost(url, selectCategoryCode, function (callback) {
             파괴 = callback;
@@ -392,5 +475,25 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
 
     }
 
+
+
+    function goldDistribute() {
+        const mainGold = msgParam;
+        if (msgParam == null || msgParam == "") {
+            replier.reply("골드를 입력해주세요.");
+            return;
+        } else if (isNaN(mainGold)) {
+            replier.reply("숫자를 입력해주세요.");
+            return;
+        } else if (!(Number.isInteger(Number(mainGold)))) {
+            replier.reply("정수를 입력해주세요.");
+            return;
+        } else {
+            const fourDistribute = Math.floor((mainGold * 0.95 * 3) / 4);
+            const eightDistribute = Math.floor((mainGold * 0.95 * 7) / 8);
+            replier.reply("4인 : " + fourDistribute + "\n"
+                + "8인 : " + eightDistribute);
+        }
+    }
 
 }
