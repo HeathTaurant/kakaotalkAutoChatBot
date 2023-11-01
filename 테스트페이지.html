@@ -41,7 +41,7 @@
     //         .then(response => response.json())
     //         .then(data => jsonFileData console.log(data))
     //         .catch(error => console.error('Error:', error));
-
+ 
     function myFunction() {
         console.log("=====================================");
         const 초월Data = sampleJsonData["Element_008"]["value"]["Element_000"]["topStr"]
@@ -52,7 +52,18 @@
         console.log(엘릭서Data02);
         console.log("=====================================");
 
-        
+        const 태그삭제 = /<[^>]*>/g;
+        const 초월Data_태그삭제 = 초월Data.replace(태그삭제, "");
+        console.log(초월Data_태그삭제);
+        const 엘릭서Data01_태그삭제 = 엘릭서Data01.replace(태그삭제, "");
+        console.log(엘릭서Data01_태그삭제);
+        const 엘릭서Data02_태그삭제 = 엘릭서Data02.replace(태그삭제, "");
+        console.log(엘릭서Data02_태그삭제);
+        console.log("=====================================");
+
+
+
+
         // const regex = /아이템 레벨 (\d+)/;
         // const match = str.match(regex);
 

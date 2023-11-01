@@ -22,7 +22,7 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
                 + "\n"
                 + "/부캐 캐릭터이름" + "\n"
                 + "/장비 캐릭터이름" + "\n"
-                + "/쌀값"
+                + "/쌀값" + "\n"
                 + "/ㅂㅂㄱ 금액(정수)" + "\n"
                 + "\n"
                 + "/정보 캐릭터이름 >> (수리중....)"
