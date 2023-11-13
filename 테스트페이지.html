@@ -11,10 +11,16 @@
 
     <button onclick="myFunction()">Try it</button>
     <p id="demo"></p>
+    <button onclick="testFunction01()">test01</button>
+    <p id="demo"></p>
+    <button onclick="testFunction02()">test02</button>
+    <p id="demo"></p>
+    
 
 </body>
 <script>
     let sampleJsonData = null;
+    let sampleJsonData02 = null;
     async function fetchData() {
         try {
             const response = await fetch('/jsonDataFile/재가공Json파일/상의_tooltip.json');
@@ -23,7 +29,11 @@
             }
             sampleJsonData = await response.json();
             console.log('Data loaded', sampleJsonData);
-
+            const response02 = await fetch('/jsonDataFile/모닥불왔어요_캐릭터정보.json');
+            if (!response02.ok) {
+                throw new Error('Network response was not ok ' + response02.statusText);
+            }
+            sampleJsonData02 = await response02.json();
             // 데이터 로딩이 완료되었으니, 다른 함수 호출
             onDataLoaded();
         } catch (error) {
@@ -41,8 +51,21 @@
     //         .then(response => response.json())
     //         .then(data => jsonFileData console.log(data))
     //         .catch(error => console.error('Error:', error));
- 
+
     function myFunction() {
+        let checkInfo = 0;// 0 = 아무것도 없음, 1 = 엘릭서만, 2 = 초월까지
+        const keyToCheck14 = 'Element_014';
+        const keyToCheck15 = 'Element_015';
+
+
+        if (keyToCheck15 in sampleJsonData) {
+            checkInfo = 2;
+        } else if (keyToCheck14 in sampleJsonData) {
+            checkInfo = 1;
+        } else {
+            checkInfo = 0;
+        }
+        console.log(checkInfo)
         console.log("=====================================");
         const 초월Data = sampleJsonData["Element_008"]["value"]["Element_000"]["topStr"]
         console.log(초월Data);
@@ -64,12 +87,49 @@
 
 
 
+
+
         // const regex = /아이템 레벨 (\d+)/;
         // const match = str.match(regex);
 
         // if (match) {
         //     document.getElementById("demo").innerHTML = 
         // }
+
+    }
+
+    function testFunction01() {
+
+         
+        sampleJsonData02[ArmoryProfile][Title] //칭호
+        sampleJsonData02[ArmoryProfile][CharacterName] //캐릭이름
+        sampleJsonData02[ArmoryProfile][CharacterClassName] //직업
+        sampleJsonData02[ArmoryProfile][CharacterLevel] //캐릭레벨
+        sampleJsonData02[ArmoryProfile][ItemAvgLevel] //템렙
+        sampleJsonData02[ArmoryProfile][ExpeditionLevel] //원대렙
+        sampleJsonData02[ArmoryProfile][TotalSkillPoint] //총스포
+        sampleJsonData02[ArmoryProfile][UsingSkillPoint] //사용스포
+        sampleJsonData02[ArmoryProfile][GuildName] //길드명
+        sampleJsonData02[ArmoryProfile][ServerName] //서버명
+        sampleJsonData02[ArmoryProfile][Stats][i][Type] //전투특성 치명, 특화, 제압, 신속, 인내, 숙련, 최대생명력, 공격력
+        sampleJsonData02[ArmoryProfile][Stats][i][Value] //전투특성 수치
+        
+        sampleJsonData02[ArmoryProfile][PvpGradeName] //PVPRank
+        
+        sampleJsonData02[Collectibles][i][Type] // 수집물타입 모코코 씨앗, 섬의 마음, 위대한 미술품, 거인의 심장, 이그네아의 징표, 항해 모험물, 세계수의 잎, 오르페우스의 별, 기억의 오르골
+        sampleJsonData02[Collectibles][i][Point] // 수집물 획득
+        sampleJsonData02[Collectibles][i][MaxPoint] // 수집물 최대치
+        sampleJsonData02[ArmoryCard][Effects][i][Items][i][Name] //카드 세트효과 길이의 마지막꺼 이름
+        const cardEffectLength = sampleJsonData02[ArmoryCard][Effects].length;
+        for(let i = 0; i < cardSetEffectLength; i++){
+            const cardSetLength = sampleJsonData02[ArmoryCard][Effects][i][Items].length;
+            let cardSetEffectName = sampleJsonData02[ArmoryCard][Effects][i][Items][cardSetLength - 1][Name];
+            
+        }
+
+
+
+
 
     }
 

@@ -326,8 +326,8 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
         callLostArkApi(url, function (parsedData) {
             let qualityValueAvg = 0;
             let itemLevelAvg = 0;
-            let equipmentData = [];
             let replyMsg = "";
+
             for (let i = 0; i < 6; i++) {
                 let equipmentTooltip = JSON.parse(parsedData[i]["Tooltip"]);
                 let itemQualityValue = equipmentTooltip["Element_001"]["value"]["qualityValue"];
@@ -336,6 +336,8 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
                 let itemLevel = itemLevelLongData.match(itemLovelMatchData)[1];
                 let itemName = parsedData[i]["Name"];
                 let itemGrade = parsedData[i]["Grade"];
+                
+
 
                 let itemInfo = "[" + itemGrade + "] "
                     + "품질 " + itemQualityValue + " "
@@ -349,7 +351,42 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
 
                 qualityValueAvg += itemQualityValue;
                 itemLevelAvg += parseInt(itemLevel);
+
+                const checkInfo = 0;// 0 = 아무것도 없음, 1 = 엘릭서만, 2 = 초월까지
+                const keyToCheck14 = 'Element_014';
+                const keyToCheck15 = 'Element_015';
+                if (keyToCheck15 in equipmentTooltip) {
+                    checkInfo = 2;
+                } else if (keyToCheck14 in equipmentTooltip) {
+                    checkInfo = 1;
+                } else {
+                    checkInfo = 0;
+                }
+                let transcendenceData, elixirData01, elixirData02;
+                switch (checkInfo) {
+                    case 2:
+                        transcendenceData = equipmentTooltip["Element_008"]["value"]["Element_000"]["topStr"];
+                        elixirData01 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_000"]["contentStr"];
+                        elixirData02 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_001"]["contentStr"];
+                        replyMsg = replyMsg
+                        + transcendenceData + "\n"
+                        + elixirData01 + "\n"
+                        + elixirData02 + "\n"
+                        ;
+                        break;
+                    case 1:
+                        elixirData01 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_000"]["contentStr"];
+                        elixirData02 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_001"]["contentStr"];
+                        replyMsg = replyMsg
+                        + elixirData01 + "\n"
+                        + elixirData02 + "\n"
+                        ;
+                        break;
+                    default:
+                        break;
+                }
             }
+
             qualityValueAvg /= 6;
             itemLevelAvg /= 6;
             qualityValueAvg = qualityValueAvg.toFixed(2);
