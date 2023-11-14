@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="inputField" placeholder="여기에 입력하세요">
+    <button id="saveButton" onclick="saveToCookie()">쿠키에 저장</button>
+    <button id="loadButton" onclick="loadFromCookie()">쿠키에서 불러오기</button>
+    <button id="closeBrowser" onclick="closeBrowser()">창닫기</button>
+</body>
+<script>
+function saveToCookie() {
+    const inputValue = document.getElementById('inputField').value;
+    document.cookie = "myData=" + encodeURIComponent(inputValue) + "; path=/;";
+    alert("정보가 쿠키에 저장되었습니다.");
+}
+
+function loadFromCookie() {
+    const myData = getCookie("myData");
+    if (myData) {
+        document.getElementById('inputField').value = myData;
+    } else {
+        alert("저장된 정보가 없습니다.");
+    }
+}
+
+function getCookie(name) {
+    let cookieArr = document.cookie.split(";");
+    for(let i = 0; i < cookieArr.length; i++) {
+        let cookiePair = cookieArr[i].split("=");
+        if(name == cookiePair[0].trim()) {
+            return decodeURIComponent(cookiePair[1]);
+        }
+    }
+    return null;
+}
+
+function closeBrowser() {
+    console.log("closeBrowser")
+    window.close();
+}
+function checkClose() {
+    var executeFunction = confirm("이 함수를 실행하시겠습니까?");
+
+// 사용자가 "확인"을 클릭한 경우
+if (executeFunction) {
+    // 특정 함수 실행
+    console.log("함수가 실행되었습니다.");
+    closeBrowser();
+    // 여기에 실행할 함수 또는 로직을 추가하세요.
+} else {
+    // 사용자가 "취소"를 클릭한 경우
+    console.log("함수 실행이 취소되었습니다.");
+
+}
+}
+
+window.addEventListener('beforeunload', function (e) {
+    // 기본 동작을 방지하고 사용자에게 확인 메시지를 표시
+    e.preventDefault(); 
+    e.returnValue = '';
+
+    // 추가적인 함수 호출
+    checkClose()
+});
+
+</script>
+
+<script>
+    // window.addEventListener("beforeunload", OnFormClosing);
+    // window.addEventListener("unload", OnFormClosed);
+
+    // function OnFormClosing(e) {
+    //     const isSessionOpen = (this.webScanner != null) && (this.webScanner.State >= State.InSession);
+    //     if (isSessionOpen) {
+    //         // Show the confirm dialog.
+    //         if (!confirm("Session is open.\nDo you want to close the session and the form, or keep the session?")) {
+    //             e.preventDefault();
+    //             e.returnValue = "This is my custom confirmation dialog.";
+    //         }
+    //     }
+    // }
+
+    // async function OnFormClosed(e) {
+    //     // // Add your code here to close the session or perform any other necessary action
+    //     // // You can display a confirmation message to the user if needed
+    //     // // This message is displayed by the browser, and the user can choose to stay on the page or leave.
+    //     // //e.returnValue = 'Are you sure you want to leave this page?';
+    //     //e.preventDefault(); // This prevents the page from unloading immediately
+    //     const result = await this.webScanner.SessionEnd();
+    // }
+</script>
+
+
+
+</html>

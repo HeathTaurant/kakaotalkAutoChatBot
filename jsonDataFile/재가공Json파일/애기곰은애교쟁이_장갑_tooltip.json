@@ -1,0 +1,212 @@
+{
+    "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#E3C7A1'>+19 사로잡힌 광기의 갈망 장갑</FONT></P>"
+    },
+    "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+            "bEquip": 0,
+            "leftStr0": "<FONT SIZE='12'><FONT COLOR='#E3C7A1'>고대 장갑</FONT></FONT>",
+            "leftStr1": "<FONT SIZE='14'>품질</FONT>",
+            "leftStr2": "<FONT SIZE='14'>아이템 레벨 1620 (티어 3)</FONT>",
+            "qualityValue": 73,
+            "rightStr0": "<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>",
+            "slotData": {
+                "advBookIcon": 0,
+                "battleItemTypeIcon": 0,
+                "cardIcon": false,
+                "friendship": 0,
+                "iconGrade": 6,
+                "iconPath": "https://cdn-lostark.game.onstove.com/efui_iconatlas/sdm_item/sdm_item_80.png",
+                "imagePath": "",
+                "islandIcon": 0,
+                "rtString": "",
+                "seal": false,
+                "temporary": 0,
+                "town": 0,
+                "trash": 0
+            }
+        }
+    },
+    "Element_002": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>도화가 전용</FONT>"
+    },
+    "Element_003": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>캐릭터 귀속됨</FONT>"
+    },
+    "Element_004": {
+        "type": "MultiTextBox",
+        "value": "|<font color='#C24B46'>거래 불가</font>"
+    },
+    "Element_005": {
+        "type": "ItemPartBox",
+        "value": {
+            "Element_000": "<FONT COLOR='#A9D0F5'>기본 효과</FONT>",
+            "Element_001": "물리 방어력 +4831<BR>마법 방어력 +4831<BR>지능 +42473<BR>체력 +3388"
+        }
+    },
+    "Element_006": {
+        "type": "ItemPartBox",
+        "value": {
+            "Element_000": "<FONT COLOR='#A9D0F5'>추가 효과</FONT>",
+            "Element_001": "생명 활성력 +747"
+        }
+    },
+    "Element_007": {
+        "type": "Progress",
+        "value": {
+            "forceValue": " ",
+            "maximum": 75000,
+            "minimum": 0,
+            "title": "<FONT SIZE='12'><FONT COLOR='#A9D0F5'>현재 단계 재련 경험치</FONT></FONT>",
+            "value": 0,
+            "valueType": 1
+        }
+    },
+    "Element_008": {
+        "type": "IndentStringGroup",
+        "value": {
+            "Element_000": {
+                "contentStr": {
+                    "Element_000": {
+                        "bPoint": true,
+                        "contentStr": "<FONT color='#FFD200'>[장갑]</FONT> 선각자 (혼돈) <FONT color='#FFD200'>Lv.4</FONT><br>파티원에게 주는 회복 및 보호막 효과 +1.08%<BR>전투 중 생명력 회복량 +43<BR>'선각자 (질서)' 효과와 함께 활성화 시, '선각자' 연성 추가 효과 발동t"
+                    },
+                    "Element_001": {
+                        "bPoint": true,
+                        "contentStr": "<FONT color='#FFD200'>[공용]</FONT> 탈출의 달인 <FONT color='#FFD200'>Lv.2</FONT><br>기상기 재사용 대기시간 감소 +0.79%"
+                    }
+                },
+                "topStr": "<FONT SIZE='12' COLOR='#A9D0F5'>엘릭서 효과</FONT><br><font color='#91fe02'><FONT size='12'>지혜의 엘릭서</FONT></font>"
+            }
+        }
+    },
+    "Element_009": {
+        "type": "IndentStringGroup",
+        "value": {
+            "Element_000": {
+                "contentStr": {
+                    "Element_000": {
+                        "bPoint": true,
+                        "contentStr": "<font color='#ffffff'><font color='#FFD200'>1단계 : <FONT size='12'>지혜의 엘릭서</FONT> 레벨 합 35</font><br>이동기 및 기상기를 제외한 스킬 사용 시, <FONT color='#FFFFAC'>8</FONT>초간 '통찰' 중첩을 획득한다. (최대 <FONT color='#FFFFAC'>5</FONT>중첩)<BR>통찰: 자신의 공격력에 기반한 파티 공격력 버프 효과 <FONT color='#D4FF88'>1.6%</FONT> 증가</font>"
+                    },
+                    "Element_001": {
+                        "bPoint": true,
+                        "contentStr": "<font color='#ffffff'><font color='#FFD200'>2단계 : <FONT size='12'>지혜의 엘릭서</FONT> 레벨 합 40</font><br>'통찰' 중첩이 최대에 도달하면 자신의 공격력에 기반한 파티 공격력 버프 효과가 <FONT color='#D4FF88'>6%</FONT> 추가로 증가하며,<BR>이동기, 기상기 및 각성기를 제외한 스킬의 재사용 대기시간이 <FONT color='#D4FF88'>5%</FONT> 감소한다.</font>"
+                    }
+                },
+                "topStr": "<FONT SIZE='12' COLOR='#A9D0F5'>연성 추가 효과</FONT><br><FONT SIZE='12' color='#91FE02'>선각자 (2단계)</FONT>"
+            }
+        }
+    },
+    "Element_010": {
+        "type": "ItemPartBox",
+        "value": {
+            "Element_000": "<FONT COLOR='#A9D0F5'>세트 효과 레벨</FONT>",
+            "Element_001": "갈망 <FONT COLOR='#FFD200'>Lv.3</FONT>"
+        }
+    },
+    "Element_011": {
+        "type": "SetItemGroup",
+        "value": {
+            "firstMsg": "<font size='14'><font color='#91fe02'>갈망</font></font>",
+            "itemData": {
+                "Element_000": {
+                    "label": " [<FONT COLOR='#FFD200'>Lv.3</FONT>]",
+                    "slotData": {
+                        "iconGrade": 10,
+                        "iconPath": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tooltip/tooltip_0_11.png",
+                        "imagePath": ""
+                    }
+                },
+                "Element_001": {
+                    "label": " [<FONT COLOR='#FFD200'>Lv.3</FONT>]",
+                    "slotData": {
+                        "iconGrade": 10,
+                        "iconPath": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tooltip/tooltip_0_12.png",
+                        "imagePath": ""
+                    }
+                },
+                "Element_002": {
+                    "label": " [<FONT COLOR='#FFD200'>Lv.3</FONT>]",
+                    "slotData": {
+                        "iconGrade": 10,
+                        "iconPath": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tooltip/tooltip_0_13.png",
+                        "imagePath": ""
+                    }
+                },
+                "Element_003": {
+                    "label": " [<FONT COLOR='#FFD200'>Lv.3</FONT>]",
+                    "slotData": {
+                        "iconGrade": 10,
+                        "iconPath": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tooltip/tooltip_0_14.png",
+                        "imagePath": ""
+                    }
+                },
+                "Element_004": {
+                    "label": " [<FONT COLOR='#FFD200'>Lv.3</FONT>]",
+                    "slotData": {
+                        "iconGrade": 10,
+                        "iconPath": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tooltip/tooltip_0_15.png",
+                        "imagePath": ""
+                    }
+                },
+                "Element_005": {
+                    "label": " [<FONT COLOR='#FFD200'>Lv.3</FONT>]",
+                    "slotData": {
+                        "iconGrade": 10,
+                        "iconPath": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tooltip/tooltip_0_16.png",
+                        "imagePath": ""
+                    }
+                }
+            }
+        }
+    },
+    "Element_012": {
+        "type": "IndentStringGroup",
+        "value": {
+            "Element_000": {
+                "contentStr": {
+                    "Element_000": {
+                        "bPoint": true,
+                        "contentStr": "<font size='12'><font color='#ffffff'>공격 적중 시 '전투의 축복' 효과를 획득하여 <FONT COLOR='#99ff99'>16</FONT>초 동안 자신의 이동속도 및 공격 적중 시 획득하는 아이덴티티 획득량이 <FONT COLOR='#99ff99'>20%</FONT> 증가한다.  (재사용 대기시간 <FONT COLOR='#99ff99'>0.5</FONT>초)</font></font>"
+                    }
+                },
+                "topStr": "<font size='14'><font color='#91fe02'>2 세트 효과<BR>[<font size='14'><font color='#aaaaaa'>Lv.1 / Lv.2 / <FONT COLOR='#FFD200'>Lv.3</FONT></font></font>]</font></font>"
+            },
+            "Element_001": {
+                "contentStr": {
+                    "Element_000": {
+                        "bPoint": true,
+                        "contentStr": "<font size='12'><font color='#ffffff'>'전투의 축복' 효과가 지속되는 동안 자신의 <FONT COLOR='#99ff99'>8</FONT>m 이내의 다른 파티원에게 매 초 마다 <FONT COLOR='#99ff99'>16</FONT>초 동안 지속되는 '기민함' 효과를 부여한다.<BR>'기민함' : 공격 및 이동속도 <FONT COLOR='#99ff99'>12%</FONT> 증가</font></font>"
+                    }
+                },
+                "topStr": "<font size='14'><font color='#91fe02'>4 세트 효과<BR>[<font size='14'><font color='#aaaaaa'>Lv.1 / Lv.2 / <FONT COLOR='#FFD200'>Lv.3</FONT></font></font>]</font></font>"
+            },
+            "Element_002": {
+                "contentStr": {
+                    "Element_000": {
+                        "bPoint": true,
+                        "contentStr": "<font size='12'><font color='#ffffff'>'전투의 축복' 효과가 지속되는 동안 자신의 <FONT COLOR='#99ff99'>8</FONT>m 이내의 다른 파티원에게 매 초 마다 <FONT COLOR='#99ff99'>16</FONT>초 동안 지속되는 '민첩' 효과를 부여한다.<BR>'민첩' : 적에게 주는 추가 피해가 <FONT COLOR='#99ff99'>12%</FONT> 증가한다.</font></font>"
+                    }
+                },
+                "topStr": "<font size='14'><font color='#91fe02'>6 세트 효과<BR>[<font size='14'><font color='#aaaaaa'>Lv.1 / Lv.2 / <FONT COLOR='#FFD200'>Lv.3</FONT></font></font>]</font></font>"
+            }
+        }
+    },
+    "Element_013": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>분해불가</FONT></FONT>"
+    },
+    "Element_014": {
+        "type": "SingleTextBox",
+        "value": "<Font color='#5FD3F1'>[세트 업그레이드] 대도시 - 세트 장비 관리</font>"
+    },
+    "Element_015": {
+        "type": "ShowMeTheMoney",
+        "value": "<FONT SIZE='12'><FONT COLOR='#FFFFFF'>내구도 <FONT COLOR='#FFFFFF'>46 / 59</FONT></FONT></FONT>|"
+    }
+}

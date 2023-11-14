@@ -334,37 +334,51 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
                 qualityValueAvg += itemQualityValue;
                 itemLevelAvg += parseInt(itemLevel);
 
-                const checkInfo = 0;
-                const keyToCheck14 = 'Element_014';
-                const keyToCheck15 = 'Element_015';
+                let checkInfo = 0;
+                const keyToCheck14 = 'Element_015';
+                const keyToCheck15 = 'Element_016';
 
                 if (keyToCheck15 in equipmentTooltip) {
                     checkInfo = 2;
+                    replier.reply("checkInfo : " + checkInfo);
                 } else if (keyToCheck14 in equipmentTooltip) {
                     checkInfo = 1;
+                    replier.reply("checkInfo : " + checkInfo);
                 } else {
                     checkInfo = 0;
+                    replier.reply("checkInfo : " + checkInfo);
                 }
 
                 let transcendenceData, elixirData01, elixirData02;
+                // const regex01 = /[^\[]*\bLv\.\d+/;
+                const regex01 = /[^[\]]*\bLv\.\d+/;
 
                 switch (checkInfo) {
                     case 2:
                         transcendenceData = equipmentTooltip["Element_008"]["value"]["Element_000"]["topStr"];
                         elixirData01 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_000"]["contentStr"];
                         elixirData02 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_001"]["contentStr"];
+
+                        elixirData01 = elixirData01.match(regex01);
+                        elixirData01 ? elixirData01[0].trim() : '';
+                        elixirData02 = elixirData02.match(regex01);
+                        elixirData02 ? elixirData02[0].trim() : '';
+
                         replyMsg = replyMsg
+                        + '[' + elixirData01 + ']' + '[' + elixirData02 + ']' + "\n"
                         + transcendenceData + "\n"
-                        + elixirData01 + "\n"
-                        + elixirData02 + "\n"
                         ;
                         break;
                     case 1:
                         elixirData01 = equipmentTooltip["Element_008"]["value"]["Element_000"]["contentStr"]["Element_000"]["contentStr"];
                         elixirData02 = equipmentTooltip["Element_008"]["value"]["Element_000"]["contentStr"]["Element_001"]["contentStr"];
+                        elixirData01 = elixirData01.match(regex01);
+                        elixirData01 ? elixirData01[0].trim() : '';
+                        elixirData02 = elixirData02.match(regex01);
+                        elixirData02 ? elixirData02[0].trim() : '';
+
                         replyMsg = replyMsg
-                        + elixirData01 + "\n"
-                        + elixirData02 + "\n"
+                        + '[' + elixirData01 + ']' + '[' + elixirData02 + ']' + "\n"
                         ;
                         break;
                     default:

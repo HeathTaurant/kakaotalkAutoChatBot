@@ -1,0 +1,212 @@
+{
+    "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#E3C7A1'>+16 타락한 마수의 사멸 장갑</FONT></P>"
+    },
+    "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+            "bEquip": 0,
+            "leftStr0": "<FONT SIZE='12'><FONT COLOR='#E3C7A1'>고대 장갑</FONT></FONT>",
+            "leftStr1": "<FONT SIZE='14'>품질</FONT>",
+            "leftStr2": "<FONT SIZE='14'>아이템 레벨 1605 (티어 3)</FONT>",
+            "qualityValue": 69,
+            "rightStr0": "<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>",
+            "slotData": {
+                "advBookIcon": 0,
+                "battleItemTypeIcon": 0,
+                "cardIcon": false,
+                "friendship": 0,
+                "iconGrade": 6,
+                "iconPath": "https://cdn-lostark.game.onstove.com/efui_iconatlas/dr_item/dr_item_01_138.png",
+                "imagePath": "",
+                "islandIcon": 0,
+                "rtString": "",
+                "seal": false,
+                "temporary": 0,
+                "town": 0,
+                "trash": 0
+            }
+        }
+    },
+    "Element_002": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>디스트로이어 전용</FONT>"
+    },
+    "Element_003": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>캐릭터 귀속됨</FONT>"
+    },
+    "Element_004": {
+        "type": "MultiTextBox",
+        "value": "|<font color='#C24B46'>거래 불가</font>"
+    },
+    "Element_005": {
+        "type": "ItemPartBox",
+        "value": {
+            "Element_000": "<FONT COLOR='#A9D0F5'>기본 효과</FONT>",
+            "Element_001": "물리 방어력 +4598<BR>마법 방어력 +4598<BR>힘 +38466<BR>체력 +3194"
+        }
+    },
+    "Element_006": {
+        "type": "ItemPartBox",
+        "value": {
+            "Element_000": "<FONT COLOR='#A9D0F5'>추가 효과</FONT>",
+            "Element_001": "생명 활성력 +667"
+        }
+    },
+    "Element_007": {
+        "type": "Progress",
+        "value": {
+            "forceValue": " ",
+            "maximum": 45000,
+            "minimum": 0,
+            "title": "<FONT SIZE='12'><FONT COLOR='#A9D0F5'>현재 단계 재련 경험치</FONT></FONT>",
+            "value": 0,
+            "valueType": 1
+        }
+    },
+    "Element_008": {
+        "type": "IndentStringGroup",
+        "value": {
+            "Element_000": {
+                "contentStr": {
+                    "Element_000": {
+                        "bPoint": true,
+                        "contentStr": "<FONT color='#FFD200'>[장갑]</FONT> 달인 (혼돈) <FONT color='#FFD200'>Lv.1</FONT><br>적에게 주는 피해 +0.23%<BR>마법 방어력 +480<BR>'달인 (질서)' 효과와 함께 활성화 시, '달인' 연성 추가 효과 발동"
+                    },
+                    "Element_001": {
+                        "bPoint": true,
+                        "contentStr": "<FONT color='#FFD200'>[공용]</FONT> 무기 공격력 <FONT color='#FFD200'>Lv.2</FONT><br>무기 공격력 +488"
+                    }
+                },
+                "topStr": "<FONT SIZE='12' COLOR='#A9D0F5'>엘릭서 효과</FONT><br><font color='#91fe02'><FONT size='12'>지혜의 엘릭서</FONT></font>"
+            }
+        }
+    },
+    "Element_009": {
+        "type": "IndentStringGroup",
+        "value": {
+            "Element_000": {
+                "contentStr": {
+                    "Element_000": {
+                        "bPoint": true,
+                        "contentStr": "<font color='#787878'><font color='#787878'>1단계 : <FONT size='12'>지혜의 엘릭서</FONT> 레벨 합 35</font><br>이동기 및 기상기를 제외한 스킬 사용 시 <FONT color='#FFFFAC'>10</FONT>초 간 '달인' 중첩을 얻는다.<BR>달인: 치명타 적중률 <FONT color='#D4FF88'>1.4%</FONT> 증가 (최대 <FONT color='#FFFFAC'>5</FONT>중첩) <BR>피격 시 '달인' 중첩을 <FONT color='#FF9999'>1</FONT> 잃는다. 단, 중첩은 <FONT color='#FFFFAC'>0.5</FONT>초에 <FONT color='#FFFFAC'>1</FONT>회만 감소한다.</font>"
+                    },
+                    "Element_001": {
+                        "bPoint": true,
+                        "contentStr": "<font color='#787878'><font color='#787878'>2단계 : <FONT size='12'>지혜의 엘릭서</FONT> 레벨 합 40</font><br>'달인' 효과가 강화되어 중첩 당 추가 피해가 <FONT color='#D4FF88'>1.7%</FONT> 추가로 증가한다.</font>"
+                    }
+                },
+                "topStr": "<FONT SIZE='12' COLOR='#A9D0F5'>연성 추가 효과</FONT><br><FONT SIZE='12' color='#787878'>달인</FONT>"
+            }
+        }
+    },
+    "Element_010": {
+        "type": "ItemPartBox",
+        "value": {
+            "Element_000": "<FONT COLOR='#A9D0F5'>세트 효과 레벨</FONT>",
+            "Element_001": "사멸 <FONT COLOR='#FFD200'>Lv.3</FONT>"
+        }
+    },
+    "Element_011": {
+        "type": "SetItemGroup",
+        "value": {
+            "firstMsg": "<font size='14'><font color='#91fe02'>사멸</font></font>",
+            "itemData": {
+                "Element_000": {
+                    "label": " [<FONT COLOR='#FFD200'>Lv.3</FONT>]",
+                    "slotData": {
+                        "iconGrade": 10,
+                        "iconPath": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tooltip/tooltip_0_11.png",
+                        "imagePath": ""
+                    }
+                },
+                "Element_001": {
+                    "label": " [<FONT COLOR='#FFD200'>Lv.3</FONT>]",
+                    "slotData": {
+                        "iconGrade": 10,
+                        "iconPath": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tooltip/tooltip_0_12.png",
+                        "imagePath": ""
+                    }
+                },
+                "Element_002": {
+                    "label": " [<FONT COLOR='#FFD200'>Lv.3</FONT>]",
+                    "slotData": {
+                        "iconGrade": 10,
+                        "iconPath": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tooltip/tooltip_0_13.png",
+                        "imagePath": ""
+                    }
+                },
+                "Element_003": {
+                    "label": " [<FONT COLOR='#FFD200'>Lv.3</FONT>]",
+                    "slotData": {
+                        "iconGrade": 10,
+                        "iconPath": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tooltip/tooltip_0_14.png",
+                        "imagePath": ""
+                    }
+                },
+                "Element_004": {
+                    "label": " [<FONT COLOR='#FFD200'>Lv.3</FONT>]",
+                    "slotData": {
+                        "iconGrade": 10,
+                        "iconPath": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tooltip/tooltip_0_15.png",
+                        "imagePath": ""
+                    }
+                },
+                "Element_005": {
+                    "label": " [<FONT COLOR='#FFD200'>Lv.3</FONT>]",
+                    "slotData": {
+                        "iconGrade": 10,
+                        "iconPath": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tooltip/tooltip_0_16.png",
+                        "imagePath": ""
+                    }
+                }
+            }
+        }
+    },
+    "Element_012": {
+        "type": "IndentStringGroup",
+        "value": {
+            "Element_000": {
+                "contentStr": {
+                    "Element_000": {
+                        "bPoint": true,
+                        "contentStr": "<font size='12'><font color='#ffffff'>치명타 피해가 <FONT COLOR='#99FF99'>22%</FONT> 증가한다.<BR>백어택 및 헤드어택 공격 적중 시 치명타 피해 증가 수치가 <FONT COLOR='#99FF99'>65%</FONT>로 적용된다.</font></font>"
+                    }
+                },
+                "topStr": "<font size='14'><font color='#91fe02'>2 세트 효과<BR>[<font size='14'><font color='#aaaaaa'>Lv.1 / Lv.2 / <FONT COLOR='#FFD200'>Lv.3</FONT></font></font>]</font></font>"
+            },
+            "Element_001": {
+                "contentStr": {
+                    "Element_000": {
+                        "bPoint": true,
+                        "contentStr": "<font size='12'><font color='#ffffff'>치명타 적중률이 <FONT COLOR='#99FF99'>22%</FONT> 증가한다.</font></font>"
+                    }
+                },
+                "topStr": "<font size='14'><font color='#91fe02'>4 세트 효과<BR>[<font size='14'><font color='#aaaaaa'>Lv.1 / Lv.2 / <FONT COLOR='#FFD200'>Lv.3</FONT></font></font>]</font></font>"
+            },
+            "Element_002": {
+                "contentStr": {
+                    "Element_000": {
+                        "bPoint": true,
+                        "contentStr": "<font size='12'><font color='#ffffff'>적에게 주는 피해가 <FONT COLOR='#99ff99'>9%</FONT> 증가한다.<BR>백어택 및 헤드어택 공격 적중 시 적에게 주는 피해 수치가 <FONT COLOR='#99ff99'>26%</FONT>로 적용된다.</font></font>"
+                    }
+                },
+                "topStr": "<font size='14'><font color='#91fe02'>6 세트 효과<BR>[<font size='14'><font color='#aaaaaa'>Lv.1 / Lv.2 / <FONT COLOR='#FFD200'>Lv.3</FONT></font></font>]</font></font>"
+            }
+        }
+    },
+    "Element_013": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>분해불가</FONT></FONT>"
+    },
+    "Element_014": {
+        "type": "SingleTextBox",
+        "value": "<Font color='#5FD3F1'>[세트 업그레이드] 대도시 - 세트 장비 관리</font>"
+    },
+    "Element_015": {
+        "type": "ShowMeTheMoney",
+        "value": "<FONT SIZE='12'><FONT COLOR='#FFFFFF'>내구도 <FONT COLOR='#FFFFFF'>22 / 59</FONT></FONT></FONT>|"
+    }
+}

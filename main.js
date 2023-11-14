@@ -352,7 +352,7 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
                 qualityValueAvg += itemQualityValue;
                 itemLevelAvg += parseInt(itemLevel);
 
-                const checkInfo = 0;// 0 = 아무것도 없음, 1 = 엘릭서만, 2 = 초월까지
+                let checkInfo = 0;// 0 = 아무것도 없음, 1 = 엘릭서만, 2 = 초월까지
                 const keyToCheck14 = 'Element_014';
                 const keyToCheck15 = 'Element_015';
                 if (keyToCheck15 in equipmentTooltip) {
