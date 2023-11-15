@@ -28,9 +28,9 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
 
     switch (msgCmd) {
         case msgCmd = "/명령어":
-            replier.reply("안녕하세요. 애곰봇입니다."  + "\n"
+            replier.reply("안녕하세요. 애곰봇입니다." + "\n"
                 + "버전 : " + lostArkBotVersion + "\n"
-                + "아래는 현재 사용 가능한 명령어 입니다."  + "\n"
+                + "아래는 현재 사용 가능한 명령어 입니다." + "\n"
                 + "문의사항 및 건의, 버그 제보는 애기곰에게 문의해주세요." + "\n"
                 + "명령어 목록입니다." + "\n"
                 + "\n"
@@ -40,7 +40,7 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
                 + "/ㅂㅂㄱ 금액(정수)" + "\n"
                 + "\n"
                 + "/정보 캐릭터이름 >> (수리중....)"
-                );
+            );
             return;
         case msgCmd = "/테스트":
             if (chackUserNames()) {
@@ -311,8 +311,8 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
             itemLevelAvg /= 6;
             qualityValueAvg = qualityValueAvg.toFixed(2);
             itemLevelAvg = itemLevelAvg.toFixed(2);
-            
-            replyMsg = "장비 레벨(" + itemLevelAvg + ")" + "\n" 
+
+            replyMsg = "장비 레벨(" + itemLevelAvg + ")" + "\n"
                 + " 평균 품질(" + qualityValueAvg + ")" + "\n"
                 + replyMsg;
 
@@ -336,7 +336,7 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
                 let itemLevel = itemLevelLongData.match(itemLovelMatchData)[1];
                 let itemName = parsedData[i]["Name"];
                 let itemGrade = parsedData[i]["Grade"];
-                
+
 
 
                 let itemInfo = "[" + itemGrade + "] "
@@ -352,38 +352,53 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
                 qualityValueAvg += itemQualityValue;
                 itemLevelAvg += parseInt(itemLevel);
 
-                let checkInfo = 0;// 0 = 아무것도 없음, 1 = 엘릭서만, 2 = 초월까지
-                const keyToCheck14 = 'Element_014';
-                const keyToCheck15 = 'Element_015';
-                if (keyToCheck15 in equipmentTooltip) {
-                    checkInfo = 2;
-                } else if (keyToCheck14 in equipmentTooltip) {
-                    checkInfo = 1;
-                } else {
-                    checkInfo = 0;
-                }
-                let transcendenceData, elixirData01, elixirData02;
-                switch (checkInfo) {
-                    case 2:
-                        transcendenceData = equipmentTooltip["Element_008"]["value"]["Element_000"]["topStr"];
-                        elixirData01 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_000"]["contentStr"];
-                        elixirData02 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_001"]["contentStr"];
-                        replyMsg = replyMsg
-                        + transcendenceData + "\n"
-                        + elixirData01 + "\n"
-                        + elixirData02 + "\n"
+
+                //get TRANSCENDENCE and ELIXIR
+                //first check if type of Element_008 is IndentStringGroup
+                // 1. HTML 태그 제거
+                const deleteTag001 = /<[^>]*>/g;
+                // 2. "Lv.숫자" 부분까지의 텍스트 추출
+                const deleteTag002 = /^(.*?Lv\.\d+)/;
+
+
+                if (equipmentTooltip["Element_008"]["type"] == "IndentStringGroup") {
+                    //check the phrase 'elixer' or 'transcendence' include in equipmentTooltip["Element_008"]["Value"]["Element_000"]["topStr"]
+                    console.log("get TRANSCENDENCE and ELIXIR");
+                    if (equipmentTooltip["Element_008"]["Value"]["Element_000"]["topStr"].includes("엘릭서")) {
+                        console.log("get ELIXIR 008");
+                        //if include, get the topStr of Element_008
+                        let elixirOption001 = equipmentTooltip["Element_008"]["value"]["Element_000"]["contentStr"]["Element_000"]["contentStr"].replace(deleteTag001, "").replace(deleteTag002, "");
+                        let elixirOption002 = equipmentTooltip["Element_008"]["value"]["Element_000"]["contentStr"]["Element_001"]["contentStr"].replace(deleteTag001, "").replace(deleteTag002, "");
+                    }
+                    // check null
+                    if (elixirOption002 == null) {
+                        elixirOption002 = "";
+                    }
+                    replyMsg = replyMsg
+                        + elixirOption001 + elixirOption002 + "\n"
                         ;
-                        break;
-                    case 1:
-                        elixirData01 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_000"]["contentStr"];
-                        elixirData02 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_001"]["contentStr"];
+                } else if (equipmentTooltip["Element_008"]["Value"]["Element_000"]["topStr"].includes("초월")) {
+                    console.log("get TRANSCENDENCE 008");
+                    let transcendenceName = equipmentTooltip["Element_008"]["Value"]["Element_000"]["topStr"].replace(deleteTag001, "");
+                    if (transcendenceName == null) {
+                        transcendenceName = "";
+                    }
+
+                    if (equipmentTooltip["Element_009"]["type"] == "IndentStringGroup") {
+                        console.log("get ELIXIR 009");
+                        let elixirOption001 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_000"]["contentStr"].replace(deleteTag001, "").replace(deleteTag002, "");
+                        let elixirOption002 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_001"]["contentStr"].replace(deleteTag001, "").replace(deleteTag002, "");
+                        // check null
+                        if (elixirOption002 == null) {
+                            elixirOption002 = "";
+                        }
                         replyMsg = replyMsg
-                        + elixirData01 + "\n"
-                        + elixirData02 + "\n"
+                            + elixirOption001 + elixirOption002 + "\n"
+                            ;
+                    }
+                    replyMsg = replyMsg
+                        + transcendenceName + "\n"
                         ;
-                        break;
-                    default:
-                        break;
                 }
             }
 
@@ -392,7 +407,7 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
             qualityValueAvg = qualityValueAvg.toFixed(2);
             itemLevelAvg = itemLevelAvg.toFixed(2);
 
-            replyMsg = "장비 레벨(" + itemLevelAvg + ")" + "\n" 
+            replyMsg = "장비 레벨(" + itemLevelAvg + ")" + "\n"
                 + " 평균 품질(" + qualityValueAvg + ")" + "\n"
                 + replyMsg;
 
@@ -536,17 +551,17 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
         if (msgParam == null || msgParam == "") {
             replier.reply("골드를 입력해주세요.");
             return;
-        } else if (isNaN(mainGold)){
+        } else if (isNaN(mainGold)) {
             replier.reply("숫자를 입력해주세요.");
             return;
         } else if (!(Number.isInteger(Number(mainGold)))) {
             replier.reply("정수를 입력해주세요.");
             return;
         } else {
-        const fourDistribute = Math.floor((mainGold * 0.95 * 3)/4);
-        const eightDistribute = Math.floor((mainGold * 0.95 * 7)/8);
-        replier.reply("4인 : " + fourDistribute + "\n"
-            + "8인 : " + eightDistribute);
+            const fourDistribute = Math.floor((mainGold * 0.95 * 3) / 4);
+            const eightDistribute = Math.floor((mainGold * 0.95 * 7) / 8);
+            replier.reply("4인 : " + fourDistribute + "\n"
+                + "8인 : " + eightDistribute);
         }
     }
 

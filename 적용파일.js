@@ -295,8 +295,8 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
             itemLevelAvg /= 6;
             qualityValueAvg = qualityValueAvg.toFixed(2);
             itemLevelAvg = itemLevelAvg.toFixed(2);
-            
-            replyMsg = "장비 레벨(" + itemLevelAvg + ")" + "\n" 
+
+            replyMsg = "장비 레벨(" + itemLevelAvg + ")" + "\n"
                 + " 평균 품질(" + qualityValueAvg + ")" + "\n"
                 + replyMsg;
 
@@ -320,7 +320,9 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
                 let itemLevel = itemLevelLongData.match(itemLovelMatchData)[1];
                 let itemName = parsedData[i]["Name"];
                 let itemGrade = parsedData[i]["Grade"];
-            
+
+
+
                 let itemInfo = "[" + itemGrade + "] "
                     + "품질 " + itemQualityValue + " "
                     + "[Lv." + itemLevel + "]"
@@ -334,55 +336,46 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
                 qualityValueAvg += itemQualityValue;
                 itemLevelAvg += parseInt(itemLevel);
 
-                let checkInfo = 0;
-                const keyToCheck14 = 'Element_015';
-                const keyToCheck15 = 'Element_016';
 
-                if (keyToCheck15 in equipmentTooltip) {
-                    checkInfo = 2;
-                    replier.reply("checkInfo : " + checkInfo);
-                } else if (keyToCheck14 in equipmentTooltip) {
-                    checkInfo = 1;
-                    replier.reply("checkInfo : " + checkInfo);
-                } else {
-                    checkInfo = 0;
-                    replier.reply("checkInfo : " + checkInfo);
-                }
+                
+                const deleteTag001 = /<[^>]*>/g;
+                const deleteTag002 = /^(.*?Lv\.\d+)/;
 
-                let transcendenceData, elixirData01, elixirData02;
-                // const regex01 = /[^\[]*\bLv\.\d+/;
-                const regex01 = /[^[\]]*\bLv\.\d+/;
 
-                switch (checkInfo) {
-                    case 2:
-                        transcendenceData = equipmentTooltip["Element_008"]["value"]["Element_000"]["topStr"];
-                        elixirData01 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_000"]["contentStr"];
-                        elixirData02 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_001"]["contentStr"];
-
-                        elixirData01 = elixirData01.match(regex01);
-                        elixirData01 ? elixirData01[0].trim() : '';
-                        elixirData02 = elixirData02.match(regex01);
-                        elixirData02 ? elixirData02[0].trim() : '';
-
-                        replyMsg = replyMsg
-                        + '[' + elixirData01 + ']' + '[' + elixirData02 + ']' + "\n"
-                        + transcendenceData + "\n"
+                if (equipmentTooltip["Element_008"]["type"] == "IndentStringGroup") {
+                    console.log("get TRANSCENDENCE and ELIXIR");
+                    if (equipmentTooltip["Element_008"]["Value"]["Element_000"]["topStr"].includes("엘릭서")) {
+                        console.log("get ELIXIR 008");
+                        let elixirOption001 = equipmentTooltip["Element_008"]["value"]["Element_000"]["contentStr"]["Element_000"]["contentStr"].replace(deleteTag001, "").replace(deleteTag002, "");
+                        let elixirOption002 = equipmentTooltip["Element_008"]["value"]["Element_000"]["contentStr"]["Element_001"]["contentStr"].replace(deleteTag001, "").replace(deleteTag002, "");
+                    }
+                    if (elixirOption002 == null) {
+                        elixirOption002 = "";
+                    }
+                    replyMsg = replyMsg
+                        + elixirOption001 + elixirOption002 + "\n"
                         ;
-                        break;
-                    case 1:
-                        elixirData01 = equipmentTooltip["Element_008"]["value"]["Element_000"]["contentStr"]["Element_000"]["contentStr"];
-                        elixirData02 = equipmentTooltip["Element_008"]["value"]["Element_000"]["contentStr"]["Element_001"]["contentStr"];
-                        elixirData01 = elixirData01.match(regex01);
-                        elixirData01 ? elixirData01[0].trim() : '';
-                        elixirData02 = elixirData02.match(regex01);
-                        elixirData02 ? elixirData02[0].trim() : '';
+                } else if (equipmentTooltip["Element_008"]["Value"]["Element_000"]["topStr"].includes("초월")) {
+                    console.log("get TRANSCENDENCE 008");
+                    let transcendenceName = equipmentTooltip["Element_008"]["Value"]["Element_000"]["topStr"].replace(deleteTag001, "");
+                    if (transcendenceName == null) {
+                        transcendenceName = "";
+                    }
 
+                    if (equipmentTooltip["Element_009"]["type"] == "IndentStringGroup") {
+                        console.log("get ELIXIR 009");
+                        let elixirOption001 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_000"]["contentStr"].replace(deleteTag001, "").replace(deleteTag002, "");
+                        let elixirOption002 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_001"]["contentStr"].replace(deleteTag001, "").replace(deleteTag002, "");
+                        if (elixirOption002 == null) {
+                            elixirOption002 = "";
+                        }
                         replyMsg = replyMsg
-                        + '[' + elixirData01 + ']' + '[' + elixirData02 + ']' + "\n"
+                            + elixirOption001 + elixirOption002 + "\n"
+                            ;
+                    }
+                    replyMsg = replyMsg
+                        + transcendenceName + "\n"
                         ;
-                        break;
-                    default:
-                        break;
                 }
             }
 
@@ -391,7 +384,7 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
             qualityValueAvg = qualityValueAvg.toFixed(2);
             itemLevelAvg = itemLevelAvg.toFixed(2);
 
-            replyMsg = "장비 레벨(" + itemLevelAvg + ")" + "\n" 
+            replyMsg = "장비 레벨(" + itemLevelAvg + ")" + "\n"
                 + " 평균 품질(" + qualityValueAvg + ")" + "\n"
                 + replyMsg;
 

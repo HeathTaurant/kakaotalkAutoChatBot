@@ -15,7 +15,7 @@
     <p id="demo"></p>
     <button onclick="testFunction02()">test02</button>
     <p id="demo"></p>
-    
+
 
 </body>
 <script>
@@ -23,7 +23,7 @@
     let sampleJsonData02 = null;
     async function fetchData() {
         try {
-            const response = await fetch('/jsonDataFile/재가공Json파일/상의_tooltip.json');
+            const response = await fetch('/jsonDataFile/최신재가공Json/애기곰은애교쟁이_장비_장갑_tooltip.json');
             if (!response.ok) {
                 throw new Error('Network response was not ok ' + response.statusText);
             }
@@ -100,7 +100,7 @@
 
     function testFunction01() {
 
-         
+
         sampleJsonData02[ArmoryProfile][Title] //칭호
         sampleJsonData02[ArmoryProfile][CharacterName] //캐릭이름
         sampleJsonData02[ArmoryProfile][CharacterClassName] //직업
@@ -113,18 +113,18 @@
         sampleJsonData02[ArmoryProfile][ServerName] //서버명
         sampleJsonData02[ArmoryProfile][Stats][i][Type] //전투특성 치명, 특화, 제압, 신속, 인내, 숙련, 최대생명력, 공격력
         sampleJsonData02[ArmoryProfile][Stats][i][Value] //전투특성 수치
-        
+
         sampleJsonData02[ArmoryProfile][PvpGradeName] //PVPRank
-        
+
         sampleJsonData02[Collectibles][i][Type] // 수집물타입 모코코 씨앗, 섬의 마음, 위대한 미술품, 거인의 심장, 이그네아의 징표, 항해 모험물, 세계수의 잎, 오르페우스의 별, 기억의 오르골
         sampleJsonData02[Collectibles][i][Point] // 수집물 획득
         sampleJsonData02[Collectibles][i][MaxPoint] // 수집물 최대치
         sampleJsonData02[ArmoryCard][Effects][i][Items][i][Name] //카드 세트효과 길이의 마지막꺼 이름
         const cardEffectLength = sampleJsonData02[ArmoryCard][Effects].length;
-        for(let i = 0; i < cardSetEffectLength; i++){
+        for (let i = 0; i < cardSetEffectLength; i++) {
             const cardSetLength = sampleJsonData02[ArmoryCard][Effects][i][Items].length;
             let cardSetEffectName = sampleJsonData02[ArmoryCard][Effects][i][Items][cardSetLength - 1][Name];
-            
+
         }
 
 
@@ -134,7 +134,30 @@
     }
 
 
-
+    // function saveFun {
+    //     switch (checkInfo) {
+    //         case 2:
+    //             transcendenceData = equipmentTooltip["Element_008"]["value"]["Element_000"]["topStr"];
+    //             elixirData01 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_000"]["contentStr"];
+    //             elixirData02 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_001"]["contentStr"];
+    //             replyMsg = replyMsg
+    //                 + transcendenceData + "\n"
+    //                 + elixirData01 + "\n"
+    //                 + elixirData02 + "\n"
+    //                 ;
+    //             break;
+    //         case 1:
+    //             elixirData01 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_000"]["contentStr"];
+    //             elixirData02 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_001"]["contentStr"];
+    //             replyMsg = replyMsg
+    //                 + elixirData01 + "\n"
+    //                 + elixirData02 + "\n"
+    //                 ;
+    //             break;
+    //         default:
+    //             break;
+    //     }
+    // }
 
 </script>
 
