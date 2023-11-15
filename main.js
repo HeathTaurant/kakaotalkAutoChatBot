@@ -363,9 +363,7 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
 
                 if (equipmentTooltip["Element_008"]["type"] == "IndentStringGroup") {
                     //check the phrase 'elixer' or 'transcendence' include in equipmentTooltip["Element_008"]["Value"]["Element_000"]["topStr"]
-                    console.log("get TRANSCENDENCE and ELIXIR");
                     if (equipmentTooltip["Element_008"]["Value"]["Element_000"]["topStr"].includes("엘릭서")) {
-                        console.log("get ELIXIR 008");
                         //if include, get the topStr of Element_008
                         let elixirOption001 = equipmentTooltip["Element_008"]["value"]["Element_000"]["contentStr"]["Element_000"]["contentStr"].replace(deleteTag001, "").replace(deleteTag002, "");
                         let elixirOption002 = equipmentTooltip["Element_008"]["value"]["Element_000"]["contentStr"]["Element_001"]["contentStr"].replace(deleteTag001, "").replace(deleteTag002, "");
@@ -378,14 +376,12 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
                         + elixirOption001 + elixirOption002 + "\n"
                         ;
                 } else if (equipmentTooltip["Element_008"]["Value"]["Element_000"]["topStr"].includes("초월")) {
-                    console.log("get TRANSCENDENCE 008");
                     let transcendenceName = equipmentTooltip["Element_008"]["Value"]["Element_000"]["topStr"].replace(deleteTag001, "");
                     if (transcendenceName == null) {
                         transcendenceName = "";
                     }
 
                     if (equipmentTooltip["Element_009"]["type"] == "IndentStringGroup") {
-                        console.log("get ELIXIR 009");
                         let elixirOption001 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_000"]["contentStr"].replace(deleteTag001, "").replace(deleteTag002, "");
                         let elixirOption002 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_001"]["contentStr"].replace(deleteTag001, "").replace(deleteTag002, "");
                         // check null

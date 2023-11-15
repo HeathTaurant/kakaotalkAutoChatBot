@@ -158,7 +158,23 @@
     //             break;
     //     }
     // }
+function testFunction0001() {
+    var htmlString = "<FONT color='#FFD200'>[투구]</FONT> 선각자 (질서) <FONT color='#FFD200'>Lv.4</FONT><br>자신의 공격력에 기반한 파티 공격력 버프 효과 +3%<BR>최대 생명력 +3750<BR>'선각자 (혼돈)' 효과와 함께 활성화 시, '선각자' 연성 추가 효과 발동";
 
+// HTML 태그를 제거합니다.
+var textWithoutTags = htmlString.replace(/<[^>]*>/g, '');
+
+// 정규 표현식을 사용하여 "Lv.숫자" 패턴을 매치합니다.
+var regex = /^(.*?Lv\.\d+)/;
+var match = textWithoutTags.match(regex);
+
+// 매치 결과를 저장합니다.
+var result = match ? match[0] : '';
+
+// 결과를 콘솔에 출력합니다.
+console.log(result);
+}
+testFunction0001();
 </script>
 
 </html>

@@ -3,7 +3,7 @@ const scriptName = "LostArkBot";
 function response(room, msg, sender, isGroupChat, replier, imageDB, packageName) {
     const roomName = room;
     const chackGroupChat = isGroupChat;
-    const lostArkBotVersion = "V_0.23.10.31.14.00";
+    const lostArkBotVersion = "V_0.23.11.15";
     const myApiKey = "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IktYMk40TkRDSTJ5NTA5NWpjTWk5TllqY2lyZyIsImtpZCI6IktYMk40TkRDSTJ5NTA5NWpjTWk5TllqY2lyZyJ9.eyJpc3MiOiJodHRwczovL2x1ZHkuZ2FtZS5vbnN0b3ZlLmNvbSIsImF1ZCI6Imh0dHBzOi8vbHVkeS5nYW1lLm9uc3RvdmUuY29tL3Jlc291cmNlcyIsImNsaWVudF9pZCI6IjEwMDAwMDAwMDAxNzk1MDEifQ.RlC6BWCOSeH2Zi4g_gOw_6TF4f-kITl6nHOyOrG0U8pSypkPvaWi3danG6IPd2C7qLNBErLteG8ujaLMQFaQ5L5_8iDlUoaZqIBGRSWAJ-A7-WD3p7Jx6pQ19VpxBKEXE8iHrKLISHUL5hz2QPCsw4kM6k7NC5-Gscm5UYcrH-po801BdZYZVQ5pset2AWjr5LPy81KmvWLhJm2vI0B40U3389WZFrNwcgrNtA-vLvfTBdY8QW1BxONxjFOA-bHNPm_VUpkXSS0ko3abasTyxnVfyXnl0A93U-ZDdcOXjnUszrizrgcPbsP3D2EZl76AwmPrL175BRjJ_SQeie-ylA";
 
     const msgInfo = msg;
@@ -269,6 +269,7 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
             let qualityValueAvg = 0;
             let itemLevelAvg = 0;
             let replyMsg = "";
+
             for (let i = 0; i < 6; i++) {
                 let equipmentTooltip = JSON.parse(parsedData[i]["Tooltip"]);
                 let itemQualityValue = equipmentTooltip["Element_001"]["value"]["qualityValue"];
@@ -277,6 +278,8 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
                 let itemLevel = itemLevelLongData.match(itemLovelMatchData)[1];
                 let itemName = parsedData[i]["Name"];
                 let itemGrade = parsedData[i]["Grade"];
+
+
 
                 let itemInfo = "[" + itemGrade + "] "
                     + "품질 " + itemQualityValue + " "
@@ -290,7 +293,60 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
 
                 qualityValueAvg += itemQualityValue;
                 itemLevelAvg += parseInt(itemLevel);
+
+                if (equipmentTooltip["Element_008"]["type"] == "IndentStringGroup") {
+                    const deleteTag002 = /<[^>]*>/g;
+                    const deleteTag001 = /<[^>]+>|\[.*?\]/g;
+                    const matchTag001 = /^(.*?Lv\.\d+)/;
+                    let checktopStr008 = equipmentTooltip["Element_008"]["value"]["Element_000"]["topStr"];
+                    checktopStr008 = checktopStr008 === undefined ? '' : checktopStr008;
+
+                    if (checktopStr008.includes("엘릭서")) {
+                        let elixirOption001 = equipmentTooltip["Element_008"]["value"]["Element_000"]["contentStr"]["Element_000"]["contentStr"];
+                        elixirOption001 = elixirOption001.replace(deleteTag001, "");
+                        elixirOption001 = elixirOption001.match(matchTag001)[0];
+
+                        let elixirOption002 = equipmentTooltip["Element_008"]["value"]["Element_000"]["contentStr"]["Element_001"]["contentStr"];
+                        elixirOption002 = elixirOption002.replace(deleteTag001, "");
+                        elixirOption002 = elixirOption002.match(matchTag001)[0];
+
+                        if (elixirOption002 == null) {
+                            elixirOption002 = "";
+                        }
+                        replyMsg = replyMsg
+                            + elixirOption001 + elixirOption002 + "\n"
+                            ;
+
+                    } else if (checktopStr008.includes("초월")) {
+                        let transcendenceName = equipmentTooltip["Element_008"]["value"]["Element_000"]["topStr"];
+                        transcendenceName = transcendenceName.replace(deleteTag002, "");
+                        if (transcendenceName == null) {
+                            transcendenceName = "";
+                        }
+
+                        if (equipmentTooltip["Element_009"]["type"] == "IndentStringGroup") {
+                            let elixirOption001 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_000"]["contentStr"];
+                            elixirOption001 = elixirOption001.replace(deleteTag001, "");
+                            elixirOption001 = elixirOption001.match(matchTag001)[0];
+                            
+                            let elixirOption002 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_001"]["contentStr"];
+                            elixirOption002 = elixirOption002.replace(deleteTag001, "");
+                            elixirOption002 = elixirOption002.match(matchTag001)[0];
+                            
+                            if (elixirOption002 == null) {
+                                elixirOption002 = "";
+                            }
+                            replyMsg = replyMsg
+                                + elixirOption001 + elixirOption002 + "\n"
+                                ;
+                        }
+                        replyMsg = replyMsg
+                            + transcendenceName + "\n"
+                            ;
+                    }
+                }
             }
+
             qualityValueAvg /= 6;
             itemLevelAvg /= 6;
             qualityValueAvg = qualityValueAvg.toFixed(2);
@@ -336,46 +392,56 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
                 qualityValueAvg += itemQualityValue;
                 itemLevelAvg += parseInt(itemLevel);
 
-
-                
-                const deleteTag001 = /<[^>]*>/g;
-                const deleteTag002 = /^(.*?Lv\.\d+)/;
-
-
                 if (equipmentTooltip["Element_008"]["type"] == "IndentStringGroup") {
-                    console.log("get TRANSCENDENCE and ELIXIR");
-                    if (equipmentTooltip["Element_008"]["Value"]["Element_000"]["topStr"].includes("엘릭서")) {
-                        console.log("get ELIXIR 008");
-                        let elixirOption001 = equipmentTooltip["Element_008"]["value"]["Element_000"]["contentStr"]["Element_000"]["contentStr"].replace(deleteTag001, "").replace(deleteTag002, "");
-                        let elixirOption002 = equipmentTooltip["Element_008"]["value"]["Element_000"]["contentStr"]["Element_001"]["contentStr"].replace(deleteTag001, "").replace(deleteTag002, "");
-                    }
-                    if (elixirOption002 == null) {
-                        elixirOption002 = "";
-                    }
-                    replyMsg = replyMsg
-                        + elixirOption001 + elixirOption002 + "\n"
-                        ;
-                } else if (equipmentTooltip["Element_008"]["Value"]["Element_000"]["topStr"].includes("초월")) {
-                    console.log("get TRANSCENDENCE 008");
-                    let transcendenceName = equipmentTooltip["Element_008"]["Value"]["Element_000"]["topStr"].replace(deleteTag001, "");
-                    if (transcendenceName == null) {
-                        transcendenceName = "";
-                    }
+                    const deleteTag002 = /<[^>]*>/g;
+                    const deleteTag001 = /<[^>]+>|\[.*?\]/g;
+                    const matchTag001 = /^(.*?Lv\.\d+)/;
+                    let checktopStr008 = equipmentTooltip["Element_008"]["value"]["Element_000"]["topStr"];
+                    checktopStr008 = checktopStr008 === undefined ? '' : checktopStr008;
 
-                    if (equipmentTooltip["Element_009"]["type"] == "IndentStringGroup") {
-                        console.log("get ELIXIR 009");
-                        let elixirOption001 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_000"]["contentStr"].replace(deleteTag001, "").replace(deleteTag002, "");
-                        let elixirOption002 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_001"]["contentStr"].replace(deleteTag001, "").replace(deleteTag002, "");
+                    if (checktopStr008.includes("엘릭서")) {
+                        let elixirOption001 = equipmentTooltip["Element_008"]["value"]["Element_000"]["contentStr"]["Element_000"]["contentStr"];
+                        elixirOption001 = elixirOption001.replace(deleteTag001, "");
+                        elixirOption001 = elixirOption001.match(matchTag001)[0];
+
+                        let elixirOption002 = equipmentTooltip["Element_008"]["value"]["Element_000"]["contentStr"]["Element_001"]["contentStr"];
+                        elixirOption002 = elixirOption002.replace(deleteTag001, "");
+                        elixirOption002 = elixirOption002.match(matchTag001)[0];
+
                         if (elixirOption002 == null) {
                             elixirOption002 = "";
                         }
                         replyMsg = replyMsg
                             + elixirOption001 + elixirOption002 + "\n"
                             ;
+
+                    } else if (checktopStr008.includes("초월")) {
+                        let transcendenceName = equipmentTooltip["Element_008"]["value"]["Element_000"]["topStr"];
+                        transcendenceName = transcendenceName.replace(deleteTag001, "");
+                        if (transcendenceName == null) {
+                            transcendenceName = "";
+                        }
+
+                        if (equipmentTooltip["Element_009"]["type"] == "IndentStringGroup") {
+                            let elixirOption001 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_000"]["contentStr"];
+                            elixirOption001 = elixirOption001.replace(deleteTag001, "");
+                            elixirOption001 = elixirOption001.match(matchTag001)[0];
+                            
+                            let elixirOption002 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_001"]["contentStr"];
+                            elixirOption002 = elixirOption002.replace(deleteTag001, "");
+                            elixirOption002 = elixirOption002.match(matchTag001)[0];
+                            
+                            if (elixirOption002 == null) {
+                                elixirOption002 = "";
+                            }
+                            replyMsg = replyMsg
+                                + elixirOption001 + elixirOption002 + "\n"
+                                ;
+                        }
+                        replyMsg = replyMsg
+                            + transcendenceName + "\n"
+                            ;
                     }
-                    replyMsg = replyMsg
-                        + transcendenceName + "\n"
-                        ;
                 }
             }
 
