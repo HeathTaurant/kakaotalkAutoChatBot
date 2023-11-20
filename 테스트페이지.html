@@ -15,12 +15,16 @@
     <p id="demo"></p>
     <button onclick="testFunction02()">test02</button>
     <p id="demo"></p>
+    <button onclick="testCharacterInfo()">CharacterInfo</button>
+    <p id="demo"></p>
 
 
 </body>
 <script>
     let sampleJsonData = null;
     let sampleJsonData02 = null;
+    let sampleJsonData03 = null;
+
     async function fetchData() {
         try {
             const response = await fetch('/jsonDataFile/최신재가공Json/애기곰은애교쟁이_장비_장갑_tooltip.json');
@@ -29,17 +33,29 @@
             }
             sampleJsonData = await response.json();
             console.log('Data loaded', sampleJsonData);
+
             const response02 = await fetch('/jsonDataFile/모닥불왔어요_캐릭터정보.json');
             if (!response02.ok) {
                 throw new Error('Network response was not ok ' + response02.statusText);
             }
             sampleJsonData02 = await response02.json();
             // 데이터 로딩이 완료되었으니, 다른 함수 호출
+            console.log('Data loaded', sampleJsonData02);
+
+            const response03 = await fetch('/jsonDataFile/검은곰은망치를쓰지_캐릭터정보.json');
+            if (!response03.ok) {
+                throw new Error('Network response was not ok ' + response02.statusText);
+            }
+            sampleJsonData03 = await response03.json();
+            // 데이터 로딩이 완료되었으니, 다른 함수 호출
+            console.log('Data loaded', sampleJsonData03);
+
             onDataLoaded();
         } catch (error) {
             console.error('There has been a problem with your fetch operation:', error);
         }
     }
+
     fetchData();
 
     function onDataLoaded() {
@@ -51,6 +67,9 @@
     //         .then(response => response.json())
     //         .then(data => jsonFileData console.log(data))
     //         .catch(error => console.error('Error:', error));
+
+
+
 
     function myFunction() {
         let checkInfo = 0;// 0 = 아무것도 없음, 1 = 엘릭서만, 2 = 초월까지
@@ -97,10 +116,170 @@
         // }
 
     }
+    function testCharacterInfo() {
+        const characterInfo = sampleJsonData03;
+        let characterInfoMsg = "";
+
+
+        if (characterInfo["ArmoryProfile"]["Title"]) {
+            characterInfoMsg = characterInfo["ArmoryProfile"]["Title"] + " " + characterInfo["ArmoryProfile"]["CharacterName"] + "\n"
+        } else {
+            characterInfoMsg = characterInfo["ArmoryProfile"]["CharacterName"] + "\n"
+        };
+        characterInfoMsg = characterInfoMsg
+            + characterInfo["ArmoryProfile"]["CharacterClassName"] + "\n"
+            ;
+
+
+        characterInfoMsg = characterInfoMsg
+            + characterInfo["ArmoryProfile"]["GuildMemberGrade"] + " / " + characterInfo["ArmoryProfile"]["GuildName"] + " / " + characterInfo["ArmoryProfile"]["ServerName"] + "\n"
+            + "Lv " + characterInfo["ArmoryProfile"]["ItemAvgLevel"].replace(/,/g, '') + " / " + characterInfo["ArmoryProfile"]["CharacterLevel"] + " / " + characterInfo["ArmoryProfile"]["ExpeditionLevel"] + " (원정대)" + "\n"
+            + "스킬포인트 " + characterInfo["ArmoryProfile"]["UsingSkillPoint"] + " / " + characterInfo["ArmoryProfile"]["TotalSkillPoint"] + "\n"
+            ;
+
+
+        if (characterInfo["ArmoryProfile"]["PvpGradeName"]) {
+            characterInfoMsg = characterInfoMsg
+                + "PvP " + characterInfo["ArmoryProfile"]["PvpGradeName"] + "\n"
+                ;
+        } else {
+            characterInfoMsg = characterInfoMsg
+                + "PvP " + "Unranked" + "\n"
+                ;
+        }
+
+        if (characterInfo["ArmoryCard"]) {
+            const cardSetEffectLength = characterInfo["ArmoryCard"]["Effects"].length;
+            if (cardSetEffectLength > 0) {
+                for (let i = 0; i < cardSetEffectLength; i++) {
+                    const cardSetEffectItemLength = characterInfo["ArmoryCard"]["Effects"][i]["Items"].length;
+                    if (cardSetEffectItemLength > 0) {
+                        characterInfoMsg = characterInfoMsg
+                            + characterInfo["ArmoryCard"]["Effects"][i]["Items"][cardSetEffectItemLength - 1]["Name"] + "\n"
+                            ;
+                    }
+                }
+            }
+        }
+
+
+        if (characterInfo["ArmoryProfile"]["Stats"]) {
+            const stats = characterInfo["ArmoryProfile"]["Stats"];
+            let statsInfo = stats.map(stat => ({
+                type: stat["Type"],
+                value: parseInt(stat["Value"], 10) // 문자열을 숫자로 변환
+            }));
+
+            // value 기준으로 내림차순 정렬
+            statsInfo.sort((a, b) => b.value - a.value);
+
+            // 상위 2개 항목을 characterInfoMsg에 추가
+            for (let i = 0; i < Math.min(2, statsInfo.length); i++) {
+                characterInfoMsg += `${statsInfo[i].type} ${statsInfo[i].value.toLocaleString()} `;
+            }
+            characterInfoMsg += "\n";
+            //다음 3~5개 항보를 characterInfoMsg에 추가
+            for (let i = 2; i < Math.min(5, statsInfo.length); i++) {
+                characterInfoMsg += `${statsInfo[i].type} ${statsInfo[i].value} `;
+            }
+            characterInfoMsg += "\n";
+        }
+
+        function changeCollectiblesTypeName(collectiblesTypeName) {
+            switch (collectiblesTypeName) {
+                case "모코코 씨앗":
+                    return "모코코";
+                case "섬의 마음":
+                    return "섬마";
+                case "위대한 미술품":
+                    return "미술품";
+                case "거인의 심장":
+                    return "거심";
+                case "이그네아의 징표":
+                    return "이그네아";
+                case "항해 모험물":
+                    return "모험물";
+                case "세계수의 잎":
+                    return "세계수";
+                case "오르페우스의 별":
+                    return "오페별";
+                case "기억의 오르골":
+                    return "오르골";
+                default:
+                    return collectiblesTypeName;
+            }
+        }
+
+
+        const collectiblesLength = characterInfo["Collectibles"].length;
+        if (collectiblesLength > 0) {
+            const characterCollectibles = characterInfo["Collectibles"];
+            let characterCollectiblesInfo = characterCollectibles.map(characterCollectibles => ({
+                type: characterCollectibles["Type"],
+                point: parseInt(characterCollectibles["Point"], 10),
+                maxPoint: parseInt(characterCollectibles["MaxPoint"], 10)
+            }))
+            characterCollectiblesInfo = characterCollectiblesInfo.sort((a, b) => b.MaxPoint - a.MaxPoint);
+
+            for (let i = 0; i < collectiblesLength; i++) {
+                characterInfoMsg = characterInfoMsg
+                    + characterCollectiblesInfo[i].type
+                    + " " + characterCollectiblesInfo[i].point
+                    + "/" + characterCollectiblesInfo[i].maxPoint
+                    + " "
+                    ;
+
+                if (i = 3) {
+                    characterInfoMsg = characterInfoMsg + "\n";
+                }
+            }
+        }
+
+
+
+
+        console.log(characterInfoMsg);
+        console.log("=====================================");
+
+
+
+
+        function callStats() {
+            const statsLength = sampleJsonData03["ArmoryProfile"]["Stats"].length;
+            for (let i = 0; i < statsLength; i++) {
+                console.log(sampleJsonData03["ArmoryProfile"]["Stats"][i]["Type"] + " : "
+                    + sampleJsonData03["ArmoryProfile"]["Stats"][i]["Value"]);
+            }
+        }
+        callStats();
+
+        function callCollectibles() {
+            const collectiblesLength = sampleJsonData03["Collectibles"].length;
+            for (let i = 0; i < collectiblesLength; i++) {
+                console.log(sampleJsonData03["Collectibles"][i]["Type"] + " : "
+                    + sampleJsonData03["Collectibles"][i]["Point"] + " / "
+                    + sampleJsonData03["Collectibles"][i]["MaxPoint"]);
+            }
+        }
+        callCollectibles();
+
+        function callArmoryCard() {
+            const cardSetEffectLength = sampleJsonData03["ArmoryCard"]["Effects"].length;
+            const cardSetEffectItemLength = sampleJsonData03["ArmoryCard"]["Effects"][cardSetEffectLength - 1]["Items"].length;
+
+            const cardSetEffectItemName = sampleJsonData03["ArmoryCard"]["Effects"][cardSetEffectLength - 1]["Items"][cardSetEffectItemLength - 1]["Name"];
+            console.log(cardSetEffectItemName);
+        }
+        callArmoryCard();
+
+    }
+
+
+
+
+
 
     function testFunction01() {
-
-
         sampleJsonData02[ArmoryProfile][Title] //칭호
         sampleJsonData02[ArmoryProfile][CharacterName] //캐릭이름
         sampleJsonData02[ArmoryProfile][CharacterClassName] //직업
@@ -111,6 +290,7 @@
         sampleJsonData02[ArmoryProfile][UsingSkillPoint] //사용스포
         sampleJsonData02[ArmoryProfile][GuildName] //길드명
         sampleJsonData02[ArmoryProfile][ServerName] //서버명
+
         sampleJsonData02[ArmoryProfile][Stats][i][Type] //전투특성 치명, 특화, 제압, 신속, 인내, 숙련, 최대생명력, 공격력
         sampleJsonData02[ArmoryProfile][Stats][i][Value] //전투특성 수치
 
@@ -118,7 +298,8 @@
 
         sampleJsonData02[Collectibles][i][Type] // 수집물타입 모코코 씨앗, 섬의 마음, 위대한 미술품, 거인의 심장, 이그네아의 징표, 항해 모험물, 세계수의 잎, 오르페우스의 별, 기억의 오르골
         sampleJsonData02[Collectibles][i][Point] // 수집물 획득
-        sampleJsonData02[Collectibles][i][MaxPoint] // 수집물 최대치
+        sampleJsonData02[Collectibles][i][MaxPoint]
+        // 수집물 최대치
         sampleJsonData02[ArmoryCard][Effects][i][Items][i][Name] //카드 세트효과 길이의 마지막꺼 이름
         const cardEffectLength = sampleJsonData02[ArmoryCard][Effects].length;
         for (let i = 0; i < cardSetEffectLength; i++) {
@@ -158,23 +339,23 @@
     //             break;
     //     }
     // }
-function testFunction0001() {
-    var htmlString = "<FONT color='#FFD200'>[투구]</FONT> 선각자 (질서) <FONT color='#FFD200'>Lv.4</FONT><br>자신의 공격력에 기반한 파티 공격력 버프 효과 +3%<BR>최대 생명력 +3750<BR>'선각자 (혼돈)' 효과와 함께 활성화 시, '선각자' 연성 추가 효과 발동";
+    function testFunction0001() {
+        var htmlString = "<FONT color='#FFD200'>[투구]</FONT> 선각자 (질서) <FONT color='#FFD200'>Lv.4</FONT><br>자신의 공격력에 기반한 파티 공격력 버프 효과 +3%<BR>최대 생명력 +3750<BR>'선각자 (혼돈)' 효과와 함께 활성화 시, '선각자' 연성 추가 효과 발동";
 
-// HTML 태그를 제거합니다.
-var textWithoutTags = htmlString.replace(/<[^>]*>/g, '');
+        // HTML 태그를 제거합니다.
+        var textWithoutTags = htmlString.replace(/<[^>]*>/g, '');
 
-// 정규 표현식을 사용하여 "Lv.숫자" 패턴을 매치합니다.
-var regex = /^(.*?Lv\.\d+)/;
-var match = textWithoutTags.match(regex);
+        // 정규 표현식을 사용하여 "Lv.숫자" 패턴을 매치합니다.
+        var regex = /^(.*?Lv\.\d+)/;
+        var match = textWithoutTags.match(regex);
 
-// 매치 결과를 저장합니다.
-var result = match ? match[0] : '';
+        // 매치 결과를 저장합니다.
+        var result = match ? match[0] : '';
 
-// 결과를 콘솔에 출력합니다.
-console.log(result);
-}
-testFunction0001();
+        // 결과를 콘솔에 출력합니다.
+        console.log(result);
+    }
+    testFunction0001();
 </script>
 
 </html>
