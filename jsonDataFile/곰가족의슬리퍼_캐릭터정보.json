@@ -1,0 +1,3455 @@
+{
+  "ArmoryProfile": {
+    "CharacterImage": "https://img.lostark.co.kr/armory/0/8fecd6e475ed97ba758dc64359663c64075e8ab514f153d89d56b812ff4fa07d.png?v=20230728080158",
+    "ExpeditionLevel": 203,
+    "PvpGradeName": "19급",
+    "TownLevel": 70,
+    "TownName": "베어가든",
+    "Title": null,
+    "GuildMemberGrade": "일반 길드원",
+    "GuildName": "여흥4",
+    "UsingSkillPoint": 160,
+    "TotalSkillPoint": 177,
+    "Stats": [
+      {
+        "Type": "치명",
+        "Value": "120",
+        "Tooltip": [
+          "<textformat indent='-21' leftMargin='10'><font> </font> 치명타 적중률이 <font color='#99ff99'>7.86%</font> 증가합니다.</textformat>",
+          "<textformat indent='-21' leftMargin='10'><font> </font> 물약 및 원정대 레벨 보상 효과로 <font color='#99ff99'>24</font>만큼 영구적으로 증가되었습니다.</textformat>",
+          "<textformat indent='-21' leftMargin='10'><font> </font> 카드 도감 누적 효과가 반영된 값으로 전투정보실에서는 별도 수치를 표기하지 않습니다.</textformat>",
+          "<textformat indent='-21' leftMargin='10'><font> </font> 카드 도감 누적 효과가 반영된 값으로 전투정보실에서는 별도 수치를 표기하지 않습니다.</textformat>"
+        ]
+      },
+      {
+        "Type": "특화",
+        "Value": "108",
+        "Tooltip": [
+          "<textformat indent='-21' leftMargin='10'><font> </font> 급습 스킬 피해량이 <font color='#99ff99'>8.22%</font> 증가합니다.</textformat>",
+          "<textformat indent='-21' leftMargin='10'><font> </font> 타격 시 어둠 게이지 회복량이 <font color='#99ff99'>8.50%</font> 증가합니다.</textformat>",
+          "<textformat indent='-21' leftMargin='10'><font> </font> 각성 스킬의 피해량이 <font color='#99ff99'>10.82%</font> 증가합니다.</textformat>",
+          "<textformat indent='-21' leftMargin='10'><font> </font> 물약 및 원정대 레벨 보상 효과로 <font color='#99ff99'>24</font>만큼 영구적으로 증가되었습니다.</textformat>",
+          "<textformat indent='-21' leftMargin='10'><font> </font> 카드 도감 누적 효과가 반영된 값으로 전투정보실에서는 별도 수치를 표기하지 않습니다.</textformat>"
+        ]
+      },
+      {
+        "Type": "제압",
+        "Value": "66",
+        "Tooltip": [
+          "<textformat indent='-21' leftMargin='10'><font> </font> 피격이상 및 상태이상 대상에게 주는 피해량이 <font color='#99ff99'>7.42%</font> 증가합니다.</textformat>",
+          "<textformat indent='-21' leftMargin='10'><font> </font> 무력화 대상에게 주는 피해량이 <font color='#99ff99'></font> 증가합니다.</textformat>",
+          "<textformat indent='-21' leftMargin='10'><font> </font> 물약 및 원정대 레벨 보상 효과로 <font color='#99ff99'>28</font>만큼 영구적으로 증가되었습니다.</textformat>",
+          "<textformat indent='-21' leftMargin='10'><font> </font> 카드 도감 누적 효과가 반영된 값으로 전투정보실에서는 별도 수치를 표기하지 않습니다.</textformat>"
+        ]
+      },
+      {
+        "Type": "신속",
+        "Value": "173",
+        "Tooltip": [
+          "<textformat indent='-21' leftMargin='10'><font> </font> 공격 속도가 <font color='#99ff99'>5.44%</font> 증가합니다.</textformat>",
+          "<textformat indent='-21' leftMargin='10'><font> </font> 이동 속도가 <font color='#99ff99'>5.44%</font> 증가합니다.</textformat>",
+          "<textformat indent='-21' leftMargin='10'><font> </font> 스킬 재사용 대기시간이 <font color='#99ff99'>6.80%</font> 감소합니다.</textformat>",
+          "<textformat indent='-21' leftMargin='10'><font> </font> 물약 및 원정대 레벨 보상 효과로 <font color='#99ff99'>28</font>만큼 영구적으로 증가되었습니다.</textformat>",
+          "<textformat indent='-21' leftMargin='10'><font> </font> 카드 도감 누적 효과가 반영된 값으로 전투정보실에서는 별도 수치를 표기하지 않습니다.</textformat>"
+        ]
+      },
+      {
+        "Type": "인내",
+        "Value": "144",
+        "Tooltip": [
+          "<textformat indent='-21' leftMargin='10'><font> </font> 물리 방어력이 <font color='#99ff99'>21.57%</font> 증가합니다.</textformat>",
+          "<textformat indent='-21' leftMargin='10'><font> </font> 마법 방어력이 <font color='#99ff99'>21.57%</font> 증가합니다.</textformat>",
+          "<textformat indent='-21' leftMargin='10'><font> </font> 보호막 효과가 <font color='#99ff99'>6.74%</font> 증가합니다.</textformat>",
+          "<textformat indent='-21' leftMargin='10'><font> </font> 생명력 회복 효과가 <font color='#99ff99'>9.43%</font> 증가합니다.</textformat>",
+          "<textformat indent='-21' leftMargin='10'><font> </font> 물약 및 원정대 레벨 보상 효과로 <font color='#99ff99'>28</font>만큼 영구적으로 증가되었습니다.</textformat>",
+          "<textformat indent='-21' leftMargin='10'><font> </font> 카드 도감 누적 효과가 반영된 값으로 전투정보실에서는 별도 수치를 표기하지 않습니다.</textformat>"
+        ]
+      },
+      {
+        "Type": "숙련",
+        "Value": "239",
+        "Tooltip": [
+          "<textformat indent='-21' leftMargin='10'><font> </font> 상태이상 공격 지속시간이 <font color='#99ff99'>18.80%</font> 증가합니다.</textformat>",
+          "<textformat indent='-21' leftMargin='10'><font> </font> 상태이상 피해 지속시간이 <font color='#99ff99'>15.66%</font> 감소합니다.</textformat>",
+          "<textformat indent='-21' leftMargin='10'><font> </font> 무력화 피해량이 <font color='#99ff99'>12.53%</font> 증가합니다.</textformat>",
+          "<textformat indent='-21' leftMargin='10'><font> </font> 물약 및 원정대 레벨 보상 효과로 <font color='#99ff99'>24</font>만큼 영구적으로 증가되었습니다.</textformat>",
+          "<textformat indent='-21' leftMargin='10'><font> </font> 카드 도감 누적 효과가 반영된 값으로 전투정보실에서는 별도 수치를 표기하지 않습니다.</textformat>"
+        ]
+      },
+      {
+        "Type": "최대 생명력",
+        "Value": "4184",
+        "Tooltip": [
+          "<textformat indent='-21' leftMargin='10'><font> </font> 캐릭터의 최대 생명력을 나타냅니다.</textformat>",
+          "<textformat indent='-21' leftMargin='10'><textformat indent='-21' leftMargin='10'><font> </font> 체력으로 최대 생명력이 <font color='#99ff99'>4184</font> 증가되었습니다.</textformat>",
+          "<textformat indent='-21' leftMargin='10'><font> </font> 생명 활성력으로 최대 생명력이 <font color='#99ff99'>0.00%</font> 증가되었습니다.</textformat>"
+        ]
+      },
+      {
+        "Type": "공격력",
+        "Value": "208",
+        "Tooltip": [
+          "<textformat indent='-21' leftMargin='10'><font> </font> 적에게 주는 피해를 계산할 때 기준이 되는 값입니다.</textformat>",
+          "<textformat indent='-21' leftMargin='10'><font> </font> 힘, 민첩, 지능과 무기 공격력을 기반으로 증가한 기본 공격력은 <font color='#99ff99'>208</font> 입니다.</textformat>",
+          "<textformat indent='-21' leftMargin='10'><font> </font> 공격력 증감 효과로 공격력이 <font color='#99ff99'>0</font> 증가되었습니다.</textformat>"
+        ]
+      }
+    ],
+    "Tendencies": [
+      {
+        "Type": "지성",
+        "Point": 488,
+        "MaxPoint": 1000
+      },
+      {
+        "Type": "담력",
+        "Point": 434,
+        "MaxPoint": 1000
+      },
+      {
+        "Type": "매력",
+        "Point": 394,
+        "MaxPoint": 1000
+      },
+      {
+        "Type": "친절",
+        "Point": 417,
+        "MaxPoint": 1000
+      }
+    ],
+    "ServerName": "실리안",
+    "CharacterName": "곰가족의슬리퍼",
+    "CharacterLevel": 28,
+    "CharacterClassName": "리퍼",
+    "ItemAvgLevel": "139.17",
+    "ItemMaxLevel": "139.17"
+  },
+  "ArmoryEquipment": [
+    {
+      "Type": "무기",
+      "Name": "절규하는 마수의 대거",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/drp_item/drp_item_108.png",
+      "Grade": "희귀",
+      "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"<P ALIGN='CENTER'><FONT COLOR='#00B0FA'>절규하는 마수의 대거</FONT></P>\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"ItemTitle\",\r\n    \"value\": {\r\n      \"bEquip\": 0,\r\n      \"leftStr0\": \"<FONT SIZE='12'><FONT COLOR='#00B0FA'>희귀 대거</FONT></FONT>\",\r\n      \"leftStr2\": \"<FONT SIZE='14'>아이템 레벨 145 (티어 1)</FONT>\",\r\n      \"qualityValue\": -1,\r\n      \"rightStr0\": \"<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"advBookIcon\": 0,\r\n        \"battleItemTypeIcon\": 0,\r\n        \"cardIcon\": false,\r\n        \"friendship\": 0,\r\n        \"iconGrade\": 2,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/drp_item/drp_item_108.png\",\r\n        \"imagePath\": \"\",\r\n        \"islandIcon\": 0,\r\n        \"rtString\": \"\",\r\n        \"seal\": false,\r\n        \"temporary\": 0,\r\n        \"town\": 0,\r\n        \"trash\": 0\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT SIZE='12'><FONT COLOR='#808080'>장착 가능 레벨</FONT> 27</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'>리퍼 전용</FONT>\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'>캐릭터 귀속됨</FONT>\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<font color='#C24B46'>거래 불가</font>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>기본 효과</FONT>\",\r\n      \"Element_001\": \"무기 공격력 +149\"\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"ShowMeTheMoney\",\r\n    \"value\": \"<FONT SIZE='12'><FONT COLOR='#FFFFFF'>내구도 <FONT COLOR='#FFFFFF'>95 / 95</FONT></FONT></FONT>|\"\r\n  }\r\n}"
+    },
+    {
+      "Type": "투구",
+      "Name": "전투 용병단의 머리장식",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/dl_item/dl_item_26.png",
+      "Grade": "희귀",
+      "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"<P ALIGN='CENTER'><FONT COLOR='#00B0FA'>전투 용병단의 머리장식</FONT></P>\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"ItemTitle\",\r\n    \"value\": {\r\n      \"bEquip\": 0,\r\n      \"leftStr0\": \"<FONT SIZE='12'><FONT COLOR='#00B0FA'>희귀 머리 방어구</FONT></FONT>\",\r\n      \"leftStr2\": \"<FONT SIZE='14'>아이템 레벨 140 (티어 1)</FONT>\",\r\n      \"qualityValue\": -1,\r\n      \"rightStr0\": \"<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"advBookIcon\": 0,\r\n        \"battleItemTypeIcon\": 0,\r\n        \"cardIcon\": false,\r\n        \"friendship\": 0,\r\n        \"iconGrade\": 2,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/dl_item/dl_item_26.png\",\r\n        \"imagePath\": \"\",\r\n        \"islandIcon\": 0,\r\n        \"rtString\": \"\",\r\n        \"seal\": false,\r\n        \"temporary\": 0,\r\n        \"town\": 0,\r\n        \"trash\": 0\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'>암살자계열</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'>캐릭터 귀속됨</FONT>\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<font color='#C24B46'>거래 불가</font>\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>기본 효과</FONT>\",\r\n      \"Element_001\": \"물리 방어력 +94<BR>마법 방어력 +104<BR>민첩 +57<BR>체력 +89\"\r\n    }\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"ShowMeTheMoney\",\r\n    \"value\": \"<FONT SIZE='12'><FONT COLOR='#FFFFFF'>내구도 <FONT COLOR='#FFFFFF'>36 / 36</FONT></FONT></FONT>|\"\r\n  }\r\n}"
+    },
+    {
+      "Type": "상의",
+      "Name": "절규하는 마수의 상의",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/dl_item/dl_item_22.png",
+      "Grade": "희귀",
+      "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"<P ALIGN='CENTER'><FONT COLOR='#00B0FA'>절규하는 마수의 상의</FONT></P>\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"ItemTitle\",\r\n    \"value\": {\r\n      \"bEquip\": 0,\r\n      \"leftStr0\": \"<FONT SIZE='12'><FONT COLOR='#00B0FA'>희귀 상의</FONT></FONT>\",\r\n      \"leftStr2\": \"<FONT SIZE='14'>아이템 레벨 145 (티어 1)</FONT>\",\r\n      \"qualityValue\": -1,\r\n      \"rightStr0\": \"<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"advBookIcon\": 0,\r\n        \"battleItemTypeIcon\": 0,\r\n        \"cardIcon\": false,\r\n        \"friendship\": 0,\r\n        \"iconGrade\": 2,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/dl_item/dl_item_22.png\",\r\n        \"imagePath\": \"\",\r\n        \"islandIcon\": 0,\r\n        \"rtString\": \"\",\r\n        \"seal\": false,\r\n        \"temporary\": 0,\r\n        \"town\": 0,\r\n        \"trash\": 0\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT SIZE='12'><FONT COLOR='#808080'>장착 가능 레벨</FONT> 27</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'>암살자계열</FONT>\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'>캐릭터 귀속됨</FONT>\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<font color='#C24B46'>거래 불가</font>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>기본 효과</FONT>\",\r\n      \"Element_001\": \"물리 방어력 +133<BR>마법 방어력 +122<BR>민첩 +45<BR>체력 +121\"\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"ShowMeTheMoney\",\r\n    \"value\": \"<FONT SIZE='12'><FONT COLOR='#FFFFFF'>내구도 <FONT COLOR='#FFFFFF'>45 / 45</FONT></FONT></FONT>|\"\r\n  }\r\n}"
+    },
+    {
+      "Type": "하의",
+      "Name": "매서운 사냥꾼의 하의",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/dl_item/dl_item_23.png",
+      "Grade": "희귀",
+      "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"<P ALIGN='CENTER'><FONT COLOR='#00B0FA'>매서운 사냥꾼의 하의</FONT></P>\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"ItemTitle\",\r\n    \"value\": {\r\n      \"bEquip\": 0,\r\n      \"leftStr0\": \"<FONT SIZE='12'><FONT COLOR='#00B0FA'>희귀 하의</FONT></FONT>\",\r\n      \"leftStr2\": \"<FONT SIZE='14'>아이템 레벨 135 (티어 1)</FONT>\",\r\n      \"qualityValue\": -1,\r\n      \"rightStr0\": \"<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"advBookIcon\": 0,\r\n        \"battleItemTypeIcon\": 0,\r\n        \"cardIcon\": false,\r\n        \"friendship\": 0,\r\n        \"iconGrade\": 2,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/dl_item/dl_item_23.png\",\r\n        \"imagePath\": \"\",\r\n        \"islandIcon\": 0,\r\n        \"rtString\": \"\",\r\n        \"seal\": false,\r\n        \"temporary\": 0,\r\n        \"town\": 0,\r\n        \"trash\": 0\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'>암살자계열</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'>캐릭터 귀속됨</FONT>\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<font color='#C24B46'>거래 불가</font>\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>기본 효과</FONT>\",\r\n      \"Element_001\": \"물리 방어력 +108<BR>마법 방어력 +117<BR>민첩 +47<BR>체력 +100\"\r\n    }\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"ShowMeTheMoney\",\r\n    \"value\": \"<FONT SIZE='12'><FONT COLOR='#FFFFFF'>내구도 <FONT COLOR='#FFFFFF'>41 / 41</FONT></FONT></FONT>|\"\r\n  }\r\n}"
+    },
+    {
+      "Type": "장갑",
+      "Name": "혁명군의 의지 장갑",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/dl_item/dl_item_25.png",
+      "Grade": "고급",
+      "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"<P ALIGN='CENTER'><FONT COLOR='#8DF901'>혁명군의 의지 장갑</FONT></P>\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"ItemTitle\",\r\n    \"value\": {\r\n      \"bEquip\": 0,\r\n      \"leftStr0\": \"<FONT SIZE='12'><FONT COLOR='#8DF901'>고급 장갑</FONT></FONT>\",\r\n      \"leftStr2\": \"<FONT SIZE='14'>아이템 레벨 135 (티어 1)</FONT>\",\r\n      \"qualityValue\": -1,\r\n      \"rightStr0\": \"<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"advBookIcon\": 0,\r\n        \"battleItemTypeIcon\": 0,\r\n        \"cardIcon\": false,\r\n        \"friendship\": 0,\r\n        \"iconGrade\": 1,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/dl_item/dl_item_25.png\",\r\n        \"imagePath\": \"\",\r\n        \"islandIcon\": 0,\r\n        \"rtString\": \"\",\r\n        \"seal\": false,\r\n        \"temporary\": 0,\r\n        \"town\": 0,\r\n        \"trash\": 0\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT SIZE='12'><FONT COLOR='#808080'>장착 가능 레벨</FONT> 27</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'>암살자계열</FONT>\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'>캐릭터 귀속됨</FONT>\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<font color='#C24B46'>거래 불가</font>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>기본 효과</FONT>\",\r\n      \"Element_001\": \"물리 방어력 +78<BR>마법 방어력 +78<BR>민첩 +68<BR>체력 +59\"\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"ShowMeTheMoney\",\r\n    \"value\": \"<FONT SIZE='12'><FONT COLOR='#FFFFFF'>내구도 <FONT COLOR='#FFFFFF'>29 / 29</FONT></FONT></FONT>|\"\r\n  }\r\n}"
+    },
+    {
+      "Type": "어깨",
+      "Name": "마기에 물든 견갑",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/dl_item/dl_item_24.png",
+      "Grade": "희귀",
+      "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"<P ALIGN='CENTER'><FONT COLOR='#00B0FA'>마기에 물든 견갑</FONT></P>\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"ItemTitle\",\r\n    \"value\": {\r\n      \"bEquip\": 0,\r\n      \"leftStr0\": \"<FONT SIZE='12'><FONT COLOR='#00B0FA'>희귀 어깨 방어구</FONT></FONT>\",\r\n      \"leftStr2\": \"<FONT SIZE='14'>아이템 레벨 135 (티어 1)</FONT>\",\r\n      \"qualityValue\": -1,\r\n      \"rightStr0\": \"<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"advBookIcon\": 0,\r\n        \"battleItemTypeIcon\": 0,\r\n        \"cardIcon\": false,\r\n        \"friendship\": 0,\r\n        \"iconGrade\": 2,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/dl_item/dl_item_24.png\",\r\n        \"imagePath\": \"\",\r\n        \"islandIcon\": 0,\r\n        \"rtString\": \"\",\r\n        \"seal\": false,\r\n        \"temporary\": 0,\r\n        \"town\": 0,\r\n        \"trash\": 0\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT SIZE='12'><FONT COLOR='#808080'>장착 가능 레벨</FONT> 25</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'>암살자계열</FONT>\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'>캐릭터 귀속됨</FONT>\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<font color='#C24B46'>거래 불가</font>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>기본 효과</FONT>\",\r\n      \"Element_001\": \"물리 방어력 +98<BR>마법 방어력 +88<BR>민첩 +60<BR>체력 +76\"\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"ShowMeTheMoney\",\r\n    \"value\": \"<FONT SIZE='12'><FONT COLOR='#FFFFFF'>내구도 <FONT COLOR='#FFFFFF'>34 / 34</FONT></FONT></FONT>|\"\r\n  }\r\n}"
+    },
+    {
+      "Type": "목걸이",
+      "Name": "남겨진 회한 목걸이",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/acc/acc_201.png",
+      "Grade": "희귀",
+      "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"<P ALIGN='CENTER'><FONT COLOR='#00B0FA'>남겨진 회한 목걸이</FONT></P>\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"ItemTitle\",\r\n    \"value\": {\r\n      \"bEquip\": 0,\r\n      \"leftStr0\": \"<FONT SIZE='12'><FONT COLOR='#00B0FA'>희귀 목걸이</FONT></FONT>\",\r\n      \"leftStr1\": \"<FONT SIZE='14'>품질</FONT>\",\r\n      \"leftStr2\": \"<FONT SIZE='14'>아이템 티어 1</FONT>\",\r\n      \"qualityValue\": 100,\r\n      \"rightStr0\": \"<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"advBookIcon\": 0,\r\n        \"battleItemTypeIcon\": 0,\r\n        \"cardIcon\": false,\r\n        \"friendship\": 0,\r\n        \"iconGrade\": 2,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/acc/acc_201.png\",\r\n        \"imagePath\": \"\",\r\n        \"islandIcon\": 0,\r\n        \"rtString\": \"\",\r\n        \"seal\": false,\r\n        \"temporary\": 0,\r\n        \"town\": 0,\r\n        \"trash\": 0\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'>암살자계열, 헌터(남)계열, 헌터(여)계열</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'>캐릭터 귀속됨</FONT>\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<font color='#C24B46'>거래 불가</font>\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>기본 효과</FONT>\",\r\n      \"Element_001\": \"민첩 +41<BR>체력 +81\"\r\n    }\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>추가 효과</FONT>\",\r\n      \"Element_001\": \"인내 +78<BR>숙련 +78\"\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'><FONT COLOR='#C24B46'>품질 업그레이드 불가</FONT></FONT>\"\r\n  }\r\n}"
+    },
+    {
+      "Type": "귀걸이",
+      "Name": "마기에 물든 귀걸이",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/acc/acc_101.png",
+      "Grade": "희귀",
+      "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"<P ALIGN='CENTER'><FONT COLOR='#00B0FA'>마기에 물든 귀걸이</FONT></P>\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"ItemTitle\",\r\n    \"value\": {\r\n      \"bEquip\": 0,\r\n      \"leftStr0\": \"<FONT SIZE='12'><FONT COLOR='#00B0FA'>희귀 귀걸이</FONT></FONT>\",\r\n      \"leftStr1\": \"<FONT SIZE='14'>품질</FONT>\",\r\n      \"leftStr2\": \"<FONT SIZE='14'>아이템 티어 1</FONT>\",\r\n      \"qualityValue\": 100,\r\n      \"rightStr0\": \"<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"advBookIcon\": 0,\r\n        \"battleItemTypeIcon\": 0,\r\n        \"cardIcon\": false,\r\n        \"friendship\": 0,\r\n        \"iconGrade\": 2,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/acc/acc_101.png\",\r\n        \"imagePath\": \"\",\r\n        \"islandIcon\": 0,\r\n        \"rtString\": \"\",\r\n        \"seal\": false,\r\n        \"temporary\": 0,\r\n        \"town\": 0,\r\n        \"trash\": 0\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT SIZE='12'><FONT COLOR='#808080'>장착 가능 레벨</FONT> 25</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'>암살자계열, 헌터(남)계열, 헌터(여)계열</FONT>\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'>캐릭터 귀속됨</FONT>\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<font color='#C24B46'>거래 불가</font>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>기본 효과</FONT>\",\r\n      \"Element_001\": \"민첩 +30<BR>체력 +59\"\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>추가 효과</FONT>\",\r\n      \"Element_001\": \"치명 +59<BR>신속 +59\"\r\n    }\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'><FONT COLOR='#C24B46'>품질 업그레이드 불가</FONT></FONT>\"\r\n  }\r\n}"
+    },
+    {
+      "Type": "반지",
+      "Name": "영광의 상처 반지",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/acc/acc_8.png",
+      "Grade": "희귀",
+      "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"<P ALIGN='CENTER'><FONT COLOR='#00B0FA'>영광의 상처 반지</FONT></P>\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"ItemTitle\",\r\n    \"value\": {\r\n      \"bEquip\": 0,\r\n      \"leftStr0\": \"<FONT SIZE='12'><FONT COLOR='#00B0FA'>희귀 반지</FONT></FONT>\",\r\n      \"leftStr1\": \"<FONT SIZE='14'>품질</FONT>\",\r\n      \"leftStr2\": \"<FONT SIZE='14'>아이템 티어 1</FONT>\",\r\n      \"qualityValue\": 100,\r\n      \"rightStr0\": \"<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"advBookIcon\": 0,\r\n        \"battleItemTypeIcon\": 0,\r\n        \"cardIcon\": false,\r\n        \"friendship\": 0,\r\n        \"iconGrade\": 2,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/acc/acc_8.png\",\r\n        \"imagePath\": \"\",\r\n        \"islandIcon\": 0,\r\n        \"rtString\": \"\",\r\n        \"seal\": false,\r\n        \"temporary\": 0,\r\n        \"town\": 0,\r\n        \"trash\": 0\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT SIZE='12'><FONT COLOR='#808080'>장착 가능 레벨</FONT> 27</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'>암살자계열, 헌터(남)계열, 헌터(여)계열</FONT>\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'>캐릭터 귀속됨</FONT>\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<font color='#C24B46'>거래 불가</font>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>기본 효과</FONT>\",\r\n      \"Element_001\": \"민첩 +27<BR>체력 +49\"\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>추가 효과</FONT>\",\r\n      \"Element_001\": \"신속 +51<BR>숙련 +51\"\r\n    }\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'><FONT COLOR='#C24B46'>품질 업그레이드 불가</FONT></FONT>\"\r\n  }\r\n}"
+    },
+    {
+      "Type": "반지",
+      "Name": "무모한 관찰자의 반지",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/acc/acc_7.png",
+      "Grade": "영웅",
+      "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"<P ALIGN='CENTER'><FONT COLOR='#ce43fc'>무모한 관찰자의 반지</FONT></P>\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"ItemTitle\",\r\n    \"value\": {\r\n      \"bEquip\": 0,\r\n      \"leftStr0\": \"<FONT SIZE='12'><FONT COLOR='#ce43fc'>영웅 반지</FONT></FONT>\",\r\n      \"leftStr1\": \"<FONT SIZE='14'>품질</FONT>\",\r\n      \"leftStr2\": \"<FONT SIZE='14'>아이템 티어 1</FONT>\",\r\n      \"qualityValue\": 100,\r\n      \"rightStr0\": \"<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"advBookIcon\": 0,\r\n        \"battleItemTypeIcon\": 0,\r\n        \"cardIcon\": false,\r\n        \"friendship\": 0,\r\n        \"iconGrade\": 3,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/acc/acc_7.png\",\r\n        \"imagePath\": \"\",\r\n        \"islandIcon\": 0,\r\n        \"rtString\": \"\",\r\n        \"seal\": false,\r\n        \"temporary\": 0,\r\n        \"town\": 0,\r\n        \"trash\": 0\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT SIZE='12'><FONT COLOR='#808080'>장착 가능 레벨</FONT> 20</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'>암살자계열, 헌터(남)계열, 헌터(여)계열</FONT>\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'>캐릭터 귀속됨</FONT>\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<font color='#C24B46'>거래 불가</font>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>기본 효과</FONT>\",\r\n      \"Element_001\": \"민첩 +24<BR>체력 +46\"\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>추가 효과</FONT>\",\r\n      \"Element_001\": \"특화 +48<BR>숙련 +48\"\r\n    }\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'><FONT COLOR='#C24B46'>품질 업그레이드 불가</FONT></FONT>\"\r\n  }\r\n}"
+    },
+    {
+      "Type": "나침반",
+      "Name": "특제 황금 나침반",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/acc/acc_311.png",
+      "Grade": "전설",
+      "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"<P ALIGN='CENTER'><FONT COLOR='#F99200'>특제 황금 나침반</FONT></P>\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"ItemTitle\",\r\n    \"value\": {\r\n      \"bEquip\": 0,\r\n      \"leftStr0\": \"<FONT SIZE='12'><FONT COLOR='#F99200'>전설 나침반</FONT></FONT>\",\r\n      \"leftStr2\": \"\",\r\n      \"qualityValue\": -1,\r\n      \"rightStr0\": \"<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"advBookIcon\": 0,\r\n        \"battleItemTypeIcon\": 0,\r\n        \"cardIcon\": false,\r\n        \"friendship\": 0,\r\n        \"iconGrade\": 4,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/acc/acc_311.png\",\r\n        \"imagePath\": \"\",\r\n        \"islandIcon\": 0,\r\n        \"rtString\": \"\",\r\n        \"seal\": false,\r\n        \"temporary\": 0,\r\n        \"town\": 0,\r\n        \"trash\": 0\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'>원정대 귀속됨 </FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<font color='#C24B46'>거래 불가</font>\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>추가 효과</FONT>\",\r\n      \"Element_001\": \"모든 선박의 최종 내구도 수리 비용 +15.00% 감소<BR>섬에서 이동 속도 +8.00%<BR>선박 통상 운항 속도(노트) +3.0\"\r\n    }\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#E2C87A'><FONT SIZE='12'>빛나는 황금을 이용해 만들어진 고급 나침반.<br>수십 년을 사용해도 녹 하나 슬지 않는다고 전해진다.</FONT></FONT>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'><FONT COLOR='#C24B46'>판매불가</FONT>, <FONT COLOR='#C24B46'>파괴불가</FONT>, <FONT COLOR='#C24B46'>분해불가</FONT>, <FONT COLOR='#C24B46'>품질 업그레이드 불가</FONT></FONT>\"\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<Font color='#5FD3F1'>[제작] 외로운 섬 오페르 - 바욤</font>\"\r\n  }\r\n}"
+    },
+    {
+      "Type": "부적",
+      "Name": "광휘의 별무리 부적",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/acc/acc_308.png",
+      "Grade": "유물",
+      "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"<P ALIGN='CENTER'><FONT COLOR='#FA5D00'>광휘의 별무리 부적</FONT></P>\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"ItemTitle\",\r\n    \"value\": {\r\n      \"bEquip\": 0,\r\n      \"leftStr0\": \"<FONT SIZE='12'><FONT COLOR='#FA5D00'>유물 부적</FONT></FONT>\",\r\n      \"leftStr2\": \"\",\r\n      \"qualityValue\": -1,\r\n      \"rightStr0\": \"<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"advBookIcon\": 0,\r\n        \"battleItemTypeIcon\": 0,\r\n        \"cardIcon\": false,\r\n        \"friendship\": 0,\r\n        \"iconGrade\": 5,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/acc/acc_308.png\",\r\n        \"imagePath\": \"\",\r\n        \"islandIcon\": 0,\r\n        \"rtString\": \"\",\r\n        \"seal\": false,\r\n        \"temporary\": 0,\r\n        \"town\": 0,\r\n        \"trash\": 0\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'>원정대 귀속됨 </FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<font color='#C24B46'>거래 불가</font>\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>추가 효과</FONT>\",\r\n      \"Element_001\": \"모든 생활 활동 가능 레벨 +4<BR>모든 생활 스킬의 기본 보상 추가 획득률 +40.00%<BR>모든 생활 마스터리 스킬 레벨 +4\"\r\n    }\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#E2C87A'><FONT SIZE='12'>별의 조각을 이어 만들었다는 부적.<br>별의 축복을 받아 강력한 힘을 얻게 된다.</FONT></FONT>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT SIZE='12'><FONT COLOR='#C24B46'>판매불가</FONT>, <FONT COLOR='#C24B46'>파괴불가</FONT>, <FONT COLOR='#C24B46'>분해불가</FONT>, <FONT COLOR='#C24B46'>품질 업그레이드 불가</FONT></FONT>\"\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<Font color='#5FD3F1'>[제작] 대도시 - 가공사</font>\"\r\n  }\r\n}"
+    }
+  ],
+  "ArmoryAvatars": null,
+  "ArmorySkills": [
+    {
+      "Name": "데스 사이드",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/rp_skill/rp_skill_01_9.png",
+      "Level": 1,
+      "Type": "콤보",
+      "IsAwakening": false,
+      "Tripods": [
+        {
+          "Tier": 0,
+          "Slot": 1,
+          "Name": "독 : 부식",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_113.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>마지막 공격에 '부식 독'을 부여한다. 부식 독은 <FONT COLOR='#ffff99'>8.0</FONT>초 동안 매 초마다  <FONT COLOR='#00ccff'>45</FONT>의 중독 피해를 주며, 최대 <FONT COLOR='#ffff99'>3</FONT>회까지 중첩된다. 또한 독에 걸린 적에게 '부식화'를 부여하여 <FONT COLOR='#ffff99'>12.0</FONT>초간 모든 방어력을 <FONT COLOR='#99ff99'>12.0%</FONT> 감소시킨다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 2,
+          "Name": "독 : 출혈",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_114.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>마지막 공격에 '출혈 독'을 부여한다. 출혈 독은 <FONT COLOR='#ffff99'>12.0</FONT>초 동안 매 초마다 <FONT COLOR='#ffbb00'>5</FONT>의 출혈 피해를 입히며, 최대 <FONT COLOR='#ffff99'>10</FONT>회까지 중첩된다. 출혈 독이 최대로 중첩된 대상은 '과다 출혈' 상태가 되어 <FONT COLOR='#ffbb00'>10,378</FONT>의 피해를 입는다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 3,
+          "Name": "독 : 신경",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_115.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>마지막 공격에 '신경 독'을 부여한다. 신경 독은 최대 <FONT COLOR='#ffff99'>3</FONT>중첩이 가능하고, <FONT COLOR='#ffff99'>4.0</FONT>초 동안 암흑 상태로 만든다. <FONT COLOR='#ffff99'>3</FONT>중첩 시 <FONT COLOR='#ffff99'>3.0</FONT>초 동안 공포를 부여한다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 1,
+          "Name": "데스 콜",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_0.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>콤보 입력 시 더 크게 베며 기본 피해량의 <FONT COLOR='#99ff99'>80.0%</FONT>에 해당하는 피해를 준다. 마지막 공격의 치명타 피해량이 <FONT COLOR='#99ff99'>30.0%</FONT> 증가하며, '독 : 출혈' 트라이포드 적용 시 마지막 공격이 추가로 출혈 독을 <FONT COLOR='#ffff99'>2</FONT>회 중첩시킨다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 2,
+          "Name": "폭풍의 눈",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_125.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>일반 조작으로 변경된다. 리퍼가 바라보는 방향으로 큰 원을 그리며 그림자 분신과 함께 주변 적을 모은 후 띄우며, 시드 등급 이하의 적에게 주는 피해가 <FONT COLOR='#99ff99'>70.0%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 3,
+          "Name": "변칙 공격",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_27.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>콤보 입력 시 방향 전환을 할 수 있게 되며, '독 : 출혈' 트라이포드 적용 시 마지막 공격이 추가로 출혈 독을 <FONT COLOR='#ffff99'>1</FONT>회 중첩시킨다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 1,
+          "Name": "기습",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_101.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>공격이 백어택으로 적중 시 적에게 주는 피해가 <FONT COLOR='#99ff99'>55.0%</FONT> 증가한다. '독 : 출혈' 트라이포드 적용 시, 마지막 공격이 백어택으로 적중할 경우 추가로 출혈 독을 <FONT COLOR='#ffff99'>2</FONT>회 중첩시킨다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 2,
+          "Name": "치명적인 단검",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_94.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>치명타 적중률이 <FONT COLOR='#99ff99'>15.0%</FONT>, 적에게 주는 피해가 <FONT COLOR='#99ff99'>35.0%</FONT> 증가한다. '독 : 출혈' 트라이포드 적용 시, 마지막 공격이 치명타로 적중할 경우 추가로 출혈 독을 <FONT COLOR='#ffff99'>1</FONT>회 중첩시킨다.</font>"
+        }
+      ],
+      "Rune": null,
+      "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"데스 사이드\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 12초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#008000'>[단검 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#20EDFE'>콤보</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/rp_skill/rp_skill_01_9.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 1\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>마우스 방향으로 빠르게 <FONT COLOR='#ffff99'>4m</FONT>전진하며 <FONT COLOR='#ffff99'>2</FONT>회 돌려 베어 <FONT COLOR='#ffbb00'>517</FONT>의 피해를 주고, 스킬을 다시 한번 입력 시 크게 베어 <FONT COLOR='#ffbb00'>1,207</FONT>의 피해를 주고 적을 넘어 트린다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 하</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\",\r\n        \"tier\": \"\"\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\",\r\n        \"tier\": \"\"\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\",\r\n        \"tier\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"BlinkLineStart\",\r\n    \"value\": true\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"다음 스킬 레벨 2\"\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 10\"\r\n  },\r\n  \"Element_009\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1\"\r\n  },\r\n  \"Element_010\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>마우스 방향으로 빠르게 <FONT COLOR='#ffff99'>4m</FONT>전진하며 <FONT COLOR='#ffff99'>2</FONT>회 돌려 베어 <FONT COLOR='#ffbb00'>648</FONT>의 피해를 주고, 스킬을 다시 한번 입력 시 크게 베어 <FONT COLOR='#ffbb00'>1,511</FONT>의 피해를 주고 적을 넘어 트린다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 하</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n  },\r\n  \"Element_011\": {\r\n    \"type\": \"BlinkLineEnd\",\r\n    \"value\": true\r\n  }\r\n}"
+    },
+    {
+      "Name": "쉐도우 닷",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/rp_skill/rp_skill_01_5.png",
+      "Level": 1,
+      "Type": "일반",
+      "IsAwakening": false,
+      "Tripods": [
+        {
+          "Tier": 0,
+          "Slot": 1,
+          "Name": "독 : 부식",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_113.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>공격에 '부식 독'을 부여한다. 부식 독은 <FONT COLOR='#ffff99'>8.0</FONT>초 동안 매 초마다  <FONT COLOR='#00ccff'>45</FONT>의 중독 피해를 주며, 최대 <FONT COLOR='#ffff99'>3</FONT>회까지 중첩된다. 또한 독에 걸린 적에게 '부식화'를 부여하여 <FONT COLOR='#ffff99'>12.0</FONT>초간 모든 방어력을 <FONT COLOR='#99ff99'>12.0%</FONT> 감소시킨다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 2,
+          "Name": "독 : 출혈",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_114.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>공격에 '출혈 독'을 부여한다. 출혈 독은 <FONT COLOR='#ffff99'>12.0</FONT>초 동안 매 초마다 <FONT COLOR='#ffbb00'>5</FONT>의 출혈 피해를 입히며, 최대 <FONT COLOR='#ffff99'>10</FONT>회까지 중첩된다. 출혈 독이 최대로 중첩된 대상은 '과다 출혈' 상태가 되어 <FONT COLOR='#ffbb00'>10,378</FONT>의 피해를 입는다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 3,
+          "Name": "독 : 신경",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_115.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>공격에 '신경 독'을 부여한다. 신경 독은 최대 <FONT COLOR='#ffff99'>3</FONT>중첩이 가능하고, <FONT COLOR='#ffff99'>4.0</FONT>초 동안 암흑 상태로 만든다. <FONT COLOR='#ffff99'>3</FONT>중첩 시 <FONT COLOR='#ffff99'>3.0</FONT>초 동안 공포를 부여한다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 1,
+          "Name": "빠른 준비",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_56.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>재사용 대기시간이 <FONT COLOR='#99ff99'>2.0</FONT>초 감소한다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 2,
+          "Name": "치명적인 단검",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_94.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>[뇌] 속성으로 변경되고, 치명타 적중률이 <FONT COLOR='#99ff99'>30.0%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 3,
+          "Name": "넓은 공격",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_7.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>공격 범위가 <FONT COLOR='#99ff99'>20.0%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 1,
+          "Name": "죽음의 일격",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_33.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>피격이상 면역인 적에게 주는 피해가 <FONT COLOR='#99ff99'>80.0%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 2,
+          "Name": "급습 활성",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_93.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>스킬 사용 시 급습 스킬들의 재사용 대기시간이 <FONT COLOR='#99ff99'>1.5</FONT>초 감소한다.</font>"
+        }
+      ],
+      "Rune": null,
+      "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"쉐도우 닷\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 7초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#008000'>[단검 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/rp_skill/rp_skill_01_5.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 1\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>힘을 모아 강하게 돌며 <FONT COLOR='#ffbb00'>633</FONT>, <FONT COLOR='#ffbb00'>633</FONT>의 피해를 준다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT>\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\",\r\n        \"tier\": \"\"\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\",\r\n        \"tier\": \"\"\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\",\r\n        \"tier\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"BlinkLineStart\",\r\n    \"value\": true\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"다음 스킬 레벨 2\"\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 10\"\r\n  },\r\n  \"Element_009\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1\"\r\n  },\r\n  \"Element_010\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>힘을 모아 강하게 돌며 <FONT COLOR='#ffbb00'>792</FONT>, <FONT COLOR='#ffbb00'>792</FONT>의 피해를 준다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT>\"\r\n  },\r\n  \"Element_011\": {\r\n    \"type\": \"BlinkLineEnd\",\r\n    \"value\": true\r\n  }\r\n}"
+    },
+    {
+      "Name": "스피릿 캐치",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/rp_skill/rp_skill_01_4.png",
+      "Level": 4,
+      "Type": "일반",
+      "IsAwakening": false,
+      "Tripods": [
+        {
+          "Tier": 0,
+          "Slot": 1,
+          "Name": "독 : 부식",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_113.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>마지막 공격에 '부식 독'을 부여한다. 부식 독은 <FONT COLOR='#ffff99'>8.0</FONT>초 동안 매 초마다  <FONT COLOR='#00ccff'>45</FONT>의 중독 피해를 주며, 최대 <FONT COLOR='#ffff99'>3</FONT>회까지 중첩된다. 또한 독에 걸린 적에게 '부식화'를 부여하여 <FONT COLOR='#ffff99'>12.0</FONT>초간 모든 방어력을 <FONT COLOR='#99ff99'>12.0%</FONT> 감소시킨다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 2,
+          "Name": "독 : 출혈",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_114.png",
+          "Level": 1,
+          "IsSelected": true,
+          "Tooltip": "<font color='#FFFDE7'>마지막 공격에 '출혈 독'을 부여한다. 출혈 독은 <FONT COLOR='#ffff99'>12.0</FONT>초 동안 매 초마다 <FONT COLOR='#ffbb00'>5</FONT>의 출혈 피해를 입히며, 최대 <FONT COLOR='#ffff99'>10</FONT>회까지 중첩된다. 출혈 독이 최대로 중첩된 대상은 '과다 출혈' 상태가 되어 <FONT COLOR='#ffbb00'>10,378</FONT>의 피해를 입는다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 3,
+          "Name": "독 : 신경",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_115.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>마지막 공격에 '신경 독'을 부여한다. 신경 독은 최대 <FONT COLOR='#ffff99'>3</FONT>중첩이 가능하고, <FONT COLOR='#ffff99'>4.0</FONT>초 동안 암흑 상태로 만든다. <FONT COLOR='#ffff99'>3</FONT>중첩 시 <FONT COLOR='#ffff99'>3.0</FONT>초 동안 공포를 부여한다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 1,
+          "Name": "도약",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_10.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>경직에 면역이 되고, 보다 빠르게 도약한 후 적에게 마무리 공격을 가한다. 또한 도약 거리가 <FONT COLOR='#99ff99'>1.0m</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 2,
+          "Name": "발목 절단",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_47.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>공격 적중 시 <FONT COLOR='#ffff99'>5.0</FONT>초간 이동속도를 <FONT COLOR='#99ff99'>30.0%</FONT>  감소시킨다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 3,
+          "Name": "그림자 잔상",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_116.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>바로 전방으로 돌진하여 마지막 공격을 한다. 찌르기 이후 그림자 잔상이 추가로 공격하여 마지막 공격의 <FONT COLOR='#99ff99'>50.0%</FONT>에 해당하는 피해를 주며, 독을 <FONT COLOR='#ffff99'>1</FONT>회 중첩시킨다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 1,
+          "Name": "날카로운 단검",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_94.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>[뇌] 속성으로 변경되며, 치명타 피해가 <FONT COLOR='#99ff99'>140.0%</FONT> 증가한다. '독 : 출혈' 트라이포드 적용 시, 마지막 공격이 치명타로 적중할 경우 추가로 출혈 독을 <FONT COLOR='#ffff99'>1</FONT>회 중첩시킨다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 2,
+          "Name": "기습",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_101.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>공격이 백어택으로 적중 시, 적에게 주는 피해가 <FONT COLOR='#99ff99'>50.0%</FONT> 증가한다. '독 : 출혈' 트라이포드 적용 시, 마지막 공격이 백어택으로 적중할 경우 추가로 출혈 독을 <FONT COLOR='#ffff99'>1</FONT>회 중첩시킨다.</font>"
+        }
+      ],
+      "Rune": null,
+      "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"스피릿 캐치\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 8초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#008000'>[단검 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/rp_skill/rp_skill_01_4.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 4\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>전방을 향해 빠르게 찔러 <FONT COLOR='#ffbb00'>535</FONT>의 피해를 주고, <FONT COLOR='#ffff99'>5m</FONT> 돌진해 마지막 공격으로 <FONT COLOR='#ffbb00'>1,601</FONT>의 피해를 주고 적을 넘어 트린다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>부위 파괴 : 레벨 1</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT>\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<font color='#FFFDE7'>마지막 공격에 '출혈 독'을 부여한다. 출혈 독은 <FONT COLOR='#ffff99'>12.0</FONT>초 동안 매 초마다 <FONT COLOR='#ffbb00'>5</FONT>의 출혈 피해를 입히며, 최대 <FONT COLOR='#ffff99'>10</FONT>회까지 중첩된다. 출혈 독이 최대로 중첩된 대상은 '과다 출혈' 상태가 되어 <FONT COLOR='#ffbb00'>10,378</FONT>의 피해를 입는다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>독 : 출혈</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_114.png\",\r\n          \"imagePath\": \"\"\r\n        },\r\n        \"tier\": \"<font color='#FFD200'>레벨 1 (최대)</font>\"\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\",\r\n        \"tier\": \"\"\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\",\r\n        \"tier\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"BlinkLineStart\",\r\n    \"value\": true\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"다음 스킬 레벨 5\"\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 10\"\r\n  },\r\n  \"Element_009\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>4\"\r\n  },\r\n  \"Element_010\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>전방을 향해 빠르게 찔러 <FONT COLOR='#ffbb00'>568</FONT>의 피해를 주고, <FONT COLOR='#ffff99'>5m</FONT> 돌진해 마지막 공격으로 <FONT COLOR='#ffbb00'>1,698</FONT>의 피해를 주고 적을 넘어 트린다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>부위 파괴 : 레벨 1</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT>\"\r\n  },\r\n  \"Element_011\": {\r\n    \"type\": \"BlinkLineEnd\",\r\n    \"value\": true\r\n  }\r\n}"
+    },
+    {
+      "Name": "스피닝 대거",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/rp_skill/rp_skill_01_3.png",
+      "Level": 1,
+      "Type": "일반",
+      "IsAwakening": false,
+      "Tripods": [
+        {
+          "Tier": 0,
+          "Slot": 1,
+          "Name": "독 : 부식",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_113.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>마지막 공격에 '부식 독'을 부여한다. 부식 독은 <FONT COLOR='#ffff99'>8.0</FONT>초 동안 매 초마다  <FONT COLOR='#00ccff'>45</FONT>의 중독 피해를 주며, 최대 <FONT COLOR='#ffff99'>3</FONT>회까지 중첩된다. 또한 독에 걸린 적에게 '부식화'를 부여하여 <FONT COLOR='#ffff99'>12.0</FONT>초간 모든 방어력을 <FONT COLOR='#99ff99'>12.0%</FONT> 감소시킨다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 2,
+          "Name": "독 : 출혈",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_114.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>마지막 공격에 '출혈 독'을 부여한다. 출혈 독은 <FONT COLOR='#ffff99'>12.0</FONT>초 동안 매 초마다 <FONT COLOR='#ffbb00'>5</FONT>의 출혈 피해를 입히며, 최대 <FONT COLOR='#ffff99'>10</FONT>회까지 중첩된다. 출혈 독이 최대로 중첩된 대상은 '과다 출혈' 상태가 되어 <FONT COLOR='#ffbb00'>10,378</FONT>의 피해를 입는다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 3,
+          "Name": "독 : 신경",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_115.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>마지막 공격에 '신경 독'을 부여한다. 신경 독은 최대 <FONT COLOR='#ffff99'>3</FONT>중첩이 가능하고, <FONT COLOR='#ffff99'>4.0</FONT>초 동안 암흑 상태로 만든다. <FONT COLOR='#ffff99'>3</FONT>중첩 시 <FONT COLOR='#ffff99'>3.0</FONT>초 동안 공포를 부여한다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 1,
+          "Name": "회전력 강화",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_88.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>단검을 보다 빠르게 주변에 투척하며 공격 범위가 <FONT COLOR='#99ff99'>20.0%</FONT>, 적에게 주는 피해가 <FONT COLOR='#99ff99'>20.0%</FONT> 증가한다. '독 : 출혈' 트라이포드 적용 시, 단검 공격이 적에게 <FONT COLOR='#99ff99'>30.0%</FONT> 확률로 적에게 출혈 독을 <FONT COLOR='#ffff99'>1</FONT>회 중첩시킨다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 2,
+          "Name": "기습",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_101.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>공격이 백어택으로 적중 시, 적에게 주는 피해가 <FONT COLOR='#99ff99'>25.0%</FONT> 증가한다. '독 : 출혈' 트라이포드 적용 시, 마지막 공격이 백어택으로 적중할 경우 추가로 출혈 독을 <FONT COLOR='#ffff99'>3</FONT>회 중첩시킨다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 3,
+          "Name": "치명적인 단검",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_94.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>치명타 적중률이 <FONT COLOR='#99ff99'>15.0%</FONT>, 치명타 피해가 <FONT COLOR='#99ff99'>50.0%</FONT> 증가한다. '독 : 출혈' 트라이포드 적용 시, 마지막 공격이 치명타로 적중할 경우 추가로 출혈 독을 <FONT COLOR='#ffff99'>2</FONT>회 중첩시킨다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 1,
+          "Name": "그림자 잔상",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_116.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>마지막 공격 이후 그림자 잔상이 추가로 한번 더 베어 기본 피해량의 <FONT COLOR='#99ff99'>50.0%</FONT>에 해당하는 피해를 주며, 독을 <FONT COLOR='#ffff99'>1</FONT>회 중첩시킨다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 2,
+          "Name": "끝없는 춤",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_83.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>스택이 가능하게 변경되며, 최대 <FONT COLOR='#ffff99'>2</FONT>회 중첩이 가능하다.</font>"
+        }
+      ],
+      "Rune": null,
+      "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"스피닝 대거\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 12초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#008000'>[단검 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/rp_skill/rp_skill_01_3.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 1\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>전방으로 <FONT COLOR='#ffff99'>5m</FONT> 이동하며 주변에 단검을 던져 <FONT COLOR='#ffbb00'>450</FONT>의 피해를 주고, 착지 시 한번 더 적을 베어 <FONT COLOR='#ffbb00'>579</FONT>의 피해를 준다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT>\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\",\r\n        \"tier\": \"\"\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\",\r\n        \"tier\": \"\"\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\",\r\n        \"tier\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"BlinkLineStart\",\r\n    \"value\": true\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"다음 스킬 레벨 2\"\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 16\"\r\n  },\r\n  \"Element_009\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1\"\r\n  },\r\n  \"Element_010\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>전방으로 <FONT COLOR='#ffff99'>5m</FONT> 이동하며 주변에 단검을 던져 <FONT COLOR='#ffbb00'>565</FONT>의 피해를 주고, 착지 시 한번 더 적을 베어 <FONT COLOR='#ffbb00'>725</FONT>의 피해를 준다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT>\"\r\n  },\r\n  \"Element_011\": {\r\n    \"type\": \"BlinkLineEnd\",\r\n    \"value\": true\r\n  }\r\n}"
+    },
+    {
+      "Name": "샤벨 스팅거",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/rp_skill/rp_skill_01_8.png",
+      "Level": 1,
+      "Type": "콤보",
+      "IsAwakening": false,
+      "Tripods": [
+        {
+          "Tier": 0,
+          "Slot": 1,
+          "Name": "독 : 부식",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_113.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>마지막 공격에 '부식 독'을 부여한다. 부식 독은 <FONT COLOR='#ffff99'>8.0</FONT>초 동안 매 초마다  <FONT COLOR='#00ccff'>45</FONT>의 중독 피해를 주며, 최대 <FONT COLOR='#ffff99'>3</FONT>회까지 중첩된다. 또한 독에 걸린 적에게 '부식화'를 부여하여 <FONT COLOR='#ffff99'>12.0</FONT>초간 모든 방어력을 <FONT COLOR='#99ff99'>12.0%</FONT> 감소시킨다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 2,
+          "Name": "독 : 출혈",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_114.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>마지막 공격에 '출혈 독'을 부여한다. 출혈 독은 <FONT COLOR='#ffff99'>12.0</FONT>초 동안 매 초마다 <FONT COLOR='#ffbb00'>5</FONT>의 출혈 피해를 입히며, 최대 <FONT COLOR='#ffff99'>10</FONT>회까지 중첩된다. 출혈 독이 최대로 중첩된 대상은 '과다 출혈' 상태가 되어 <FONT COLOR='#ffbb00'>10,378</FONT>의 피해를 입는다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 3,
+          "Name": "독 : 신경",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_115.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>마지막 공격에 '신경 독'을 부여한다. 신경 독은 최대 <FONT COLOR='#ffff99'>3</FONT>중첩이 가능하고, <FONT COLOR='#ffff99'>4.0</FONT>초 동안 암흑 상태로 만든다. <FONT COLOR='#ffff99'>3</FONT>중첩 시 <FONT COLOR='#ffff99'>3.0</FONT>초 동안 공포를 부여한다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 1,
+          "Name": "두개의 그림자",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_116.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>그림자를 이용하여 양쪽에서 같이 공격하여 피해가 <FONT COLOR='#99ff99'>30.0%</FONT> 증가한다. '독 : 출혈' 트라이포드 적용 시, 공격이 적중할 때마다 <FONT COLOR='#99ff99'>25.0%</FONT> 확률로 출혈 독을 <FONT COLOR='#ffff99'>1</FONT>회 중첩시킨다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 2,
+          "Name": "날카로운 단검",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_94.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>[뇌] 속성으로 변경되고, 적에게 주는 치명타 피해량이 <FONT COLOR='#99ff99'>50.0%</FONT> 증가한다. '독 : 출혈' 트라이포드 적용 시, 공격이 치명타로 적중할 때마다 <FONT COLOR='#99ff99'>50.0%</FONT> 확률로 출혈 독을 <FONT COLOR='#ffff99'>1</FONT>회 중첩시킨다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 3,
+          "Name": "회피의 달인",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_26.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>스킬 사용 중 회피율이 <FONT COLOR='#99ff99'>20.0%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 1,
+          "Name": "낙인 활성",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_93.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>공격 성공 시 <FONT COLOR='#ffff99'>3</FONT>초간 단검 스킬의 재사용 대기시간이 <FONT COLOR='#99ff99'>15.0%</FONT> 감소하는 '낙인 활성' 버프가 추가된다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 2,
+          "Name": "속전속결",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_88.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>일반 조작으로 변경되어 제자리에서 기본 피해량의 <FONT COLOR='#99ff99'>120.0%</FONT> 피해를 주는 <FONT COLOR='#ffff99'>2</FONT>회 공격을 하며, 2회 모두 독 중첩을 시킨다.</font>"
+        }
+      ],
+      "Rune": null,
+      "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"샤벨 스팅거\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 14초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#008000'>[단검 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#20EDFE'>콤보</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/rp_skill/rp_skill_01_8.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 1\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>적의 빈틈을 노려 날카롭게 <FONT COLOR='#ffff99'>2</FONT>회 찔러 <FONT COLOR='#ffbb00'>562</FONT>의 피해를 주고, 스킬을 다시 한번 입력 시 더욱 빠르게 2회 찔러 <FONT COLOR='#ffbb00'>562</FONT>의 피해를 준다. 공중에 뜬 적을 공격 시 다시 공중에 띄운다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 하</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT>\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\",\r\n        \"tier\": \"\"\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\",\r\n        \"tier\": \"\"\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\",\r\n        \"tier\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"BlinkLineStart\",\r\n    \"value\": true\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"다음 스킬 레벨 2\"\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 20\"\r\n  },\r\n  \"Element_009\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1\"\r\n  },\r\n  \"Element_010\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>적의 빈틈을 노려 날카롭게 <FONT COLOR='#ffff99'>2</FONT>회 찔러 <FONT COLOR='#ffbb00'>704</FONT>의 피해를 주고, 스킬을 다시 한번 입력 시 더욱 빠르게 2회 찔러 <FONT COLOR='#ffbb00'>704</FONT>의 피해를 준다. 공중에 뜬 적을 공격 시 다시 공중에 띄운다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 하</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT>\"\r\n  },\r\n  \"Element_011\": {\r\n    \"type\": \"BlinkLineEnd\",\r\n    \"value\": true\r\n  }\r\n}"
+    },
+    {
+      "Name": "이블리스토",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/rp_skill/rp_skill_01_7.png",
+      "Level": 1,
+      "Type": "일반",
+      "IsAwakening": false,
+      "Tripods": [
+        {
+          "Tier": 0,
+          "Slot": 1,
+          "Name": "독 : 부식",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_113.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>마지막 공격에 '부식 독'을 부여한다. 부식 독은 <FONT COLOR='#ffff99'>8.0</FONT>초 동안 매 초마다  <FONT COLOR='#00ccff'>45</FONT>의 중독 피해를 주며, 최대 <FONT COLOR='#ffff99'>3</FONT>회까지 중첩된다. 또한 독에 걸린 적에게 '부식화'를 부여하여 <FONT COLOR='#ffff99'>12.0</FONT>초간 모든 방어력을 <FONT COLOR='#99ff99'>12.0%</FONT> 감소시킨다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 2,
+          "Name": "독 : 출혈",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_114.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>마지막 공격에 '출혈 독'을 부여한다. 출혈 독은 <FONT COLOR='#ffff99'>12.0</FONT>초 동안 매 초마다 <FONT COLOR='#ffbb00'>5</FONT>의 출혈 피해를 입히며, 최대 <FONT COLOR='#ffff99'>10</FONT>회까지 중첩된다. 출혈 독이 최대로 중첩된 대상은 '과다 출혈' 상태가 되어 <FONT COLOR='#ffbb00'>10,378</FONT>의 피해를 입는다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 3,
+          "Name": "독 : 신경",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_115.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>마지막 공격에 '신경 독'을 부여한다. 신경 독은 최대 <FONT COLOR='#ffff99'>3</FONT>중첩이 가능하고, <FONT COLOR='#ffff99'>4.0</FONT>초 동안 암흑 상태로 만든다. <FONT COLOR='#ffff99'>3</FONT>중첩 시 <FONT COLOR='#ffff99'>3.0</FONT>초 동안 공포를 부여한다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 1,
+          "Name": "강인함",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_23.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>스킬 사용 중 피격 이상에 면역이 된다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 2,
+          "Name": "날카로운 단검",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_94.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>치명타 피해가 <FONT COLOR='#99ff99'>30.0%</FONT> 증가한다. '독 : 출혈' 트라이포드를 적용하여 공격이 치명타로 적중할 경우 추가로 출혈 독을 <FONT COLOR='#ffff99'>1</FONT>회 중첩시키며, '속전속결' 트라이포드 적용 시 <FONT COLOR='#ffff99'>2</FONT>회 중첩시킨다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 3,
+          "Name": "심호흡",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_7.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>그림자의 기운이 감싸 공격 범위가 <FONT COLOR='#99ff99'>10.0%</FONT> 증가하고, 공격 속도가 <FONT COLOR='#99ff99'>15.0%</FONT> 증가한다. '독 : 출혈' 트라이포드를 적용한 상태에서 공격이 적중할 때마다 <FONT COLOR='#99ff99'>50.0%</FONT> 확률로 출혈 독을 <FONT COLOR='#ffff99'>1</FONT>회 중첩시키며, '속전속결' 트라이포드 적용 시 <FONT COLOR='#ffff99'>2</FONT>회 중첩시킨다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 1,
+          "Name": "기습",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_101.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>공격이 백어택으로 적중 시, 적에게 주는 피해가 <FONT COLOR='#99ff99'>80.0%</FONT> 증가한다. '독 : 출혈' 트라이포드 적용 시, 마지막 공격이 백어택으로 적중할 경우 추가로 출혈 독을 <FONT COLOR='#ffff99'>2</FONT>회 중첩시킨다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 2,
+          "Name": "속전속결",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_88.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>공격 횟수가 <FONT COLOR='#ffff99'>2</FONT>회로 변경되어 기본 피해량의 <FONT COLOR='#99ff99'>130.0%</FONT>에 해당하는 피해를 주며, 2회 모두 독 중첩을 <FONT COLOR='#ffff99'>1</FONT>회 부여하고 마지막 공격이 적을 넘어트린다.</font>"
+        }
+      ],
+      "Rune": null,
+      "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"이블리스토\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 12초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#008000'>[단검 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/rp_skill/rp_skill_01_7.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 1\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>전방으로 <FONT COLOR='#ffff99'>4</FONT>회 광기어린 난도질을 하여 <FONT COLOR='#ffbb00'>514</FONT>, <FONT COLOR='#ffbb00'>514</FONT>, <FONT COLOR='#ffbb00'>514</FONT>, <FONT COLOR='#ffbb00'>514</FONT> [암] 속성 피해를 준다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>부위 파괴 : 레벨 1</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 하</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT>\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\",\r\n        \"tier\": \"\"\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\",\r\n        \"tier\": \"\"\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\",\r\n        \"tier\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"BlinkLineStart\",\r\n    \"value\": true\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"다음 스킬 레벨 2\"\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 28\"\r\n  },\r\n  \"Element_009\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1\"\r\n  },\r\n  \"Element_010\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>전방으로 <FONT COLOR='#ffff99'>4</FONT>회 광기어린 난도질을 하여 <FONT COLOR='#ffbb00'>644</FONT>, <FONT COLOR='#ffbb00'>644</FONT>, <FONT COLOR='#ffbb00'>644</FONT>, <FONT COLOR='#ffbb00'>644</FONT> [암] 속성 피해를 준다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>부위 파괴 : 레벨 1</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 하</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT>\"\r\n  },\r\n  \"Element_011\": {\r\n    \"type\": \"BlinkLineEnd\",\r\n    \"value\": true\r\n  }\r\n}"
+    },
+    {
+      "Name": "디스토션",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/rp_skill/rp_skill_01_10.png",
+      "Level": 7,
+      "Type": "일반",
+      "IsAwakening": false,
+      "Tripods": [
+        {
+          "Tier": 0,
+          "Slot": 1,
+          "Name": "그림자 충전",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_37.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>공격 적중 시 어둠 게이지 및 혼돈 게이지 획득량이 <FONT COLOR='#99ff99'>30.0%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 2,
+          "Name": "치명적인 그림자",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_4.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>치명타 적중률이 <FONT COLOR='#99ff99'>15.0%</FONT>증가한다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 3,
+          "Name": "빠른 준비",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_56.png",
+          "Level": 1,
+          "IsSelected": true,
+          "Tooltip": "<font color='#FFFDE7'>재사용 대기시간이 <FONT COLOR='#99ff99'>2.0</FONT>초 감소한다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 1,
+          "Name": "유령 질주",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_42.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>홀딩 조작으로 변경되며 <FONT COLOR='#ffff99'>3</FONT>회 이상 피격당한 대상에게 <FONT COLOR='#ffff99'>2.0</FONT>초 동안 공포를 건다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 2,
+          "Name": "안개 질주",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_26.png",
+          "Level": 1,
+          "IsSelected": true,
+          "Tooltip": "<font color='#FFFDE7'>체인 조작으로 변경된다. 체인 입력 시 한 번 더 스킬 사용이 가능하며, 체인 공격은 기본 피해량의 <FONT COLOR='#99ff99'>20.0%</FONT>에 해당하는 추가 피해를 입힌다. 체인 발동 시 재사용 대기시간이 <FONT COLOR='#ff9999'>20.0</FONT>초로 증가한다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 3,
+          "Name": "그림자 질주",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_39.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>적에게 주는 피해가 <FONT COLOR='#99ff99'>30.0%</FONT> 증가하고, 넓은 범위를 이동하며 적을 일직선으로 모은다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 1,
+          "Name": "약육강식",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_61.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>시드 이하의 적에게 주는 피해가 <FONT COLOR='#99ff99'>200.0%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 2,
+          "Name": "순풍",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_48.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>스킬 사용 중 회피율이 <FONT COLOR='#99ff99'>30.0%</FONT> 증가하며, 스킬 시전 후 <FONT COLOR='#ffff99'>3.0</FONT>초간 이동속도가 <FONT COLOR='#99ff99'>20.0%</FONT> 증가한다.</font>"
+        }
+      ],
+      "Rune": {
+        "Name": "질풍",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_7_194.png",
+        "Grade": "전설",
+        "Tooltip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"<P ALIGN='CENTER'><FONT COLOR='#F99200'>질풍</FONT></P>\"},\"Element_001\":{\"type\":\"ItemTitle\",\"value\":{\"bEquip\":0,\"leftStr0\":\"<FONT SIZE='12'><FONT COLOR='#F99200'>전설 스킬 룬</FONT></FONT>\",\"leftStr1\":\"\",\"leftStr2\":\"\",\"qualityValue\":-1,\"rightStr0\":\"\",\"slotData\":{\"advBookIcon\":0,\"battleItemTypeIcon\":0,\"cardIcon\":false,\"friendship\":0,\"iconGrade\":4,\"iconPath\":\"efui_iconatlas/use/use_7_194.png\",\"imagePath\":\"\",\"islandIcon\":0,\"rtString\":\"\",\"seal\":false,\"temporary\":0,\"town\":0,\"trash\":0}}},\"Element_002\":{\"type\":\"ItemPartBox\",\"value\":{\"Element_000\":\"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\"Element_001\":\"스킬 시전 속도가 14% 증가\"}},\"Element_003\":{\"type\":\"SingleTextBox\",\"value\":\"<FONT COLOR='#E2C87A'><FONT SIZE='12'>스킬에 강력한 힘을 부여할 수 있는 특별한 룬이다.</FONT></FONT>\"},\"Element_004\":{\"type\":\"SingleTextBox\",\"value\":\"<Font color='#5FD3F1'>[가디언 토벌] 정화 1단계</font>\"}}"
+      },
+      "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"디스토션\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 12초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#694D9F'>[그림자 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/rp_skill/rp_skill_01_10.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 7\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>왜곡된 공간의 어둠을 만든 후 빠르게 <FONT COLOR='#ffff99'>10m</FONT> 전방으로 이동하며 최대 <FONT COLOR='#00ccff'>1,453</FONT>의 피해를 주고, 도착 시 이동거리에 있던 대상에게 <FONT COLOR='#00ccff'>1,457</FONT>의 피해를 추가로 준다. 모험가 및 가디언 몬스터까지 충돌은 무시된다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<font color='#FFFDE7'>재사용 대기시간이 <FONT COLOR='#99ff99'>2.0</FONT>초 감소한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>빠른 준비</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_56.png\",\r\n          \"imagePath\": \"\"\r\n        },\r\n        \"tier\": \"<font color='#FFD200'>레벨 1</font>\"\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<font color='#FFFDE7'>체인 조작으로 변경된다. 체인 입력 시 한 번 더 스킬 사용이 가능하며, 체인 공격은 기본 피해량의 <FONT COLOR='#99ff99'>20.0%</FONT>에 해당하는 추가 피해를 입힌다. 체인 발동 시 재사용 대기시간이 <FONT COLOR='#ff9999'>20.0</FONT>초로 증가한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>안개 질주</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_26.png\",\r\n          \"imagePath\": \"\"\r\n        },\r\n        \"tier\": \"<font color='#FFD200'>레벨 1 (최대)</font>\"\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\",\r\n        \"tier\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\r\n      \"Element_001\": \"[<FONT COLOR='#F99200'>질풍</FONT>] 스킬 시전 속도가 14% 증가\"\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"BlinkLineStart\",\r\n    \"value\": true\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"다음 스킬 레벨 8\"\r\n  },\r\n  \"Element_009\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 10\"\r\n  },\r\n  \"Element_010\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>8\"\r\n  },\r\n  \"Element_011\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>왜곡된 공간의 어둠을 만든 후 빠르게 <FONT COLOR='#ffff99'>10m</FONT> 전방으로 이동하며 최대 <FONT COLOR='#00ccff'>1,500</FONT>의 피해를 주고, 도착 시 이동거리에 있던 대상에게 <FONT COLOR='#00ccff'>1,501</FONT>의 피해를 추가로 준다. 모험가 및 가디언 몬스터까지 충돌은 무시된다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n  },\r\n  \"Element_012\": {\r\n    \"type\": \"BlinkLineEnd\",\r\n    \"value\": true\r\n  }\r\n}"
+    },
+    {
+      "Name": "콜 오브 나이프",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/rp_skill/rp_skill_01_12.png",
+      "Level": 7,
+      "Type": "지점",
+      "IsAwakening": false,
+      "Tripods": [
+        {
+          "Tier": 0,
+          "Slot": 1,
+          "Name": "부위파괴 강화",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_21.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>폭발 공격에 부위파괴 <FONT COLOR='#99ff99'>1</FONT>레벨이 추가된다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 2,
+          "Name": "약육강식",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_61.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>시드 이하의 적에게 주는 피해가 <FONT COLOR='#99ff99'>30.0%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 3,
+          "Name": "그림자 강탈",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_11.png",
+          "Level": 1,
+          "IsSelected": true,
+          "Tooltip": "<font color='#FFFDE7'>적중 시 <FONT COLOR='#ffff99'>2.0</FONT>초간 리퍼의 이동속도가 <FONT COLOR='#99ff99'>10.0%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 1,
+          "Name": "지속되는 부름",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_51.png",
+          "Level": 1,
+          "IsSelected": true,
+          "Tooltip": "<font color='#FFFDE7'>지속시간이 증가하여 <FONT COLOR='#ffff99'>2</FONT>회 공격이 추가된다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 2,
+          "Name": "성장하는 어둠",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_22.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>마지막 폭발의 피해가 <FONT COLOR='#99ff99'>50.0%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 3,
+          "Name": "치명적인 그림자",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_4.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>치명타 적중률이 <FONT COLOR='#99ff99'>30.0%</FONT>증가한다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 1,
+          "Name": "절망의 부름",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_83.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>스택이 가능하게 변경되며, 최대 2회까지 스택이 가능하다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 2,
+          "Name": "공포의 부름",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_7.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>그림자 공격의 범위가 <FONT COLOR='#99ff99'>50.0%</FONT> 증가한다.</font>"
+        }
+      ],
+      "Rune": {
+        "Name": "광분",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_7_202.png",
+        "Grade": "전설",
+        "Tooltip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"<P ALIGN='CENTER'><FONT COLOR='#F99200'>광분</FONT></P>\"},\"Element_001\":{\"type\":\"ItemTitle\",\"value\":{\"bEquip\":0,\"leftStr0\":\"<FONT SIZE='12'><FONT COLOR='#F99200'>전설 스킬 룬</FONT></FONT>\",\"leftStr1\":\"\",\"leftStr2\":\"\",\"qualityValue\":-1,\"rightStr0\":\"\",\"slotData\":{\"advBookIcon\":0,\"battleItemTypeIcon\":0,\"cardIcon\":false,\"friendship\":0,\"iconGrade\":4,\"iconPath\":\"efui_iconatlas/use/use_7_202.png\",\"imagePath\":\"\",\"islandIcon\":0,\"rtString\":\"\",\"seal\":false,\"temporary\":0,\"town\":0,\"trash\":0}}},\"Element_002\":{\"type\":\"ItemPartBox\",\"value\":{\"Element_000\":\"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\"Element_001\":\"스킬 사용 시 일정 확률로 6초 동안 공격 속도, 이동 속도 16% 증가 \"}},\"Element_003\":{\"type\":\"SingleTextBox\",\"value\":\"<FONT COLOR='#E2C87A'><FONT SIZE='12'>스킬에 강력한 힘을 부여할 수 있는 특별한 룬이다.</FONT></FONT>\"},\"Element_004\":{\"type\":\"SingleTextBox\",\"value\":\"<Font color='#5FD3F1'>[카오스게이트] </font>\"}}"
+      },
+      "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"콜 오브 나이프\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 20초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#694D9F'>[그림자 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFD200'>지점</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/rp_skill/rp_skill_01_12.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 7\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>마우스 지점에 사신의 검을 소환하여, 주변 <FONT COLOR='#ffff99'>3m</FONT>에 <FONT COLOR='#00ccff'>717</FONT>의 [암] 속성 피해를 주고 <FONT COLOR='#ffff99'>2</FONT>초간 이동속도를 <FONT COLOR='#99ff99'>5%</FONT> 감소시킨다. 이후 주변을 끌어당겨 총 <FONT COLOR='#00ccff'>1,610</FONT>의 피해를 주고 폭발하여 <FONT COLOR='#00ccff'>1,255</FONT>의 [암] 속성 피해를 준다. 이동속도 감소는 최대 <FONT COLOR='#ffff99'>5</FONT>회 중첩되며, 최대 중첩 시 <FONT COLOR='#ffff99'>2.0</FONT>초 동안 공포 상태로 만든다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 하</FONT></FONT>\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<font color='#FFFDE7'>적중 시 <FONT COLOR='#ffff99'>2.0</FONT>초간 리퍼의 이동속도가 <FONT COLOR='#99ff99'>10.0%</FONT> 증가한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>그림자 강탈</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_11.png\",\r\n          \"imagePath\": \"\"\r\n        },\r\n        \"tier\": \"<font color='#FFD200'>레벨 1</font>\"\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<font color='#FFFDE7'>지속시간이 증가하여 <FONT COLOR='#ffff99'>2</FONT>회 공격이 추가된다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>지속되는 부름</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_51.png\",\r\n          \"imagePath\": \"\"\r\n        },\r\n        \"tier\": \"<font color='#FFD200'>레벨 1 (최대)</font>\"\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\",\r\n        \"tier\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\r\n      \"Element_001\": \"[<FONT COLOR='#F99200'>광분</FONT>] 스킬 사용 시 일정 확률로 6초 동안 공격 속도, 이동 속도 16% 증가 \"\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"BlinkLineStart\",\r\n    \"value\": true\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"다음 스킬 레벨 8\"\r\n  },\r\n  \"Element_009\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 10\"\r\n  },\r\n  \"Element_010\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>8\"\r\n  },\r\n  \"Element_011\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>마우스 지점에 사신의 검을 소환하여, 주변 <FONT COLOR='#ffff99'>3m</FONT>에 <FONT COLOR='#00ccff'>739</FONT>의 [암] 속성 피해를 주고 <FONT COLOR='#ffff99'>2</FONT>초간 이동속도를 <FONT COLOR='#99ff99'>5%</FONT> 감소시킨다. 이후 주변을 끌어당겨 총 <FONT COLOR='#00ccff'>1,660</FONT>의 피해를 주고 폭발하여 <FONT COLOR='#00ccff'>1,294</FONT>의 [암] 속성 피해를 준다. 이동속도 감소는 최대 <FONT COLOR='#ffff99'>5</FONT>회 중첩되며, 최대 중첩 시 <FONT COLOR='#ffff99'>2.0</FONT>초 동안 공포 상태로 만든다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 하</FONT></FONT>\"\r\n  },\r\n  \"Element_012\": {\r\n    \"type\": \"BlinkLineEnd\",\r\n    \"value\": true\r\n  }\r\n}"
+    },
+    {
+      "Name": "쉐도우 스톰",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/rp_skill/rp_skill_01_21.png",
+      "Level": 10,
+      "Type": "홀딩",
+      "IsAwakening": false,
+      "Tripods": [
+        {
+          "Tier": 0,
+          "Slot": 1,
+          "Name": "그림자 충전",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_37.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>공격 적중 시 어둠 게이지 및 혼돈 게이지 획득량이 <FONT COLOR='#99ff99'>30.0%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 2,
+          "Name": "치명적인 그림자",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_4.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>[뇌] 속성으로 변경되고, 치명타 적중률이 <FONT COLOR='#99ff99'>15.0%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 3,
+          "Name": "꿰뚫는 일격",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_19.png",
+          "Level": 1,
+          "IsSelected": true,
+          "Tooltip": "<font color='#FFFDE7'>[암] 속성으로 변경되고, 적중된 적의 모든 방어력을 <FONT COLOR='#99ff99'>30.0%</FONT> 무시한다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 1,
+          "Name": "난무 강화",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_49.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>치명타 피해량이 <FONT COLOR='#99ff99'>60.0%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 2,
+          "Name": "빠른 준비",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_56.png",
+          "Level": 1,
+          "IsSelected": true,
+          "Tooltip": "<font color='#FFFDE7'>스킬이 종료되면 적중된 적의 수에 따라 재사용 대기시간이 <FONT COLOR='#99ff99'>1.0</FONT>초씩 감소하며, 최대 <FONT COLOR='#99ff99'>10.0</FONT>초까지 감소한다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 3,
+          "Name": "마침표",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_39.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>마지막 공격의 피해가 <FONT COLOR='#99ff99'>75.0%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 1,
+          "Name": "검은 폭풍",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_116.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>적에게 주는 피해가 <FONT COLOR='#99ff99'>60.0%</FONT> 증가하고, 그림자가 사방에서 난무 공격을 펼쳐 공격 범위가 <FONT COLOR='#99ff99'>30.0%</FONT> 증가하며, 정면으로 끌어당기는 공격을 한다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 2,
+          "Name": "그림자 지대",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_127.png",
+          "Level": 1,
+          "IsSelected": true,
+          "Tooltip": "<font color='#FFFDE7'>일반 조작으로 변경된다. 적에게 주는 피해가 <FONT COLOR='#99ff99'>40.0%</FONT> 증가하며, 전방으로 <FONT COLOR='#ffff99'>8.0m</FONT> 이동하며 찌르는 공격으로 변경되며, 지나간 자리에 원형의 그림자 공간을 생성한 뒤 그림자가 <FONT COLOR='#ffff99'>5</FONT>회 공격하며 마지막에 폭발한다. 이동 중 모험가 및 몬스터와의 충돌은 무시된다.</font>"
+        }
+      ],
+      "Rune": {
+        "Name": "출혈",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_7_206.png",
+        "Grade": "전설",
+        "Tooltip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"<P ALIGN='CENTER'><FONT COLOR='#F99200'>출혈</FONT></P>\"},\"Element_001\":{\"type\":\"ItemTitle\",\"value\":{\"bEquip\":0,\"leftStr0\":\"<FONT SIZE='12'><FONT COLOR='#F99200'>전설 스킬 룬</FONT></FONT>\",\"leftStr1\":\"\",\"leftStr2\":\"\",\"qualityValue\":-1,\"rightStr0\":\"\",\"slotData\":{\"advBookIcon\":0,\"battleItemTypeIcon\":0,\"cardIcon\":false,\"friendship\":0,\"iconGrade\":4,\"iconPath\":\"efui_iconatlas/use/use_7_206.png\",\"imagePath\":\"\",\"islandIcon\":0,\"rtString\":\"\",\"seal\":false,\"temporary\":0,\"town\":0,\"trash\":0}}},\"Element_002\":{\"type\":\"ItemPartBox\",\"value\":{\"Element_000\":\"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\"Element_001\":\"스킬 적중 시 적을 6초간 '출혈' 상태로 만듦\"}},\"Element_003\":{\"type\":\"SingleTextBox\",\"value\":\"<FONT COLOR='#E2C87A'><FONT SIZE='12'>스킬에 강력한 힘을 부여할 수 있는 특별한 룬이다.</FONT></FONT>\"},\"Element_004\":{\"type\":\"SingleTextBox\",\"value\":\"<Font color='#5FD3F1'>[필드 보스] 얼음과 불의 섬 - 브리아레오스</font><BR><Font color='#5FD3F1'>[필드 보스] 격류의 섬 - 아우리온</font><BR><Font color='#5FD3F1'>[필드 보스] 파푸니카 - 모아케</font><BR><Font color='#5FD3F1'>그 외에 획득처가 더 존재합니다.</FONT>\"}}"
+      },
+      "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"쉐도우 스톰\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 22초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#694D9F'>[그림자 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#40E15F'>홀딩</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/rp_skill/rp_skill_01_21.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 10\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>전방으로 <FONT COLOR='#ffff99'>2m</FONT>를 이동하며 빠르게 찔러 <FONT COLOR='#00ccff'>1,339</FONT>의 피해를 준 뒤, 그림자를 소환하여 총 <FONT COLOR='#ffff99'>10</FONT>회에 걸쳐 최대 <FONT COLOR='#00ccff'>2,645</FONT>의 난무를 펼치고, 끝까지 난무를 사용시 <FONT COLOR='#ffff99'>6m</FONT> 전진하며 <FONT COLOR='#00ccff'>2,681</FONT>의 피해를 주고 난무 도중에 취소 시 <FONT COLOR='#00ccff'>2,013</FONT>의 피해를 준다. 공중에 뜬 적을 공격 시 다시 공중에 띄우고, 날려버린다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<font color='#FFFDE7'>[암] 속성으로 변경되고, 적중된 적의 모든 방어력을 <FONT COLOR='#99ff99'>30.0%</FONT> 무시한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>꿰뚫는 일격</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_19.png\",\r\n          \"imagePath\": \"\"\r\n        },\r\n        \"tier\": \"<font color='#FFD200'>레벨 1</font>\"\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<font color='#FFFDE7'>스킬이 종료되면 적중된 적의 수에 따라 재사용 대기시간이 <FONT COLOR='#99ff99'>1.0</FONT>초씩 감소하며, 최대 <FONT COLOR='#99ff99'>10.0</FONT>초까지 감소한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>빠른 준비</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_56.png\",\r\n          \"imagePath\": \"\"\r\n        },\r\n        \"tier\": \"<font color='#FFD200'>레벨 1</font>\"\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<font color='#FFFDE7'>일반 조작으로 변경된다. 적에게 주는 피해가 <FONT COLOR='#99ff99'>40.0%</FONT> 증가하며, 전방으로 <FONT COLOR='#ffff99'>8.0m</FONT> 이동하며 찌르는 공격으로 변경되며, 지나간 자리에 원형의 그림자 공간을 생성한 뒤 그림자가 <FONT COLOR='#ffff99'>5</FONT>회 공격하며 마지막에 폭발한다. 이동 중 모험가 및 몬스터와의 충돌은 무시된다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>그림자 지대</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_127.png\",\r\n          \"imagePath\": \"\"\r\n        },\r\n        \"tier\": \"<font color='#FFD200'>레벨 1</font>\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\r\n      \"Element_001\": \"[<FONT COLOR='#F99200'>출혈</FONT>] 스킬 적중 시 적을 6초간 '출혈' 상태로 만듦\"\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"BlinkLineStart\",\r\n    \"value\": true\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"다음 스킬 레벨 11\"\r\n  },\r\n  \"Element_009\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#FF0000'><FONT COLOR='#808080'>필요 레벨</FONT> 55</FONT>\"\r\n  },\r\n  \"Element_010\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>6\"\r\n  },\r\n  \"Element_011\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>전방으로 <FONT COLOR='#ffff99'>2m</FONT>를 이동하며 빠르게 찔러 <FONT COLOR='#00ccff'>1,401</FONT>의 피해를 준 뒤, 그림자를 소환하여 총 <FONT COLOR='#ffff99'>10</FONT>회에 걸쳐 최대 <FONT COLOR='#00ccff'>2,770</FONT>의 난무를 펼치고, 끝까지 난무를 사용시 <FONT COLOR='#ffff99'>6m</FONT> 전진하며 <FONT COLOR='#00ccff'>2,806</FONT>의 피해를 주고 난무 도중에 취소 시 <FONT COLOR='#00ccff'>2,107</FONT>의 피해를 준다. 공중에 뜬 적을 공격 시 다시 공중에 띄우고, 날려버린다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n  },\r\n  \"Element_012\": {\r\n    \"type\": \"BlinkLineEnd\",\r\n    \"value\": true\r\n  }\r\n}"
+    },
+    {
+      "Name": "블링크",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/rp_skill/rp_skill_01_11.png",
+      "Level": 1,
+      "Type": "체인",
+      "IsAwakening": false,
+      "Tripods": [
+        {
+          "Tier": 0,
+          "Slot": 1,
+          "Name": "그림자 충전",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_37.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>공격 적중 시 어둠 게이지 및 혼돈 게이지 획득량이 <FONT COLOR='#99ff99'>30.0%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 2,
+          "Name": "꿰뚫는 일격",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_3.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>적중된 적의 모든 방어력을 <FONT COLOR='#99ff99'>30.0%</FONT> 무시한다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 3,
+          "Name": "발목 절단",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_47.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>리퍼에게 직접 적중된 대상의 이동속도를 <FONT COLOR='#ffff99'>2.0</FONT>초간 <FONT COLOR='#99ff99'>15.0%</FONT> 감소시킨다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 1,
+          "Name": "전진 베기",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_40.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>더 이상 표창을 던지지 않고, 같은 방향으로 전진하며 베는 공격으로 변경된다. 이동 중 경직에 면역이 되며, 적을 넘어트리고 리퍼는 기본 피해량의 총 <FONT COLOR='#99ff99'>140.0%</FONT>피해를 준다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 2,
+          "Name": "소용돌이 표창",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_122.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>도착한 지점에서 <FONT COLOR='#ffff99'>1.5</FONT>초간 소용돌이치는 표창으로 변경되며, 리퍼는 기본 피해량의 <FONT COLOR='#99ff99'>130.0%</FONT>에 해당하는 피해를 준다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 3,
+          "Name": "분쇄 표창",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_123.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>세로로 표창을 던지면서 지나가는 바닥에 그림자 지대가 일어나서 기본 피해량의 <FONT COLOR='#99ff99'>145.0%</FONT>에 해당하는 피해를 주며 밀어낸다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 1,
+          "Name": "죽음의 그림자",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_124.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>리퍼에게 직접 적중된 대상이 모험가일 경우 피해가 <FONT COLOR='#99ff99'>100.0%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 2,
+          "Name": "그림자 강화",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_52.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>리퍼에게 직접 적중된 대상의 거리 증가에 따라 최대 <FONT COLOR='#99ff99'>100.0%</FONT> 피해가 증가한다. 전진 베기 트라이포드는 적용 시 적에게 주는 리퍼의 피해가 <FONT COLOR='#99ff99'>80.0%</FONT> 증가한다.</font>"
+        }
+      ],
+      "Rune": null,
+      "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"블링크\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 20초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#694D9F'>[그림자 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#00ADEC'>체인</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/rp_skill/rp_skill_01_11.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 1\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>마우스 지점으로 <FONT COLOR='#ffff99'>6</FONT>초간 유지되는 그림자 분신을 소환하고, 추가 키 입력 시 분신과 함께 마우스 방향으로 표창을 던져 <FONT COLOR='#00ccff'>1,013</FONT>의 [암] 속성 피해를 준다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT>\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\",\r\n        \"tier\": \"\"\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\",\r\n        \"tier\": \"\"\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\",\r\n        \"tier\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"BlinkLineStart\",\r\n    \"value\": true\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"다음 스킬 레벨 2\"\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 18\"\r\n  },\r\n  \"Element_009\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1\"\r\n  },\r\n  \"Element_010\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>마우스 지점으로 <FONT COLOR='#ffff99'>6</FONT>초간 유지되는 그림자 분신을 소환하고, 추가 키 입력 시 분신과 함께 마우스 방향으로 표창을 던져 <FONT COLOR='#00ccff'>1,269</FONT>의 [암] 속성 피해를 준다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT>\"\r\n  },\r\n  \"Element_011\": {\r\n    \"type\": \"BlinkLineEnd\",\r\n    \"value\": true\r\n  }\r\n}"
+    },
+    {
+      "Name": "블랙 미스트",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/rp_skill/rp_skill_01_13.png",
+      "Level": 1,
+      "Type": "홀딩",
+      "IsAwakening": false,
+      "Tripods": [
+        {
+          "Tier": 0,
+          "Slot": 1,
+          "Name": "안개 장막",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_26.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>스킬 시전 중 회피율이 <FONT COLOR='#99ff99'>10%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 2,
+          "Name": "탁월한 기동성",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_11.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>스킬 시전 중 이동속도가 <FONT COLOR='#99ff99'>15.0%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 3,
+          "Name": "넓은 안개",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_7.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>공격 범위가 <FONT COLOR='#99ff99'>20.0%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 1,
+          "Name": "안개의 눈",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_125.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>안개 중심부에 적중 시 적에게 주는 피해가 <FONT COLOR='#99ff99'>50.0%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 2,
+          "Name": "강인함",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_23.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>스킬 사용 중 피격 이상에 면역이 된다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 3,
+          "Name": "퍼지는 안개",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_126.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>안개에 몸을 숨길 때, 주변 <FONT COLOR='#ffff99'>6.0m</FONT>에 기본 피해량의 <FONT COLOR='#99ff99'>30.0%</FONT> 추가 피해를 주며, 이동속도를 <FONT COLOR='#99ff99'>30.0%</FONT> 감소시킨다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 1,
+          "Name": "거짓 안개",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_121.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>일반 조작으로 변경되며, 더 이상 직접 리퍼가 이동하지 않고 적을 향해 이동하는 안개를 생성한다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 2,
+          "Name": "안개 폭발",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_78.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>모험가 및 가디언 몬스터까지 충돌을 무시하며, 홀딩 종료 시 강력한 폭발이 <FONT COLOR='#ffff99'>3</FONT>회 추가되어 기본 피해량의 <FONT COLOR='#99ff99'>60.0%</FONT> 추가 피해를 준다.</font>"
+        }
+      ],
+      "Rune": null,
+      "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"블랙 미스트\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 20초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#694D9F'>[그림자 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#40E15F'>홀딩</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/rp_skill/rp_skill_01_13.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 1\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>마우스 방향으로 빠르게 검은 그림자 속에 몸을 감춘 뒤, 이동하며 적을 공격한다. 스킬 시전 중 받는 모든 피해가 <FONT COLOR='#99ff99'>20%</FONT> 감소하며, 총 <FONT COLOR='#00ccff'>3,538</FONT>의 피해를 주고, 공격을 <FONT COLOR='#ffff99'>4</FONT>회 적중 시 대상을 <FONT COLOR='#ffff99'>2.0</FONT>초 동안 공포상태로 만든다. 이동 중 모험가 및 몬스터와의 충돌은 무시된다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\",\r\n        \"tier\": \"\"\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\",\r\n        \"tier\": \"\"\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\",\r\n        \"tier\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"BlinkLineStart\",\r\n    \"value\": true\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"다음 스킬 레벨 2\"\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 24\"\r\n  },\r\n  \"Element_009\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1\"\r\n  },\r\n  \"Element_010\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>마우스 방향으로 빠르게 검은 그림자 속에 몸을 감춘 뒤, 이동하며 적을 공격한다. 스킬 시전 중 받는 모든 피해가 <FONT COLOR='#99ff99'>20%</FONT> 감소하며, 총 <FONT COLOR='#00ccff'>4,426</FONT>의 피해를 주고, 공격을 <FONT COLOR='#ffff99'>4</FONT>회 적중 시 대상을 <FONT COLOR='#ffff99'>2.0</FONT>초 동안 공포상태로 만든다. 이동 중 모험가 및 몬스터와의 충돌은 무시된다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n  },\r\n  \"Element_011\": {\r\n    \"type\": \"BlinkLineEnd\",\r\n    \"value\": true\r\n  }\r\n}"
+    },
+    {
+      "Name": "라스트 그래피티",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/rp_skill/rp_skill_01_15.png",
+      "Level": 7,
+      "Type": "지점",
+      "IsAwakening": false,
+      "Tripods": [
+        {
+          "Tier": 0,
+          "Slot": 1,
+          "Name": "범위 증가",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_7.png",
+          "Level": 1,
+          "IsSelected": true,
+          "Tooltip": "<font color='#FFFDE7'>공격범위가 <FONT COLOR='#99ff99'>10.0%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 2,
+          "Name": "원거리 급습",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_52.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>최대 이동 가능 거리가 <FONT COLOR='#99ff99'>2.0m</FONT> 증가하며, 가디언 몬스터까지 충돌을 무시하고 이동한다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 3,
+          "Name": "무력화 강화",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_69.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>스킬의 무력화 단계가 [상]으로 증가한다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 1,
+          "Name": "신속한 준비",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_56.png",
+          "Level": 1,
+          "IsSelected": true,
+          "Tooltip": "<font color='#FFFDE7'>적을 제거하면 <FONT COLOR='#99ff99'>20.0%</FONT> 확률로 재사용 대기시간이 초기화 된다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 2,
+          "Name": "급습 강화",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_19.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>[암] 속성으로 변경되고, 적에게 주는 피해가 <FONT COLOR='#99ff99'>35.0%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 3,
+          "Name": "혼돈 강화",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_118.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>혼돈 상태일 때, 적에게 주는 피해가 <FONT COLOR='#99ff99'>40.0%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 1,
+          "Name": "유언",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_22.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>더욱 높이 뛰어올라 강하게 내려찍어 치명타 적중률이 <FONT COLOR='#99ff99'>20.0%</FONT> 증가하며, 기본 피해량의 <FONT COLOR='#99ff99'>125.0%</FONT> 피해를 준다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 2,
+          "Name": "그림자 올가미",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_71.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>마우스 지점 주변에 분신을 소환해 기본 피해량의 <FONT COLOR='#99ff99'>30.0%</FONT> 피해를 주며 적을 끌어모은다.</font>"
+        }
+      ],
+      "Rune": {
+        "Name": "질풍",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_7_194.png",
+        "Grade": "전설",
+        "Tooltip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"<P ALIGN='CENTER'><FONT COLOR='#F99200'>질풍</FONT></P>\"},\"Element_001\":{\"type\":\"ItemTitle\",\"value\":{\"bEquip\":0,\"leftStr0\":\"<FONT SIZE='12'><FONT COLOR='#F99200'>전설 스킬 룬</FONT></FONT>\",\"leftStr1\":\"\",\"leftStr2\":\"\",\"qualityValue\":-1,\"rightStr0\":\"\",\"slotData\":{\"advBookIcon\":0,\"battleItemTypeIcon\":0,\"cardIcon\":false,\"friendship\":0,\"iconGrade\":4,\"iconPath\":\"efui_iconatlas/use/use_7_194.png\",\"imagePath\":\"\",\"islandIcon\":0,\"rtString\":\"\",\"seal\":false,\"temporary\":0,\"town\":0,\"trash\":0}}},\"Element_002\":{\"type\":\"ItemPartBox\",\"value\":{\"Element_000\":\"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\"Element_001\":\"스킬 시전 속도가 14% 증가\"}},\"Element_003\":{\"type\":\"SingleTextBox\",\"value\":\"<FONT COLOR='#E2C87A'><FONT SIZE='12'>스킬에 강력한 힘을 부여할 수 있는 특별한 룬이다.</FONT></FONT>\"},\"Element_004\":{\"type\":\"SingleTextBox\",\"value\":\"<Font color='#5FD3F1'>[가디언 토벌] 토벌 6단계</font><BR><Font color='#5FD3F1'>[가디언 토벌] 정화 1단계</font>\"}}"
+      },
+      "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"라스트 그래피티\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 22초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#B22222'>[급습 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFD200'>지점</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/rp_skill/rp_skill_01_15.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 7\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>마우스 지점으로 연기처럼 사라져 최대 <FONT COLOR='#ffff99'>8m</FONT> 이동 후 강하게 내려찍어 <FONT COLOR='#ffbb00'>7,214</FONT>의 피해를 주고, 적을 띄운다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>부위 파괴 : 레벨 1</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중상</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<font color='#FFFDE7'>공격범위가 <FONT COLOR='#99ff99'>10.0%</FONT> 증가한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>범위 증가</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_7.png\",\r\n          \"imagePath\": \"\"\r\n        },\r\n        \"tier\": \"<font color='#FFD200'>레벨 1 (최대)</font>\"\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<font color='#FFFDE7'>적을 제거하면 <FONT COLOR='#99ff99'>20.0%</FONT> 확률로 재사용 대기시간이 초기화 된다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>신속한 준비</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_56.png\",\r\n          \"imagePath\": \"\"\r\n        },\r\n        \"tier\": \"<font color='#FFD200'>레벨 1</font>\"\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\",\r\n        \"tier\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\r\n      \"Element_001\": \"[<FONT COLOR='#F99200'>질풍</FONT>] 스킬 시전 속도가 14% 증가\"\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"BlinkLineStart\",\r\n    \"value\": true\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"다음 스킬 레벨 8\"\r\n  },\r\n  \"Element_009\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 10\"\r\n  },\r\n  \"Element_010\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>8\"\r\n  },\r\n  \"Element_011\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>마우스 지점으로 연기처럼 사라져 최대 <FONT COLOR='#ffff99'>8m</FONT> 이동 후 강하게 내려찍어 <FONT COLOR='#ffbb00'>7,437</FONT>의 피해를 주고, 적을 띄운다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>부위 파괴 : 레벨 1</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중상</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n  },\r\n  \"Element_012\": {\r\n    \"type\": \"BlinkLineEnd\",\r\n    \"value\": true\r\n  }\r\n}"
+    },
+    {
+      "Name": "레이지 스피어",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/rp_skill/rp_skill_01_16.png",
+      "Level": 10,
+      "Type": "일반",
+      "IsAwakening": false,
+      "Tripods": [
+        {
+          "Tier": 0,
+          "Slot": 1,
+          "Name": "암살자의 거래",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_23.png",
+          "Level": 1,
+          "IsSelected": true,
+          "Tooltip": "<font color='#FFFDE7'>스킬 사용 도중 피격 이상에 면역 상태가 되지만, 공격 속도가 <FONT COLOR='#ff9999'>6.0%</FONT> 감소한다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 2,
+          "Name": "은밀한 암살",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_26.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>콤보 조작으로 변경된다. 추가 키 입력 시, 적을 찌른 후 뒤로 빠르게 <FONT COLOR='#ffff99'>6.5m</FONT> 이동하며 <FONT COLOR='#ffff99'>2</FONT>초간 이동속도가 <FONT COLOR='#99ff99'>40%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 0,
+          "Slot": 3,
+          "Name": "뇌진탕",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_69.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>무력화 단계가 [중상] 으로 증가한다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 1,
+          "Name": "집중 공격",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_87.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>공격의 폭이 좁아지지만 길이가 <FONT COLOR='#ffff99'>3.0m</FONT> 증가하고, 찌르기 전 어둠의 기운으로 대상을 정면으로 끌어당기며 기본 피해량의 <FONT COLOR='#99ff99'>10.0%</FONT>에 해당하는 피해를 입힌다. 또한 찌르는 공격이 적에게 주는 피해가 <FONT COLOR='#99ff99'>35.0%</FONT> 증가하며, 적중된 적을 날려버린다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 2,
+          "Name": "처형",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_88.png",
+          "Level": 1,
+          "IsSelected": true,
+          "Tooltip": "<font color='#FFFDE7'>공격 길이가 <FONT COLOR='#ff9999'>4.0m</FONT>로 감소하지만, 더욱 빠르게 공격하며 적에게 주는 피해가 <FONT COLOR='#99ff99'>35.0%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 1,
+          "Slot": 3,
+          "Name": "기습",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_101.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>공격이 백어택으로 적중 시 적에게 주는 피해가 <FONT COLOR='#99ff99'>40.0%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 1,
+          "Name": "치명적인 단검",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_94.png",
+          "Level": 1,
+          "IsSelected": true,
+          "Tooltip": "<font color='#FFFDE7'>단검에 치명적인 기운을 담아 치명타 적중률이 <FONT COLOR='#99ff99'>30.0%</FONT>, 적에게 주는 피해가 <FONT COLOR='#99ff99'>30.0%</FONT> 증가한다.</font>"
+        },
+        {
+          "Tier": 2,
+          "Slot": 2,
+          "Name": "순살",
+          "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_118.png",
+          "Level": 1,
+          "IsSelected": false,
+          "Tooltip": "<font color='#FFFDE7'>재사용 대기시간이 <FONT COLOR='#99ff99'>9.0</FONT>초 감소하며, 혼돈 상태에서 적에게 주는 피해가 <FONT COLOR='#99ff99'>30.0%</FONT> 증가한다.</font>"
+        }
+      ],
+      "Rune": {
+        "Name": "질풍",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_7_194.png",
+        "Grade": "영웅",
+        "Tooltip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"<P ALIGN='CENTER'><FONT COLOR='#ce43fc'>질풍</FONT></P>\"},\"Element_001\":{\"type\":\"ItemTitle\",\"value\":{\"bEquip\":0,\"leftStr0\":\"<FONT SIZE='12'><FONT COLOR='#ce43fc'>영웅 스킬 룬</FONT></FONT>\",\"leftStr1\":\"\",\"leftStr2\":\"\",\"qualityValue\":-1,\"rightStr0\":\"\",\"slotData\":{\"advBookIcon\":0,\"battleItemTypeIcon\":0,\"cardIcon\":false,\"friendship\":0,\"iconGrade\":3,\"iconPath\":\"efui_iconatlas/use/use_7_194.png\",\"imagePath\":\"\",\"islandIcon\":0,\"rtString\":\"\",\"seal\":false,\"temporary\":0,\"town\":0,\"trash\":0}}},\"Element_002\":{\"type\":\"ItemPartBox\",\"value\":{\"Element_000\":\"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\"Element_001\":\"스킬 시전 속도가 12% 증가\"}},\"Element_003\":{\"type\":\"SingleTextBox\",\"value\":\"<FONT COLOR='#E2C87A'><FONT SIZE='12'>스킬에 강력한 힘을 부여할 수 있는 특별한 룬이다.</FONT></FONT>\"},\"Element_004\":{\"type\":\"SingleTextBox\",\"value\":\"<Font color='#5FD3F1'>[가디언 토벌] 토벌 4단계</font><BR><Font color='#5FD3F1'>[가디언 토벌] 토벌 5단계</font><BR><Font color='#5FD3F1'>[가디언 토벌] 토벌 6단계</font><BR><Font color='#5FD3F1'>그 외에 획득처가 더 존재합니다.</FONT>\"}}"
+      },
+      "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"레이지 스피어\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 25초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#B22222'>[급습 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/rp_skill/rp_skill_01_16.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 10\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>순간적으로 붉은 그림자의 기운을 모아 전방 <FONT COLOR='#ffff99'>8m</FONT>이내의 적을 찔러 <FONT COLOR='#ffbb00'>7,720</FONT>의 피해를 주고, 적을 경직 시킨다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<font color='#FFFDE7'>스킬 사용 도중 피격 이상에 면역 상태가 되지만, 공격 속도가 <FONT COLOR='#ff9999'>6.0%</FONT> 감소한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>암살자의 거래</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_23.png\",\r\n          \"imagePath\": \"\"\r\n        },\r\n        \"tier\": \"<font color='#FFD200'>레벨 1 (최대)</font>\"\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<font color='#FFFDE7'>공격 길이가 <FONT COLOR='#ff9999'>4.0m</FONT>로 감소하지만, 더욱 빠르게 공격하며 적에게 주는 피해가 <FONT COLOR='#99ff99'>35.0%</FONT> 증가한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>처형</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_88.png\",\r\n          \"imagePath\": \"\"\r\n        },\r\n        \"tier\": \"<font color='#FFD200'>레벨 1</font>\"\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<font color='#FFFDE7'>단검에 치명적인 기운을 담아 치명타 적중률이 <FONT COLOR='#99ff99'>30.0%</FONT>, 적에게 주는 피해가 <FONT COLOR='#99ff99'>30.0%</FONT> 증가한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>치명적인 단검</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_94.png\",\r\n          \"imagePath\": \"\"\r\n        },\r\n        \"tier\": \"<font color='#FFD200'>레벨 1</font>\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\r\n      \"Element_001\": \"[<FONT COLOR='#ce43fc'>질풍</FONT>] 스킬 시전 속도가 12% 증가\"\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"BlinkLineStart\",\r\n    \"value\": true\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"다음 스킬 레벨 11\"\r\n  },\r\n  \"Element_009\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#FF0000'><FONT COLOR='#808080'>필요 레벨</FONT> 55</FONT>\"\r\n  },\r\n  \"Element_010\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>6\"\r\n  },\r\n  \"Element_011\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>순간적으로 붉은 그림자의 기운을 모아 전방 <FONT COLOR='#ffff99'>8m</FONT>이내의 적을 찔러 <FONT COLOR='#ffbb00'>8,081</FONT>의 피해를 주고, 적을 경직 시킨다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n  },\r\n  \"Element_012\": {\r\n    \"type\": \"BlinkLineEnd\",\r\n    \"value\": true\r\n  }\r\n}"
+    }
+  ],
+  "ArmoryEngraving": null,
+  "ArmoryCard": {
+    "Cards": [
+      {
+        "Slot": 0,
+        "Name": "케이사르",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/card_epic/card_epic_03_6.png",
+        "AwakeCount": 5,
+        "AwakeTotal": 5,
+        "Grade": "영웅",
+        "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"<FONT COLOR='#CE43FC'>케이사르</FONT>\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"Card\",\r\n    \"value\": {\r\n      \"awakeCount\": 5,\r\n      \"awakeTotal\": 5,\r\n      \"cardStack\": \"\",\r\n      \"iconData\": {\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/card_epic/card_epic_03_6.png\"\r\n      },\r\n      \"isBookMark\": false,\r\n      \"tierGrade\": 4\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"욘을 다스리는 국왕. 침착하고 카리스마가 넘친다.\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<Font color='#5FD3F1'>[물물교환] 욘 - 떠돌이 상인</font><BR><Font color='#5FD3F1'>[호감도] 위대한 성 - 케이사르</font><BR><Font color='#5FD3F1'>[카오스 던전] 3티어</font><BR><font color='#97fffd'>[카드팩] 단단한 용기의 카드 팩</font><BR>\"\r\n  }\r\n}"
+      },
+      {
+        "Slot": 1,
+        "Name": "프랭크",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/card_uncommon/card_uncommon_04_1.png",
+        "AwakeCount": 5,
+        "AwakeTotal": 5,
+        "Grade": "고급",
+        "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"<FONT COLOR='#8DF901'>프랭크</FONT>\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"Card\",\r\n    \"value\": {\r\n      \"awakeCount\": 5,\r\n      \"awakeTotal\": 5,\r\n      \"cardStack\": \"\",\r\n      \"iconData\": {\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/card_uncommon/card_uncommon_04_1.png\"\r\n      },\r\n      \"isBookMark\": false,\r\n      \"tierGrade\": 2\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"별빛 등대의 섬에 있는 등대지기. 세상에 떠도는 영혼들을 하늘로 올려 보내기 위해 피아노를 연주한다.\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<Font color='#5FD3F1'>[카오스 던전] 3티어</font><BR><font color='#97fffd'>[카드팩] 조화로운 바다 카드 팩</font><BR>\"\r\n  }\r\n}"
+      },
+      {
+        "Slot": 2,
+        "Name": "헨리",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/card_uncommon/card_uncommon_04_2.png",
+        "AwakeCount": 5,
+        "AwakeTotal": 5,
+        "Grade": "고급",
+        "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"<FONT COLOR='#8DF901'>헨리</FONT>\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"Card\",\r\n    \"value\": {\r\n      \"awakeCount\": 5,\r\n      \"awakeTotal\": 5,\r\n      \"cardStack\": \"\",\r\n      \"iconData\": {\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/card_uncommon/card_uncommon_04_2.png\"\r\n      },\r\n      \"isBookMark\": false,\r\n      \"tierGrade\": 2\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"금방 사랑에 빠져버리는 남자. 사랑과 관련된 일이라면 각종 착각과 환상에 빠져 있다.\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<Font color='#5FD3F1'>[호감도] 리베하임 - 연애 고수 헨리</font><BR><Font color='#5FD3F1'>[카오스 던전] 3티어</font><BR><font color='#97fffd'>[카드팩] 조화로운 바다 카드 팩</font><BR>\"\r\n  }\r\n}"
+      },
+      {
+        "Slot": 3,
+        "Name": "원포",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/card_rare/card_rare_04_4.png",
+        "AwakeCount": 5,
+        "AwakeTotal": 5,
+        "Grade": "희귀",
+        "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"<FONT COLOR='#00B0FA'>원포</FONT>\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"Card\",\r\n    \"value\": {\r\n      \"awakeCount\": 5,\r\n      \"awakeTotal\": 5,\r\n      \"cardStack\": \"\",\r\n      \"iconData\": {\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/card_rare/card_rare_04_4.png\"\r\n      },\r\n      \"isBookMark\": false,\r\n      \"tierGrade\": 3\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"창천비무제의 창천사검. 연가문 소속이었지만, 아내의 병을 고치기 위해 어두운 길로 발을 들였다.\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<Font color='#5FD3F1'>[카오스 던전] 3티어</font><BR><font color='#97fffd'>[카드팩] 노래하는 혹한 카드 팩</font><BR><font color='#97fffd'>[카드팩] 신비한 풍류의 카드 팩</font><BR>\"\r\n  }\r\n}"
+      },
+      {
+        "Slot": 4,
+        "Name": "알레그로",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/card_epic/card_epic_00_3.png",
+        "AwakeCount": 5,
+        "AwakeTotal": 5,
+        "Grade": "영웅",
+        "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"<FONT COLOR='#CE43FC'>알레그로</FONT>\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"Card\",\r\n    \"value\": {\r\n      \"awakeCount\": 5,\r\n      \"awakeTotal\": 5,\r\n      \"cardStack\": \"\",\r\n      \"iconData\": {\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/card_epic/card_epic_00_3.png\"\r\n      },\r\n      \"isBookMark\": false,\r\n      \"tierGrade\": 4\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"평온해보이는 음유시인. 오래된 악기 하나를 들고 세상사를 노래한다. 왠지 세상의 이치를 모두 깨우치고 있는 듯한 느낌이 든다.\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<Font color='#5FD3F1'>[탐색] 해무리 언덕</font><BR><Font color='#5FD3F1'>[카오스 던전] 3티어</font><BR><font color='#97fffd'>[카드팩] 용감한 기사의 카드 팩</font><BR><font color='#97fffd'>[카드팩] 단단한 용기의 카드 팩</font><BR>\"\r\n  }\r\n}"
+      },
+      {
+        "Slot": 5,
+        "Name": "베아트리스",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/card_legend/card_legend_01_6.png",
+        "AwakeCount": 5,
+        "AwakeTotal": 5,
+        "Grade": "전설",
+        "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"<FONT COLOR='#F99200'>베아트리스</FONT>\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"Card\",\r\n    \"value\": {\r\n      \"awakeCount\": 5,\r\n      \"awakeTotal\": 5,\r\n      \"cardStack\": \"\",\r\n      \"iconData\": {\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/card_legend/card_legend_01_6.png\"\r\n      },\r\n      \"isBookMark\": false,\r\n      \"tierGrade\": 5\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"주신 루페온에게 차원의 틈인 트리시온에서 세계를 관찰하는 임무를 부여 받은 라제니스. \"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<Font color='#5FD3F1'>[어비스 던전] </font><BR><Font color='#5FD3F1'>[호감도] 트리시온 - 베아트리스</font><BR>\"\r\n  }\r\n}"
+      }
+    ],
+    "Effects": [
+      {
+        "Index": 0,
+        "CardSlots": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "Items": [
+          {
+            "Name": "사랑꾼 2세트",
+            "Description": "이동기 재사용 대기시간이 10% 감소한다."
+          },
+          {
+            "Name": "사랑꾼 4세트",
+            "Description": "이동기 사용 시 10%의 확률로 재사용 대기시간이 초기화된다."
+          },
+          {
+            "Name": "사랑꾼 4세트 (12각성합계)",
+            "Description": "이동 속도 +4.00%"
+          },
+          {
+            "Name": "사랑꾼 4세트 (20각성합계)",
+            "Description": "이동 속도 +8.00%"
+          }
+        ]
+      },
+      {
+        "Index": 1,
+        "CardSlots": [
+          4,
+          5
+        ],
+        "Items": [
+          {
+            "Name": "라제니스의 운명 2세트",
+            "Description": "모든 속성 피해 감소 +5.00%"
+          },
+          {
+            "Name": "라제니스의 운명 2세트 (4각성합계)",
+            "Description": "속성 피해 +2.00%"
+          },
+          {
+            "Name": "라제니스의 운명 2세트 (10각성합계)",
+            "Description": "공격 적중 시 일정 확률로 8초간 모든 속성 피해 24% 증가 (재사용 대기시간 32초)"
+          }
+        ]
+      }
+    ]
+  },
+  "ArmoryGem": null,
+  "ColosseumInfo": {
+    "Rank": 0,
+    "PreRank": 0,
+    "Exp": 0,
+    "Colosseums": [
+      {
+        "SeasonName": "프리 시즌",
+        "Competitive": null,
+        "TeamDeathmatch": null,
+        "Deathmatch": null,
+        "TeamElimination": null,
+        "CoOpBattle": null
+      },
+      {
+        "SeasonName": "시즌 1",
+        "Competitive": null,
+        "TeamDeathmatch": null,
+        "Deathmatch": null,
+        "TeamElimination": null,
+        "CoOpBattle": null
+      },
+      {
+        "SeasonName": "시즌 2",
+        "Competitive": null,
+        "TeamDeathmatch": null,
+        "Deathmatch": null,
+        "TeamElimination": null,
+        "CoOpBattle": null
+      },
+      {
+        "SeasonName": "시즌 3",
+        "Competitive": null,
+        "TeamDeathmatch": null,
+        "Deathmatch": null,
+        "TeamElimination": null,
+        "CoOpBattle": null
+      },
+      {
+        "SeasonName": "시즌 4",
+        "Competitive": null,
+        "TeamDeathmatch": null,
+        "Deathmatch": null,
+        "TeamElimination": null,
+        "CoOpBattle": null
+      },
+      {
+        "SeasonName": "시즌 5",
+        "Competitive": null,
+        "TeamDeathmatch": null,
+        "Deathmatch": null,
+        "TeamElimination": null,
+        "CoOpBattle": null
+      },
+      {
+        "SeasonName": "시즌 6",
+        "Competitive": null,
+        "TeamDeathmatch": null,
+        "Deathmatch": null,
+        "TeamElimination": null,
+        "CoOpBattle": null
+      },
+      {
+        "SeasonName": "시즌 7",
+        "Competitive": null,
+        "TeamDeathmatch": null,
+        "Deathmatch": null,
+        "TeamElimination": null,
+        "CoOpBattle": null
+      }
+    ]
+  },
+  "Collectibles": [
+    {
+      "Type": "모코코 씨앗",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/cumulativepoint/cumulativepoint_mococo_5.png",
+      "Point": 781,
+      "MaxPoint": 1370,
+      "CollectiblePoints": [
+        {
+          "PointName": "아르테미스",
+          "Point": 51,
+          "MaxPoint": 51
+        },
+        {
+          "PointName": "유디아",
+          "Point": 37,
+          "MaxPoint": 37
+        },
+        {
+          "PointName": "루테란 서부",
+          "Point": 71,
+          "MaxPoint": 71
+        },
+        {
+          "PointName": "루테란 동부",
+          "Point": 127,
+          "MaxPoint": 127
+        },
+        {
+          "PointName": "애니츠",
+          "Point": 72,
+          "MaxPoint": 72
+        },
+        {
+          "PointName": "아르데타인",
+          "Point": 7,
+          "MaxPoint": 87
+        },
+        {
+          "PointName": "베른 북부",
+          "Point": 19,
+          "MaxPoint": 83
+        },
+        {
+          "PointName": "슈샤이어",
+          "Point": 19,
+          "MaxPoint": 57
+        },
+        {
+          "PointName": "로헨델",
+          "Point": 5,
+          "MaxPoint": 70
+        },
+        {
+          "PointName": "욘",
+          "Point": 2,
+          "MaxPoint": 70
+        },
+        {
+          "PointName": "페이튼",
+          "Point": 2,
+          "MaxPoint": 70
+        },
+        {
+          "PointName": "파푸니카",
+          "Point": 17,
+          "MaxPoint": 70
+        },
+        {
+          "PointName": "베른 남부",
+          "Point": 2,
+          "MaxPoint": 25
+        },
+        {
+          "PointName": "로웬",
+          "Point": 25,
+          "MaxPoint": 25
+        },
+        {
+          "PointName": "엘가시아",
+          "Point": 33,
+          "MaxPoint": 33
+        },
+        {
+          "PointName": "플레체",
+          "Point": 2,
+          "MaxPoint": 26
+        },
+        {
+          "PointName": "볼다이크",
+          "Point": 3,
+          "MaxPoint": 35
+        },
+        {
+          "PointName": "대항해",
+          "Point": 287,
+          "MaxPoint": 361
+        }
+      ]
+    },
+    {
+      "Type": "섬의 마음",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/cumulativepoint/cumulativepoint_island_5.png",
+      "Point": 69,
+      "MaxPoint": 100,
+      "CollectiblePoints": [
+        {
+          "PointName": "고블린 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "거대버섯 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "토토실버 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "토토피아 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "환각의 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "잠자는 노래의 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "별빛 등대 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세월의 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "볼라르 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "두키 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "갈망의 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "비밀기지 X-301 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "알트아이젠 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "칼트헤르츠 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "안개의 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "얼음 미로의 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "얼음과 불의 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "비키니 아일랜드 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "그림자의 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "포르투나 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "에버그레이스의 둥지 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "스피다 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "회상의 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "포르페 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "페이토 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "잊혀진 자들의 도시 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "검은이빨 주둔지 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "휴양지 그라비스 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "외로운 섬 오페르 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "해바라기 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "자유의 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "카마인의 주둔지 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "죽음의 협곡 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "작은 행운의 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "왜곡된 차원의 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "에라스모의 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "포모나 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "도망자들의 마을 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "메데이아 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "리베하임 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "우거진 갈대의 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "메투스 제도 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "해적마을 아틀라스 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "지혜의 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "신월의 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "고요의 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "하얀파도 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "무법자의 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "격류의 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "나루니 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "노토스 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "몬테 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "판다 푸푸 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "몽환의 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "하모니 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "꿈꾸는 갈매기 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "부서진 빙하의 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "블루홀 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "거북 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "희망의 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "로팡 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "고립된 영원의 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "히프노스의 눈 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "지고의 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "그릇된 욕망의 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "오르비스 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "에스텔라 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "슬라임 아일랜드 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "알라케르 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "기회의 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "태초의 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "황금물결 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "고요한 안식의 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "클럽 아비뉴 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "수라도 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "기약의 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "황혼의 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "아르곤 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "환영 나비 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "푸른 바람의 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "무릉도원 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "아트로포스 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "발푸르기스 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "미지의 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "그림자달 시장 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "페르마타 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "지스브로이 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "두키 주식회사 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "속삭이는 작은 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "비탄의 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "환죽도 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "쿵덕쿵 아일랜드 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "이스테르 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "스노우팡 아일랜드 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모코모코 야시장 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "꿈꾸는 추억의 섬의 마음",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "잔혹한 장난감 성 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모코콩 아일랜드 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "라일라이 아일랜드 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "프레테리아 섬의 마음",
+          "Point": 0,
+          "MaxPoint": 1
+        }
+      ]
+    },
+    {
+      "Type": "위대한 미술품",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/cumulativepoint/cumulativepoint_greatpictures_4.png",
+      "Point": 53,
+      "MaxPoint": 60,
+      "CollectiblePoints": [
+        {
+          "PointName": "위대한 미술품 #1",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #2",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #3",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #4",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #5",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #6",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #7",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #8",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #9",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #10",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #11",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #12",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #13",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #14",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #15",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #16",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #17",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #18",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #19",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #20",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #21",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #22",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #23",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #24",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #25",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #26",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #27",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #28",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #29",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #30",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #31",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #32",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #33",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #34",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #35",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #36",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #37",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #38",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #39",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #40",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #41",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #42",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #43",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #44",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #45",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #46",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #47",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #48",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #49",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #50",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #51",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #52",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #53",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #54",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #55",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #56",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #57",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #58",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #59",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "위대한 미술품 #60",
+          "Point": 1,
+          "MaxPoint": 1
+        }
+      ]
+    },
+    {
+      "Type": "거인의 심장",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/cumulativepoint/cumulativepoint_gianthearts_5.png",
+      "Point": 15,
+      "MaxPoint": 15,
+      "CollectiblePoints": [
+        {
+          "PointName": "첫 번째 거인의 심장",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "두 번째 거인의 심장",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세 번째 거인의 심장",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "네 번째 거인의 심장",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "다섯 번째 거인의 심장",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "여섯 번째 거인의 심장",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "일곱 번째 거인의 심장",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "여덟 번째 거인의 심장",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "아홉 번째 거인의 심장",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "열 번째 거인의 심장",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "열한 번째 거인의 심장",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "열두 번째 거인의 심장",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "열세 번째 거인의 심장",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "열네 번째 거인의 심장",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "열다섯 번째 거인의 심장",
+          "Point": 1,
+          "MaxPoint": 1
+        }
+      ]
+    },
+    {
+      "Type": "이그네아의 징표",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/cumulativepoint/cumulativepoint_adventure_medal_leaf_2.png",
+      "Point": 7,
+      "MaxPoint": 17,
+      "CollectiblePoints": [
+        {
+          "PointName": "이그네아의 징표 : 아르테미스",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "이그네아의 징표 : 유디아",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "이그네아의 징표 : 루테란 서부",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "이그네아의 징표 : 루테란 동부",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "이그네아의 징표 : 토토이크",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "이그네아의 징표 : 애니츠",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "이그네아의 징표 : 아르데타인",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "이그네아의 징표 : 베른 북부",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "이그네아의 징표 : 슈샤이어",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "이그네아의 징표 : 로헨델",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "이그네아의 징표 : 욘",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "이그네아의 징표 : 페이튼",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "이그네아의 징표 : 파푸니카",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "이그네아의 징표 : 베른 남부",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "이그네아의 징표 : 로웬",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "이그네아의 징표 : 엘가시아",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "이그네아의 징표 : 볼다이크",
+          "Point": 0,
+          "MaxPoint": 1
+        }
+      ]
+    },
+    {
+      "Type": "항해 모험물",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/cumulativepoint/cumulativepoint_voyage_adventure_leaf_2.png",
+      "Point": 24,
+      "MaxPoint": 49,
+      "CollectiblePoints": [
+        {
+          "PointName": "모험물 : 모코코 버섯",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 라마",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 붉은바다거북",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 스타더스트",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 바다꽃",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 스타후르츠",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 용과",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 맨드릴",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 유령 도마뱀",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 오색앵무새",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 바람의 석판",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 반달 가면",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 고대 지팡이",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 고대 금화",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 잊혀진 호수",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 크레바스",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 불타는 얼음",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 고인돌",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 마법진",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 난파선 잔해",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 참돌고래",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 극지 맘모스",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 붉은낙타",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 유니콘",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 유령 가오리",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 세이렌",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 달의 탑",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 신의 창",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 기에나 석상",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 오로라",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 소용돌이",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 침묵하는 섬",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 토토이끼 배",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 북해의 눈",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 남해의 눈",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 죽은자의 눈",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 의문의 상자",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 해적의 의족",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 해적의 깃발",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 헤스티아호",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 환영 나비",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 대왕 조개",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 천 덮인 선수상",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 여인의 얼음 조각상",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 눈썰매",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 잃어버린 상선",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 심해 암석",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 부서진 거대사슬",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "모험물 : 가디언의 상흔",
+          "Point": 0,
+          "MaxPoint": 1
+        }
+      ]
+    },
+    {
+      "Type": "세계수의 잎",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/cumulativepoint/cumulativepoint_worldtree_leaf_5.png",
+      "Point": 86,
+      "MaxPoint": 91,
+      "CollectiblePoints": [
+        {
+          "PointName": "세계수의 잎 #1",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #2",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #3",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #4",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #5",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #6",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #7",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #8",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #9",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #10",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #11",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #12",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #13",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #14",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #15",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #16",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #17",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #18",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #19",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #20",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #21",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #22",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #23",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #24",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #25",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #26",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #27",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #28",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #29",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #30",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #31",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #41",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #42",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #43",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #44",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #45",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #46",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #50",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #51",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #52",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #53",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #54",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #55",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #59",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #60",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #61",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #62",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #63",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #64",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #68",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #69",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #70",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #71",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #72",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #73",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #74",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #75",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #76",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #77",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #78",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #79",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #80",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #81",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #82",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #83",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #84",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #85",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #86",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #87",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #88",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #89",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #90",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #91",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #92",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #93",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #94",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #95",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #96",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #97",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #98",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #99",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #100",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #101",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #102",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #103",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #104",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #105",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #106",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #107",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #108",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "세계수의 잎 #109",
+          "Point": 1,
+          "MaxPoint": 1
+        }
+      ]
+    },
+    {
+      "Type": "오르페우스의 별",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/cumulativepoint/cumulativepoint_orpeus_star_2.png",
+      "Point": 9,
+      "MaxPoint": 10,
+      "CollectiblePoints": [
+        {
+          "PointName": "오르페우스의 별 #1",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "오르페우스의 별 #2",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "오르페우스의 별 #3",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "오르페우스의 별 #4",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "오르페우스의 별 #5",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "오르페우스의 별 #6",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "오르페우스의 별 #7",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "오르페우스의 별 #8",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "오르페우스의 별 #9",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "오르페우스의 별 #10",
+          "Point": 1,
+          "MaxPoint": 1
+        }
+      ]
+    },
+    {
+      "Type": "기억의 오르골",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/cumulativepoint/cumulativepoint_orgel_1.png",
+      "Point": 3,
+      "MaxPoint": 16,
+      "CollectiblePoints": [
+        {
+          "PointName": "기억의 구슬 #1",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "기억의 구슬 #2",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "기억의 구슬 #3",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "기억의 구슬 #4",
+          "Point": 1,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "기억의 구슬 #5",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "기억의 구슬 #6",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "기억의 구슬 #7",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "기억의 구슬 #8",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "기억의 구슬 #9",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "기억의 구슬 #10",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "기억의 구슬 #11",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "기억의 구슬 #12",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "기억의 구슬 #13",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "기억의 구슬 #14",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "기억의 구슬 #15",
+          "Point": 0,
+          "MaxPoint": 1
+        },
+        {
+          "PointName": "기억의 구슬 #16",
+          "Point": 0,
+          "MaxPoint": 1
+        }
+      ]
+    }
+  ]
+}

@@ -118,6 +118,16 @@
     }
     function testCharacterInfo() {
         const characterInfo = sampleJsonData03;
+        const characterInfoLength = characterInfo.length;
+        console.log(characterInfo);
+        console.log(characterInfoLength);
+        if(characterInfoLength > 0){
+            console.log("캐릭터 정보 길이가 있습니다.");
+        }else if (characterInfo){
+            console.log("캐릭터 정보가 null이 아닙니다.");
+        }else {
+            console.log("캐릭터 정보가 없습니다.");
+        }
         let characterInfoMsg = "";
 
 
@@ -134,7 +144,7 @@
         characterInfoMsg = characterInfoMsg
             + characterInfo["ArmoryProfile"]["GuildMemberGrade"] + " / " + characterInfo["ArmoryProfile"]["GuildName"] + " / " + characterInfo["ArmoryProfile"]["ServerName"] + "\n"
             + "Lv " + characterInfo["ArmoryProfile"]["ItemAvgLevel"].replace(/,/g, '') + " / " + characterInfo["ArmoryProfile"]["CharacterLevel"] + " / " + characterInfo["ArmoryProfile"]["ExpeditionLevel"] + " (원정대)" + "\n"
-            + "스킬포인트 " + characterInfo["ArmoryProfile"]["UsingSkillPoint"] + " / " + characterInfo["ArmoryProfile"]["TotalSkillPoint"] + "\n"
+            + "스킬포인트 " + characterInfo["ArmoryProfile"]["UsingSkillPoint"] + " / " + characterInfo["ArmoryProfile"]["TotalSkillPoint"] + " "
             ;
 
 
@@ -147,21 +157,6 @@
                 + "PvP " + "Unranked" + "\n"
                 ;
         }
-
-        if (characterInfo["ArmoryCard"]) {
-            const cardSetEffectLength = characterInfo["ArmoryCard"]["Effects"].length;
-            if (cardSetEffectLength > 0) {
-                for (let i = 0; i < cardSetEffectLength; i++) {
-                    const cardSetEffectItemLength = characterInfo["ArmoryCard"]["Effects"][i]["Items"].length;
-                    if (cardSetEffectItemLength > 0) {
-                        characterInfoMsg = characterInfoMsg
-                            + characterInfo["ArmoryCard"]["Effects"][i]["Items"][cardSetEffectItemLength - 1]["Name"] + "\n"
-                            ;
-                    }
-                }
-            }
-        }
-
 
         if (characterInfo["ArmoryProfile"]["Stats"]) {
             const stats = characterInfo["ArmoryProfile"]["Stats"];
@@ -184,6 +179,23 @@
             }
             characterInfoMsg += "\n";
         }
+
+        if (characterInfo["ArmoryCard"]) {
+            const cardSetEffectLength = characterInfo["ArmoryCard"]["Effects"].length;
+            if (cardSetEffectLength > 0) {
+                for (let i = 0; i < cardSetEffectLength; i++) {
+                    const cardSetEffectItemLength = characterInfo["ArmoryCard"]["Effects"][i]["Items"].length;
+                    if (cardSetEffectItemLength > 0) {
+                        characterInfoMsg = characterInfoMsg
+                            + characterInfo["ArmoryCard"]["Effects"][i]["Items"][cardSetEffectItemLength - 1]["Name"] + "\n"
+                            ;
+                    }
+                }
+            }
+        }
+
+
+
 
         function changeCollectiblesTypeName(collectiblesTypeName) {
             switch (collectiblesTypeName) {
@@ -213,13 +225,14 @@
 
         const collectiblesLength = characterInfo["Collectibles"].length;
         if (collectiblesLength > 0) {
+            characterInfoMsg = characterInfoMsg + "\n";
             const characterCollectibles = characterInfo["Collectibles"];
-            let characterCollectiblesInfo = characterCollectibles.map(characterCollectibles => ({
-                type: characterCollectibles["Type"],
-                point: parseInt(characterCollectibles["Point"], 10),
-                maxPoint: parseInt(characterCollectibles["MaxPoint"], 10)
+            let characterCollectiblesInfo = characterCollectibles.map(charCollectibles => ({
+                type: changeCollectiblesTypeName(charCollectibles["Type"]),
+                point: parseInt(charCollectibles["Point"], 10),
+                maxPoint: parseInt(charCollectibles["MaxPoint"], 10)
             }))
-            characterCollectiblesInfo = characterCollectiblesInfo.sort((a, b) => b.MaxPoint - a.MaxPoint);
+            characterCollectiblesInfo = characterCollectiblesInfo.sort((a, b) => b.maxPoint - a.maxPoint);
 
             for (let i = 0; i < collectiblesLength; i++) {
                 characterInfoMsg = characterInfoMsg
@@ -229,12 +242,37 @@
                     + " "
                     ;
 
-                if (i = 3) {
+                if ((i + 1) % 3 === 0) {
                     characterInfoMsg = characterInfoMsg + "\n";
                 }
             }
         }
 
+        const characterArmoryEngravingEffects = characterInfo["ArmoryEngraving"]["Effects"];
+        const characterArmoryEngravingEffectsLength = characterArmoryEngravingEffects.length;
+        if (characterArmoryEngravingEffectsLength > 0) {
+            characterInfoMsg = characterInfoMsg + "\n";
+            // 'Name'을 'name'과 'level'로 분리
+            function changeEffectsName(effectsName) {
+                switch (effectsName) {
+                    case "슈퍼 차지":
+                        return "슈차";
+                    case "피스메이커":
+                        return "피메";
+                    case "":
+                }
+            }
+            let characterEngravingEffects = characterArmoryEngravingEffects.map(effect => {
+                // 'Lv.'를 기준으로 문자열을 분리합니다.
+                let effectsName = effect.Name.split(" Lv. ");
+                // 객체를 반환합니다. 첫 부분은 'name', 두 번째 부분은 'level'입니다.
+                return { name: effectsName[0], level: effectsName[1] };
+            });
+
+
+            characterInfoMsg = characterInfoMsg +
+                characterEngravingEffects.map(effect => `${effect.name}${effect.level}`).join(" ");
+        }
 
 
 
@@ -242,35 +280,36 @@
         console.log("=====================================");
 
 
+        // ["EtcOptions"][1][EtcSubs][i][Text] // 각인이름
+        // ["EtcOptions"][1][EtcSubs][i][Class] // "" < 공통, "직업" <<직각
 
+        // function callStats() {
+        //     const statsLength = sampleJsonData03["ArmoryProfile"]["Stats"].length;
+        //     for (let i = 0; i < statsLength; i++) {
+        //         console.log(sampleJsonData03["ArmoryProfile"]["Stats"][i]["Type"] + " : "
+        //             + sampleJsonData03["ArmoryProfile"]["Stats"][i]["Value"]);
+        //     }
+        // }
+        // callStats();
 
-        function callStats() {
-            const statsLength = sampleJsonData03["ArmoryProfile"]["Stats"].length;
-            for (let i = 0; i < statsLength; i++) {
-                console.log(sampleJsonData03["ArmoryProfile"]["Stats"][i]["Type"] + " : "
-                    + sampleJsonData03["ArmoryProfile"]["Stats"][i]["Value"]);
-            }
-        }
-        callStats();
+        // function callCollectibles() {
+        //     const collectiblesLength = sampleJsonData03["Collectibles"].length;
+        //     for (let i = 0; i < collectiblesLength; i++) {
+        //         console.log(sampleJsonData03["Collectibles"][i]["Type"] + " : "
+        //             + sampleJsonData03["Collectibles"][i]["Point"] + " / "
+        //             + sampleJsonData03["Collectibles"][i]["MaxPoint"]);
+        //     }
+        // }
+        // callCollectibles();
 
-        function callCollectibles() {
-            const collectiblesLength = sampleJsonData03["Collectibles"].length;
-            for (let i = 0; i < collectiblesLength; i++) {
-                console.log(sampleJsonData03["Collectibles"][i]["Type"] + " : "
-                    + sampleJsonData03["Collectibles"][i]["Point"] + " / "
-                    + sampleJsonData03["Collectibles"][i]["MaxPoint"]);
-            }
-        }
-        callCollectibles();
+        // function callArmoryCard() {
+        //     const cardSetEffectLength = sampleJsonData03["ArmoryCard"]["Effects"].length;
+        //     const cardSetEffectItemLength = sampleJsonData03["ArmoryCard"]["Effects"][cardSetEffectLength - 1]["Items"].length;
 
-        function callArmoryCard() {
-            const cardSetEffectLength = sampleJsonData03["ArmoryCard"]["Effects"].length;
-            const cardSetEffectItemLength = sampleJsonData03["ArmoryCard"]["Effects"][cardSetEffectLength - 1]["Items"].length;
-
-            const cardSetEffectItemName = sampleJsonData03["ArmoryCard"]["Effects"][cardSetEffectLength - 1]["Items"][cardSetEffectItemLength - 1]["Name"];
-            console.log(cardSetEffectItemName);
-        }
-        callArmoryCard();
+        //     const cardSetEffectItemName = sampleJsonData03["ArmoryCard"]["Effects"][cardSetEffectLength - 1]["Items"][cardSetEffectItemLength - 1]["Name"];
+        //     console.log(cardSetEffectItemName);
+        // }
+        // callArmoryCard();
 
     }
 
@@ -298,9 +337,12 @@
 
         sampleJsonData02[Collectibles][i][Type] // 수집물타입 모코코 씨앗, 섬의 마음, 위대한 미술품, 거인의 심장, 이그네아의 징표, 항해 모험물, 세계수의 잎, 오르페우스의 별, 기억의 오르골
         sampleJsonData02[Collectibles][i][Point] // 수집물 획득
-        sampleJsonData02[Collectibles][i][MaxPoint]
-        // 수집물 최대치
+        sampleJsonData02[Collectibles][i][MaxPoint] // 수집물 최대치
         sampleJsonData02[ArmoryCard][Effects][i][Items][i][Name] //카드 세트효과 길이의 마지막꺼 이름
+
+        sampleJsonData02[ArmoryEngraving][Engravings] // 착용
+        sampleJsonData02[ArmoryEngraving][Effects][i][Name] //활성화 각인
+
         const cardEffectLength = sampleJsonData02[ArmoryCard][Effects].length;
         for (let i = 0; i < cardSetEffectLength; i++) {
             const cardSetLength = sampleJsonData02[ArmoryCard][Effects][i][Items].length;

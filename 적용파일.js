@@ -1,95 +1,103 @@
 const scriptName = "LostArkBot";
 
 function response(room, msg, sender, isGroupChat, replier, imageDB, packageName) {
+    if (!msg.includes("/")) {
+        return;
+    }
+
     const roomName = room;
     const chackGroupChat = isGroupChat;
-    const lostArkBotVersion = "V_0.23.11.15";
+    const lostArkBotVersion = "V_1.23.11.21.13.00";
     const myApiKey = "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IktYMk40TkRDSTJ5NTA5NWpjTWk5TllqY2lyZyIsImtpZCI6IktYMk40TkRDSTJ5NTA5NWpjTWk5TllqY2lyZyJ9.eyJpc3MiOiJodHRwczovL2x1ZHkuZ2FtZS5vbnN0b3ZlLmNvbSIsImF1ZCI6Imh0dHBzOi8vbHVkeS5nYW1lLm9uc3RvdmUuY29tL3Jlc291cmNlcyIsImNsaWVudF9pZCI6IjEwMDAwMDAwMDAxNzk1MDEifQ.RlC6BWCOSeH2Zi4g_gOw_6TF4f-kITl6nHOyOrG0U8pSypkPvaWi3danG6IPd2C7qLNBErLteG8ujaLMQFaQ5L5_8iDlUoaZqIBGRSWAJ-A7-WD3p7Jx6pQ19VpxBKEXE8iHrKLISHUL5hz2QPCsw4kM6k7NC5-Gscm5UYcrH-po801BdZYZVQ5pset2AWjr5LPy81KmvWLhJm2vI0B40U3389WZFrNwcgrNtA-vLvfTBdY8QW1BxONxjFOA-bHNPm_VUpkXSS0ko3abasTyxnVfyXnl0A93U-ZDdcOXjnUszrizrgcPbsP3D2EZl76AwmPrL175BRjJ_SQeie-ylA";
-
     const msgInfo = msg;
     const msgCmd = msgInfo.split(" ")[0];
     const msgParam = msgInfo.split(" ")[1];
     const lostarkApiUrl = "https://developer-lostark.game.onstove.com/";
 
-
     switch (msgCmd) {
-        case msgCmd = "/명령어":
-            replier.reply("안녕하세요. 애곰봇입니다." + "\n"
-                + "버전 : " + lostArkBotVersion + "\n"
-                + "아래는 현재 사용 가능한 명령어 입니다." + "\n"
-                + "문의사항 및 건의, 버그 제보는 애기곰에게 문의해주세요." + "\n"
-                + "명령어 목록입니다." + "\n"
-                + "\n"
-                + "/부캐 캐릭터이름" + "\n"
-                + "/장비 캐릭터이름" + "\n"
-                + "/쌀값" + "\n"
-                + "/ㅂㅂㄱ 금액(정수)" + "\n"
-                + "\n"
-                + "/정보 캐릭터이름 >> (수리중....)"
-            );
-            return;
-        case msgCmd = "/테스트":
-            if (chackUserNames()) {
-                return;
-            }
-            testFun(msgParam);
+        case "/명령어":
+            const baseMsg = "안녕하세요. 애곰봇입니다." + "\n"
+            + "버전 : " + lostArkBotVersion + "\n"
+            + "아래는 현재 사용 가능한 명령어 입니다." + "\n"
+            + "문의사항 및 건의, 버그 제보는 애기곰에게 문의해주세요." + "\n"
+            + "명령어 목록입니다." + "\n"
+            + "\n"
+            + "/부캐 캐릭터이름" + "\n"
+            + "/장비 캐릭터이름" + "\n"
+            + "/정보 캐릭터이름" + "\n"
+            + "\n"
+            + "/쌀값" + "\n"
+            + "/ㅂㅂㄱ 금액(정수)" + "\n"
+            ;
+            replier.reply(baseMsg)
             break;
-        case msgCmd = "/부캐":
+        case "/테스트":
             if (chackUserNames()) {
-                return;
+                testFun(msgParam);
             }
-            siblingsCharacters(msgParam);
             break;
-        case msgCmd = "/장비":
+        case "/부캐":
             if (chackUserNames()) {
-                return;
+                siblingsCharacters(msgParam);
             }
-            infoEquipment(msgParam);
             break;
-        case msgCmd = "/정보":
-            chackUserNames();
-            replier.reply("수리중입니다.....");
-            return;
-        case msgCmd = "/쌀값":
+        case "/장비":
+            if (chackUserNames()) {
+                infoEquipment(msgParam);
+            }
+            break;
+        case "/정보":
+            if (chackUserNames()) {
+                characterInfo(msgParam);
+            }
+            break;
+        case "/쌀값":
             mainItemPrice();
             break;
-        case msgCmd = "/ㅂㅂㄱ":
+        case "/ㅂㅂㄱ":
             goldDistribute();
-            return;
+            break;
         default:
-            return;
+            break;
     }
 
+    return;
+    
     function chackUserNames() {
         const user_name = msgParam;
-        if (user_name == null || user_name == "") {
+        if (!user_name || user_name.trim() === "") {
             replier.reply("캐릭터 이름을 입력해주세요.");
-            return true;
+            return false;
         }
+        return true;
     }
 
     function callLostArkApi(url, callback) {
         const apiUrl = lostarkApiUrl + url;
         try {
-            let data = org.jsoup.Jsoup.connect(apiUrl)
+            let response = org.jsoup.Jsoup.connect(apiUrl)
                 .header("accept", "application/json")
                 .header("authorization", myApiKey)
                 .ignoreContentType(true)
                 .ignoreHttpErrors(true)
-                .get().text();
+                .execute();
+
+            let data = response.body();
             const apiJsonData = JSON.parse(data);
-            if (apiJsonData.length > 0) {
+            if (apiJsonData) {
                 callback(apiJsonData);
             } else {
-                replier.reply("데이터를 찾을 수 없습니다. 명령어를 다시 확인해 주세요.");
+                replier.reply("데이터를 찾을 수 없습니다. 캐릭터명을 다시 확인해 주세요");
                 return;
             }
         } catch (e) {
-            replier.reply("오류가 발생했습니다. 관리자에게 문의해주세요.");
-            replier.reply(e);
+            replier.reply("오류가 발생했습니다. 관리자에게 문의해주세요." + "\n"
+                + "Error occurred : " + e + "\n"
+                + "statusCode : " + response.statusCode());
+            return;
         }
     }
-
+    
     function callLostArkApiPost(url, selectCategoryCode, callback) {
         var HttpURLConnection = Packages.java.net.HttpURLConnection;
         var URL = Packages.java.net.URL;
@@ -130,81 +138,79 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
             } else {
                 replier.reply("데이터를 찾을 수 없습니다. 명령어를 다시 확인해 주세요.");
                 replier.reply("POST request not worked. Response Code: " + responseCode);
+                return;
             }
         } catch (e) {
             replier.reply("오류가 발생했습니다. 관리자에게 문의해주세요.");
             replier.reply("Error occurred: " + e);
+            return;
         }
     }
 
     function characterClassNameChageAbbreviation(characterClassName) {
         switch (characterClassName) {
-            case characterClassName = "워로드":
+            case "워로드":
                 return "워붕";
-            case characterClassName = "버서커":
+            case "버서커":
                 return "버붕";
-            case characterClassName = "디스트로이어":
+            case "디스트로이어":
                 return "디붕";
-            case characterClassName = "홀리나이트":
+            case "홀리나이트":
                 return "홀나";
 
-            case characterClassName = "슬레이어":
+            case "슬레이어":
                 return "슬레";
 
-            case characterClassName = "배틀마스터":
+            case "배틀마스터":
                 return "배마";
-            case characterClassName = "인파이터":
+            case "인파이터":
                 return "인파";
-            case characterClassName = "기공사":
+            case "기공사":
                 return "기공";
-            case characterClassName = "창술사":
+            case "창술사":
                 return "창술";
 
-            case characterClassName = "스트라이커":
+            case "스트라이커":
                 return "스커";
 
-            case characterClassName = "데빌헌터":
+            case "데빌헌터":
                 return "데헌";
-            case characterClassName = "블래스터":
+            case "블래스터":
                 return "블래";
-            case characterClassName = "호크아이":
+            case "호크아이":
                 return "호크";
-            case characterClassName = "스카우터":
+            case "스카우터":
                 return "스카";
 
-            case characterClassName = "건슬링어":
+            case "건슬링어":
                 return "건슬";
 
-            case characterClassName = "아르카나":
+            case "아르카나":
                 return "알카";
-            case characterClassName = "서머너":
+            case "서머너":
                 return "섬너";
-            case characterClassName = "바드":
+            case "바드":
                 return "바드";
-            case characterClassName = "소서리스":
+            case "소서리스":
                 return "소서";
-
-
-            case characterClassName = "데모닉":
+            case "데모닉":
                 return "뎀닉";
-            case characterClassName = "블레이드":
+            case "블레이드":
                 return "블레";
-            case characterClassName = "리퍼":
+            case "리퍼":
                 return "리퍼";
-            case characterClassName = "소울이터":
+            case "소울이터":
                 return "소울";
 
-            case characterClassName = "도화가":
+            case "도화가":
                 return "아가";
-            case characterClassName = "기상술사":
+            case "기상술사":
                 return "기상";
 
             default:
                 return characterClassName;
         }
     }
-
-
     function siblingsCharacters(msgParam) {
         const user_name = msgParam;
         const url = "characters/" + user_name + "/siblings";
@@ -240,28 +246,171 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
             replier.reply(separatedData);
         });
     }
-
-
     function characterInfo(msgParam) {
-        replier.reply("캐릭터 정보를 불러오는 중입니다. 잠시만 기다려주세요.");
         const user_name = msgParam;
         const url = "armories/characters/" + user_name;
+        let characterInfoMsg = "";
         callLostArkApi(url, function (parsedData) {
-            replier.reply("캐릭터 정보를 불러왔습니다.");
-            let characterData = [];
-            let characterInfo = parsedData["CharacterName"] + " " +
-                parsedData["ServerName"] + " " +
-                parsedData["Level"] + " " +
-                parsedData["ItemLevel"] + " " +
-                parsedData["AdventureName"] + " " +
-                parsedData["AdventureLevel"];
-            characterData.push(characterInfo);
-            const separatedData = characterData.join('\n');
-            replier.reply(separatedData);
+            const characterInfo = parsedData;
+
+            if (characterInfo["ArmoryProfile"]["Title"]) {
+                characterInfoMsg = characterInfo["ArmoryProfile"]["Title"] + " " + characterInfo["ArmoryProfile"]["CharacterName"] + "\n";
+            } else {
+                characterInfoMsg = characterInfo["ArmoryProfile"]["CharacterName"] + "\n";
+            }
+            characterInfoMsg = characterInfoMsg
+                + characterInfo["ArmoryProfile"]["CharacterClassName"] + "\n"
+                ;
+
+            if (characterInfo["ArmoryEngraving"] && characterInfo["ArmoryEngraving"]["Effects"]) {
+                const characterArmoryEngravingEffects = characterInfo["ArmoryEngraving"]["Effects"];
+                const characterArmoryEngravingEffectsLength = characterArmoryEngravingEffects.length;
+                if (characterArmoryEngravingEffectsLength > 0) {
+                    let characterEngravingEffects = characterArmoryEngravingEffects.map(effect => {
+                        let effectsName = effect.Name.split(" Lv. ");
+                        return { name: effectsName[0], level: effectsName[1] };
+                    });
+
+                    characterInfoMsg = characterInfoMsg +
+                        characterEngravingEffects.map(effect => effect.name + effect.level).join(" ") + "\n";
+                }
+            } else {
+                characterInfoMsg = characterInfoMsg
+                    + "각인 정보가 없습니다." + "\n"
+                    ;
+            }
+
+            characterInfoMsg = characterInfoMsg + "\n"
+                + characterInfo["ArmoryProfile"]["GuildMemberGrade"] + " / " + characterInfo["ArmoryProfile"]["GuildName"] + " / " + characterInfo["ArmoryProfile"]["ServerName"] + "\n"
+                + "Lv " + characterInfo["ArmoryProfile"]["ItemAvgLevel"].replace(/,/g, '') + " / " + characterInfo["ArmoryProfile"]["CharacterLevel"] + " / " + characterInfo["ArmoryProfile"]["ExpeditionLevel"] + " (원정대)" + "\n"
+                + "스킬포인트 " + characterInfo["ArmoryProfile"]["UsingSkillPoint"] + " / " + characterInfo["ArmoryProfile"]["TotalSkillPoint"] + " "
+                ;
+            if (characterInfo["ArmoryProfile"]["PvpGradeName"]) {
+                characterInfoMsg = characterInfoMsg
+                    + "PvP " + characterInfo["ArmoryProfile"]["PvpGradeName"] + "\n"
+                    ;
+            } else {
+                characterInfoMsg = characterInfoMsg
+                    + "PvP " + "Unranked" + "\n"
+                    ;
+            }
+
+            if (characterInfo["ArmoryProfile"]["Stats"]) {
+                const stats = characterInfo["ArmoryProfile"]["Stats"];
+                let statsInfo = stats.map(stat => ({
+                    type: stat["Type"],
+                    value: parseInt(stat["Value"], 10)
+                }));
+                statsInfo.sort((a, b) => b.value - a.value);
+                for (let i = 0; i < Math.min(2, statsInfo.length); i++) {
+
+                    characterInfoMsg += statsInfo[i].type + " " + statsInfo[i].value.toLocaleString() + " ";
+                }
+                characterInfoMsg += "\n";
+
+                for (let i = 2; i < Math.min(5, statsInfo.length); i++) {
+
+                    characterInfoMsg += statsInfo[i].type + " " + statsInfo[i].value + " ";
+                }
+                characterInfoMsg += "\n";
+            }
+
+            if (characterInfo["ArmoryCard"] && characterInfo["ArmoryCard"]["Effects"]) {
+                const cardSetEffectLength = characterInfo["ArmoryCard"]["Effects"].length;
+                if (cardSetEffectLength > 0 && characterInfo["ArmoryCard"]["Effects"][0]["Items"]) {
+                    for (let i = 0; i < cardSetEffectLength; i++) {
+                        let cardSetEffectItem = characterInfo["ArmoryCard"]["Effects"][i]["Items"];
+                        let cardSetEffectItemLength = cardSetEffectItem.length;
+                        if (cardSetEffectItemLength > 0) {
+                            if (cardSetEffectItem[cardSetEffectItemLength - 1]["Name"]) {
+                                characterInfoMsg = characterInfoMsg
+                                    + cardSetEffectItem[cardSetEffectItemLength - 1]["Name"] + "\n"
+                                    ;
+                            } else {
+                                characterInfoMsg = characterInfoMsg
+                                    + "카드 세트 효과 정보가 없습니다." + "\n"
+                                    ;
+                            }
+                        } else {
+                            characterInfoMsg = characterInfoMsg
+                                + "카드 세트 효과 정보가 없습니다." + "\n"
+                                ;
+                        }
+                    }
+                }
+            } else {
+                characterInfoMsg = characterInfoMsg + "\n"
+                    + "카드 정보가 없습니다." + "\n"
+                    ;
+            }
+
+            function changeCollectiblesTypeName(collectiblesTypeName) {
+                switch (collectiblesTypeName) {
+                    case "모코코 씨앗":
+                        return "모코코";
+                    case "섬의 마음":
+                        return "섬마";
+                    case "위대한 미술품":
+                        return "미술품";
+                    case "거인의 심장":
+                        return "거심";
+                    case "이그네아의 징표":
+                        return "징표";
+                    case "항해 모험물":
+                        return "모험물";
+                    case "세계수의 잎":
+                        return "잎";
+                    case "오르페우스의 별":
+                        return "별";
+                    case "기억의 오르골":
+                        return "오르골";
+                    default:
+                        return collectiblesTypeName;
+                }
+            }
+            
+            
+            const collectiblesLength = characterInfo["Collectibles"].length;
+            if (collectiblesLength > 0) {
+                characterInfoMsg = characterInfoMsg + "\n";
+                const characterCollectibles = characterInfo["Collectibles"];
+                let characterCollectiblesInfo = characterCollectibles.map(characterCollectibles => ({
+                    type: changeCollectiblesTypeName(characterCollectibles["Type"]),
+                    point: parseInt(characterCollectibles["Point"], 10),
+                    maxPoint: parseInt(characterCollectibles["MaxPoint"], 10)
+                }))
+                const listMenualForType = ["섬마", "미술품", "거심", "별", "잎", "모험물", "징표", "모코코", "오르골"];
+                characterCollectiblesInfo.sort((a, b) => {
+                    let orderA = listMenualForType.indexOf(a.type);
+                    let orderB = listMenualForType.indexOf(b.type);
+
+                    
+                    if (orderA === -1) orderA = Number.MAX_VALUE;
+                    if (orderB === -1) orderB = Number.MAX_VALUE;
+
+                    return orderA - orderB;
+                });
+
+                for (let i = 0; i < collectiblesLength; i++) {
+                    characterInfoMsg = characterInfoMsg
+                        + characterCollectiblesInfo[i].type
+                        + ":" + characterCollectiblesInfo[i].point
+                        + " "
+                        ;
+
+                    if (i == 4) {
+                        characterInfoMsg = characterInfoMsg + "\n";
+                    }
+                }
+            }
+            replier.reply(characterInfoMsg);
         });
     }
 
-
+    function testFun(msgParam) {
+    
+    }
+    
     function infoEquipment(msgParam) {
         const user_name = msgParam;
         const url = "armories/characters/" + user_name + "/equipment";
@@ -278,8 +427,6 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
                 let itemLevel = itemLevelLongData.match(itemLovelMatchData)[1];
                 let itemName = parsedData[i]["Name"];
                 let itemGrade = parsedData[i]["Grade"];
-
-
 
                 let itemInfo = "[" + itemGrade + "] "
                     + "품질 " + itemQualityValue + " "
@@ -328,11 +475,11 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
                             let elixirOption001 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_000"]["contentStr"];
                             elixirOption001 = elixirOption001.replace(deleteTag001, "");
                             elixirOption001 = elixirOption001.match(matchTag001)[0];
-                            
+
                             let elixirOption002 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_001"]["contentStr"];
                             elixirOption002 = elixirOption002.replace(deleteTag001, "");
                             elixirOption002 = elixirOption002.match(matchTag001)[0];
-                            
+
                             if (elixirOption002 == null) {
                                 elixirOption002 = "";
                             }
@@ -359,105 +506,6 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
             replier.reply(replyMsg);
         });
     }
-
-    function testFun(msgParam) {
-        const user_name = msgParam;
-        const url = "armories/characters/" + user_name + "/equipment";
-        callLostArkApi(url, function (parsedData) {
-            let qualityValueAvg = 0;
-            let itemLevelAvg = 0;
-            let replyMsg = "";
-
-            for (let i = 0; i < 6; i++) {
-                let equipmentTooltip = JSON.parse(parsedData[i]["Tooltip"]);
-                let itemQualityValue = equipmentTooltip["Element_001"]["value"]["qualityValue"];
-                let itemLevelLongData = equipmentTooltip["Element_001"]["value"]["leftStr2"];
-                const itemLovelMatchData = /아이템 레벨 (\d+)/;
-                let itemLevel = itemLevelLongData.match(itemLovelMatchData)[1];
-                let itemName = parsedData[i]["Name"];
-                let itemGrade = parsedData[i]["Grade"];
-
-
-
-                let itemInfo = "[" + itemGrade + "] "
-                    + "품질 " + itemQualityValue + " "
-                    + "[Lv." + itemLevel + "]"
-                    ;
-
-                replyMsg = replyMsg + "\n"
-                    + itemName + "\n"
-                    + itemInfo + "\n"
-                    ;
-
-                qualityValueAvg += itemQualityValue;
-                itemLevelAvg += parseInt(itemLevel);
-
-                if (equipmentTooltip["Element_008"]["type"] == "IndentStringGroup") {
-                    const deleteTag002 = /<[^>]*>/g;
-                    const deleteTag001 = /<[^>]+>|\[.*?\]/g;
-                    const matchTag001 = /^(.*?Lv\.\d+)/;
-                    let checktopStr008 = equipmentTooltip["Element_008"]["value"]["Element_000"]["topStr"];
-                    checktopStr008 = checktopStr008 === undefined ? '' : checktopStr008;
-
-                    if (checktopStr008.includes("엘릭서")) {
-                        let elixirOption001 = equipmentTooltip["Element_008"]["value"]["Element_000"]["contentStr"]["Element_000"]["contentStr"];
-                        elixirOption001 = elixirOption001.replace(deleteTag001, "");
-                        elixirOption001 = elixirOption001.match(matchTag001)[0];
-
-                        let elixirOption002 = equipmentTooltip["Element_008"]["value"]["Element_000"]["contentStr"]["Element_001"]["contentStr"];
-                        elixirOption002 = elixirOption002.replace(deleteTag001, "");
-                        elixirOption002 = elixirOption002.match(matchTag001)[0];
-
-                        if (elixirOption002 == null) {
-                            elixirOption002 = "";
-                        }
-                        replyMsg = replyMsg
-                            + elixirOption001 + elixirOption002 + "\n"
-                            ;
-
-                    } else if (checktopStr008.includes("초월")) {
-                        let transcendenceName = equipmentTooltip["Element_008"]["value"]["Element_000"]["topStr"];
-                        transcendenceName = transcendenceName.replace(deleteTag001, "");
-                        if (transcendenceName == null) {
-                            transcendenceName = "";
-                        }
-
-                        if (equipmentTooltip["Element_009"]["type"] == "IndentStringGroup") {
-                            let elixirOption001 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_000"]["contentStr"];
-                            elixirOption001 = elixirOption001.replace(deleteTag001, "");
-                            elixirOption001 = elixirOption001.match(matchTag001)[0];
-                            
-                            let elixirOption002 = equipmentTooltip["Element_009"]["value"]["Element_000"]["contentStr"]["Element_001"]["contentStr"];
-                            elixirOption002 = elixirOption002.replace(deleteTag001, "");
-                            elixirOption002 = elixirOption002.match(matchTag001)[0];
-                            
-                            if (elixirOption002 == null) {
-                                elixirOption002 = "";
-                            }
-                            replyMsg = replyMsg
-                                + elixirOption001 + elixirOption002 + "\n"
-                                ;
-                        }
-                        replyMsg = replyMsg
-                            + transcendenceName + "\n"
-                            ;
-                    }
-                }
-            }
-
-            qualityValueAvg /= 6;
-            itemLevelAvg /= 6;
-            qualityValueAvg = qualityValueAvg.toFixed(2);
-            itemLevelAvg = itemLevelAvg.toFixed(2);
-
-            replyMsg = "장비 레벨(" + itemLevelAvg + ")" + "\n"
-                + " 평균 품질(" + qualityValueAvg + ")" + "\n"
-                + replyMsg;
-
-            replier.reply(replyMsg);
-        });
-    }
-
     function mainItemPrice() {
         const url = "/markets/items";
 
@@ -586,8 +634,6 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
         replier.reply(separatedData);
 
     }
-
-
 
     function goldDistribute() {
         const mainGold = msgParam;
